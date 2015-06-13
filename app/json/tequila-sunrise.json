@@ -1,0 +1,9 @@
+{
+  "id" : "tequila-sunrise",
+  "name": "Tequila Sunrise",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Tequila"},
+    {"name": "Something else"}
+  ]
+}

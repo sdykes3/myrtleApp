@@ -1,0 +1,10 @@
+{
+  "id" : "mojito",
+  "name": "Mojito",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Mint"},
+    {"name": "Something alcoholic"},
+    {"name": "Other things"}
+  ]
+}
