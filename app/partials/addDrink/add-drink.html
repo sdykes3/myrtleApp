@@ -6,4 +6,16 @@
 
     <!-- Here goes... input field to add drink to drinks.json and its own json -->
 
+    <ng-form>
+        <input ng-model="newDrink.name" placeholder="Enter drink name">
+        <input ng-model="newDrink.cost" placeholder="Enter cost">
+        <button ng-click="addIngRow()">Add Ingredient</button>
+        <div ng-repeat="ing in newDrink.ingredients" >
+            <input ng-model="ing.name">
+        </div>
+        <button ng-click="submitFinalDrink()">Submit Drink</button>
+    </ng-form>
+
+    <p>{{drinks}}</p>
+
 </div>

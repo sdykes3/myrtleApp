@@ -15,5 +15,47 @@ addDrink.controller('AddDrinkCtrl', ['$scope', '$http', '$routeParams',
             $scope.drinks = data;
         });
 
+        $scope.newDrink = {
+            name: '',
+            cost: '',
+            ingredients: [
+                { name: '' }
+            ]
+        }
+
+        $scope.addIngRow = function() {
+            $scope.newDrink.ingredients.push({ name: '' });
+        };
+
+        //todo: allow removing a row
+
+        $scope.removeBlankIng = function() {
+            for(var i = 0; i < $scope.newDrink.ingredients.length; i++) {
+                if($scope.newDrink.ingredients[i].name == '') {
+                    $scope.newDrink.ingredients.splice(i, 1);
+                    $scope.removeBlankIng();
+                }
+            }
+        }
+
+        $scope.submitFinalDrink = function() {
+            if($scope.newDrink.name == '' || $scope.newDrink.cost == '') {
+                //todo: do something about it
+                alert("NOT called");
+            } else {
+                $scope.removeBlankIng();
+                $scope.drinks.push($scope.newDrink);
+
+                //todo: make changes to json file or add to local storage
+                //todo: create new details json file for new drink
+
+                //$http.post('json/drinks.json', $scope.drinks);
+            }
+        };
+
+
+
+
+
     }
 ]);
