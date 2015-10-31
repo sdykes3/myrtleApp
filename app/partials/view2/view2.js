@@ -25,31 +25,61 @@ view2.controller('View2Ctrl', ['$scope', '$http', '$q', function ($scope, $http,
 
     $q.all([httpDrinks, httpCabinet]).then(function() {
         var numAvail = 0;
-        $scope.drinksAvail = $scope.drinks;
+        //$scope.drinksAvail = $scope.drinks;
+        $scope.drinksAvail = [];
         console.log("2");
 
         for(var i = 0; i < $scope.drinks.length; i++) { //go through all drinks
             console.log("all drinks 4");
+            var addedAlready = false;
+            var somethingMissing = false;
             for (var j = 0; j < $scope.drinks[i].ingredients.length; j++) { //go through all ingredients in each drink
                 console.log("all ing 5");
                 var ing = $scope.drinks[i].ingredients[j].id;
-
-                //is this ingredient in the cabinet and in stock?
                 for (var k = 0; k < $scope.cabinet.length; k++) { //go through all ingredients in each drink
                     console.log("all cabinet 6");
-                    if ($scope.cabinet[k].id == ing) {
+                    //if this drink hasnt been added to drinksAvail yet
+                    if (!addedAlready && ($scope.cabinet[k].id == ing)) { //if ingredient is in cabinet
                         console.log("all true 7");
-                        if (!($scope.cabinet[k].inStock)) { //if not (found and in stock)
+                        if (!($scope.cabinet[k].inStock == "true")) { //if ingred is in stock
                             console.log("true 8");
 
-                            //remove from drinksAvail
-                            $scope.drinksAvail[numAvail] = $scope.drinks[i];
-                            numAvail ++;
-                            console.log($scope.drinksAvail);
+                            somethingMissing = true;
+
+
+                            //if not already added to drinksAvail
+                            //var isAlreadyThere = false;
+                            //for (var m = 0; m < $scope.drinksAvail; m++) {
+                            //    if($scope.drinksAvail[m].id = $scope.drinks[i].id) {
+                            //        console.log("alreadyAdded 9");
+                            //        isAlreadyThere = true;
+                            //    }
+                            //}
+                            //
+                            //if(!isAlreadyThere) {
+                            //    console.log("ADDING 10");
+                            //    $scope.drinksAvail[numAvail] = $scope.drinks[i];
+                            //    numAvail ++;
+                            //    console.log($scope.drinksAvail);
+                            //}
+
+
+                            //$scope.drinksAvail.splice(i,1);
+
+
                         }
                     }
                 }
             }
+
+            //if wasnt missing anything, add to list
+            if (!somethingMissing) {
+                $scope.drinksAvail[numAvail] = $scope.drinks[i];
+                numAvail ++;
+                addedAlready = true;
+                console.log($scope.drinksAvail);
+            }
+
         }
     });
 
