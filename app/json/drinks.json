@@ -1,12 +1,22 @@
 [
   {
     "id" : "mojito",
-    "name": "Mojito"
+    "name": "Mojito",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Something else", "id": "cranberry-juice"}
+    ]
   },
 
   {
     "id" : "tequila-sunrise",
-    "name": "Sunrise"
+    "name": "Tequila Sunrise",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Tequila", "id": "tequila"},
+      {"name": "Orange Juice", "id": "orange-juice"}
+    ]
   }
 
 ]

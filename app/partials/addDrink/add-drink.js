@@ -46,14 +46,19 @@ addDrink.controller('AddDrinkCtrl', ['$scope', '$http', '$routeParams',
                 $scope.removeBlankIng();
                 $scope.drinks.push($scope.newDrink);
 
+
+                //todo: add to local storage
+                window.localStorage['drinks'] = JSON.stringify(drinks);
+                $scope.newList = JSON.parse(window.localStorage['drinks']);
+
                 //todo: make changes to json file or add to local storage
                 //todo: create new details json file for new drink
+
+                //todo: at start, check if have local storage. if not, put defaults in. if so, use that
 
                 //$http.post('json/drinks.json', $scope.drinks);
             }
         };
-
-
 
 
 

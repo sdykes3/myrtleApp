@@ -7,6 +7,7 @@ angular.module('myApp', [
   'myApp.view2',
   'myApp.drinkDetails',
   'myApp.addDrink',
+  'myApp.cabinet',
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {

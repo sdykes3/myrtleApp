@@ -1,0 +1,44 @@
+[
+  {
+    "type": "liquor",
+    "id" : "vodka",
+    "name": "Vodka",
+    "inStock": "true"
+  },
+
+  {
+    "type": "liquor",
+    "id" : "tequila",
+    "name": "Tequila",
+    "inStock": "true"
+  },
+
+  {
+    "type": "liquor",
+    "id" : "whiskey",
+    "name": "Whiskey",
+    "inStock": "true"
+  },
+
+  {
+    "type": "mixer",
+    "id" : "sprite",
+    "name": "Sprite",
+    "inStock": "true"
+  },
+
+  {
+    "type": "mixer",
+    "id" : "cranberry-juice",
+    "name": "Cranberry Juice",
+    "inStock": "true"
+  },
+
+  {
+    "type": "mixer",
+    "id" : "orange-juice",
+    "name": "Orange Juice",
+    "inStock": "true"
+  }
+
+]

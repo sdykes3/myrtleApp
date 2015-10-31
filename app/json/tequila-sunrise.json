@@ -3,7 +3,7 @@
   "name": "Tequila Sunrise",
   "cost": "/",
   "ingredients": [
-    {"name": "Tequila"},
-    {"name": "Something else"}
+    {"name": "Tequila", "id": "tequila"},
+    {"name": "Orange Juice", "id": "orange-juice"}
   ]
 }
