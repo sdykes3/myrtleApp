@@ -8,6 +8,13 @@
 
   {
     "type": "liquor",
+    "id" : "rum",
+    "name": "Rum",
+    "inStock": "true"
+  },
+
+  {
+    "type": "liquor",
     "id" : "tequila",
     "name": "Tequila",
     "inStock": "true"

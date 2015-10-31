@@ -5,6 +5,7 @@
     "cost": "X",
     "ingredients": [
       {"name": "Vodka", "id": "vodka"},
+      {"name": "Rum", "id": "rum"},
       {"name": "Something else", "id": "cranberry-juice"}
     ]
   },
