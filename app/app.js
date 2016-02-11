@@ -8,6 +8,7 @@ angular.module('myApp', [
   'mgcrea.ngStrap.aside',
   'mgcrea.ngStrap.tooltip',
   'myApp.view1',
+  'ngAnimate',
   'myApp.view2',
   'myApp.drinkDetails',
   'myApp.addDrink',
