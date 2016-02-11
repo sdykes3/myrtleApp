@@ -7,8 +7,9 @@ angular.module('myApp', [
   'mgcrea.ngStrap.modal',
   'mgcrea.ngStrap.aside',
   'mgcrea.ngStrap.tooltip',
-  'myApp.view1',
   'ngAnimate',
+  'myApp.index',
+  'myApp.view1',
   'myApp.view2',
   'myApp.drinkDetails',
   'myApp.addDrink',
@@ -17,4 +18,17 @@ angular.module('myApp', [
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/view1'});
+}]);
+
+
+
+
+var index = angular.module('myApp.index', ['ngRoute']);
+index.controller('MainCtrl', ['$scope', '$http', function ($scope, $http) {
+
+  $scope.aside = {
+    "title": "Title",
+    "content": "Hello Aside<br />This is a multiline message!"
+  };
+
 }]);

@@ -11,10 +11,9 @@ view1.config(['$routeProvider', function ($routeProvider) {
 
 view1.controller('View1Ctrl', ['$scope', '$http', function ($scope, $http) {
 
-
     $scope.aside = {
         "title": "Title",
-        "content": "Hello Aside<br />This is a multiline message!"
+        "content": "Hello this is in ng-view!"
     };
 
 }]);
