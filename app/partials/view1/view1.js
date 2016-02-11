@@ -12,4 +12,9 @@ view1.config(['$routeProvider', function ($routeProvider) {
 view1.controller('View1Ctrl', ['$scope', '$http', function ($scope, $http) {
 
 
+    $scope.modal = {
+        "title": "Title",
+        "content": "Hello Modal<br />This is a multiline message!"
+    };
+
 }]);
