@@ -7,7 +7,6 @@ angular.module('myApp', [
   'mgcrea.ngStrap.modal',
   'mgcrea.ngStrap.aside',
   'mgcrea.ngStrap.tooltip',
-  'mgcrea.ngStrap.tab',
   'myApp.view1',
   'ngAnimate',
   'myApp.view2',
