@@ -25,7 +25,7 @@ var app = angular.module('myApp', [
 app.directive("fruit", function() {
   return {
     restrict: "E",
-    templateUrl: "partials/cabinet/fruit.html"
+    templateUrl: "partials/cabinet/tabs.html"
   };
 });
 
