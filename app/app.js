@@ -1,7 +1,7 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-angular.module('myApp', [
+var app = angular.module('myApp', [
   'ngRoute',
   'mgcrea.ngStrap',
   'mgcrea.ngStrap.modal',
@@ -15,11 +15,18 @@ angular.module('myApp', [
   'myApp.addDrink',
   'myApp.cabinet',
   'myApp.version'
-]).
-config(['$routeProvider', function($routeProvider) {
+]).config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/view1'});
 }]);
 
+
+
+app.directive("fruit", function() {
+  return {
+    restrict: "E",
+    templateUrl: "partials/cabinet/fruit.html"
+  };
+});
 
 
 
