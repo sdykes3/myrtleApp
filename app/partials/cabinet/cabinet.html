@@ -3,6 +3,16 @@
     cabinet here
 
 
+    <uib-tabset>
+        <uib-tab ng-repeat="tab in tabs" select="getContent($index)" heading="{{tab.title}}" active="tab.active" disable="tab.disabled">
+            <div ng-hide="!tabs.isLoaded">
+                <fruit></fruit>
+            </div>
+            <div ng-hide="tabs.isLoaded"><h3>Loading...</h3></div>
+        </uib-tab>
+    </uib-tabset>
+
+
     <!--<tabset>-->
 
 
@@ -15,18 +25,20 @@
 
 
     <!--</tabset>-->
-    <fruit></fruit>
+
+
+    <!--<fruit></fruit>-->
 
 
     <!-- bsActivePane is optional -->
-    <div bs-active-pane="tabs.activeTab" bs-tabs>
-        <div ng-repeat="tab in tabs" heading="{{tab.title}}" select="getContent($index)" active="tab.active" disabled="tab.disabled" bs-pane>
-            <div ng-hide="!tabs.isLoaded">
-                <fruit></fruit>
-            </div>
-            <div ng-hide="tabs.isLoaded"><h3>Loading...</h3></div>
+    <!--<div bs-active-pane="tabs.activeTab" bs-tabs>-->
+        <!--<div ng-repeat="tab in tabs" heading="{{tab.title}}" select="getContent($index)" active="tab.active" disabled="tab.disabled" bs-pane>-->
+            <!--<div ng-hide="!tabs.isLoaded">-->
+                <!--<fruit></fruit>-->
+            <!--</div>-->
+            <!--<div ng-hide="tabs.isLoaded"><h3>Loading...</h3></div>-->
 
-        </div>
-    </div>
+        <!--</div>-->
+    <!--</div>-->
 
 </div>

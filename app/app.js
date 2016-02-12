@@ -8,6 +8,7 @@ var app = angular.module('myApp', [
   'mgcrea.ngStrap.aside',
   'mgcrea.ngStrap.tooltip',
   'ngAnimate',
+  'ui.bootstrap',
   'myApp.index',
   'myApp.view1',
   'myApp.view2',

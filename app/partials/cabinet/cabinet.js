@@ -17,21 +17,20 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$timeout', '$routeParams'
 
         //todo: add tabs to switch mixers/liquor lists
 
-        $scope.tabs = [
-            { title:"Apple", content:[] , isLoaded:false , active:true},
-            {  title:"Pear", content:[] , isLoaded:false }
-        ];
+        //$scope.tabs = [
+        //    { title:"Apple", content:[] , isLoaded:false , active:true},
+        //    {  title:"Pear", content:[] , isLoaded:false }
+        //];
 
         $scope.getContent=function(index){
-            alert("calling");
+
             /* see if we have data already */
             if($scope.tabs.isLoaded){
-                alert("loaded");
+                //alert("loaded");
                 return;
             }
             /* or make request for data delayed to show Loading... */
-            $timeout(function(){
-                alert("not loaded");
+                //alert("not loaded");
                 var jsonFile='data1.json'
                 $http.get(jsonFile).then(function(res){
                     $scope.tabs.content=res.data[0].fruit;
@@ -39,8 +38,24 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$timeout', '$routeParams'
                     $scope.tabs.isLoaded=true;
                 });
 
-            },100)
+        };
 
+
+
+
+        $scope.tabs = [
+            { title:'Apple', content:'Dynamic content 1' },
+            { title:'Pear', content:'Dynamic content 2' }
+        ];
+
+        $scope.alertMe = function() {
+            setTimeout(function() {
+                alert('You\'ve selected the alert tab!');
+            });
+        };
+
+        $scope.model = {
+            name: 'Tabs'
         };
 
 
