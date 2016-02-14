@@ -87,7 +87,15 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
             { title:'Other'}
         ];
 
-        //todo: toggle selections, save state for entire app
+        //todo: reflect inStock in the html
+
+        // is this redundant with the use of ng-checked? no, I still need to write to the json file
+        $scope.toggleStock = function(ing) {
+            ing.inStock = !ing.inStock;
+            console.log(ing);
+
+            //todo: now write that to the json file
+        }
 
         //local storage webapp with nice mobile interface for now
             //future: use server to hold what is/isnt at myrtle bar, sync to everyone
