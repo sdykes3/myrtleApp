@@ -95,13 +95,14 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
         ];
 
         $scope.toggleStock = function(ing) {
+            console.log("called");
             ing.inStock = !ing.inStock;
             for(var i=0;i<$scope.cabinet.length;i++) {
                 if($scope.cabinet[i].ing == ing) {
                     $scope.cabinet[i].ing.inStock = !$scope.cabinet[i].ing.inStock;
                 }
             }
-            //console.log(ing);
+            console.log(ing);
         }
 
         //local storage webapp with nice mobile interface for now

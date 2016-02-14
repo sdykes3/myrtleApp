@@ -10,15 +10,18 @@ view2.config(['$routeProvider', function ($routeProvider) {
 }])
 
 
-view2.controller('View2Ctrl', ['$scope', '$http', '$q', function ($scope, $http, $q) {
+view2.controller('View2Ctrl', ['$scope', '$http', '$q', 'localStorageService', function ($scope, $http, $q, localStorageService) {
+
+
+    var cabInStore = localStorageService.get('cabinet');
 
     var httpDrinks = $http.get('json/drinks.json').success(function (data) {
         $scope.drinks = data;
     });
     var httpCabinet = $http.get('json/cabinet.json').success(function (data) {
-        $scope.cabinet = data;
+        $scope.cabinet = cabInStore || data;
         console.log("1");
-        console.log("11");
+        console.log($scope.drinks);
         console.log("111");
 
     });
