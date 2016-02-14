@@ -41,7 +41,7 @@ view2.controller('View2Ctrl', ['$scope', '$http', '$q', function ($scope, $http,
                     //if this drink hasnt been added to drinksAvail yet
                     if (!addedAlready && ($scope.cabinet[k].id == ing)) { //if ingredient is in cabinet
                         console.log("all true 7");
-                        if (!($scope.cabinet[k].inStock == "true")) { //if ingred is in stock
+                        if (!($scope.cabinet[k].inStock)) { //if ingred is in stock
                             console.log("true 8");
 
                             somethingMissing = true;

@@ -31,35 +31,35 @@
     "type": "mixer",
     "id" : "sprite",
     "name": "Sprite",
-    "inStock": "true"
+    "inStock": true
   },
 
   {
     "type": "mixer",
     "id" : "cranberry-juice",
     "name": "Cranberry Juice",
-    "inStock": "true"
+    "inStock": true
   },
 
   {
     "type": "mixer",
     "id" : "orange-juice",
     "name": "Orange Juice",
-    "inStock": "true"
+    "inStock": true
   },
 
   {
     "type": "other",
     "id" : "cinnamon",
     "name": "Cinnamon",
-    "inStock": "true"
+    "inStock": true
   },
 
   {
     "type": "other",
     "id" : "lime",
     "name": "Lime",
-    "inStock": "true"
+    "inStock": true
   }
 
 ]
