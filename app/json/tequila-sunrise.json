@@ -4,6 +4,7 @@
   "cost": "/",
   "ingredients": [
     {"name": "Tequila", "id": "tequila"},
-    {"name": "Orange Juice", "id": "orange-juice"}
+    {"name": "Orange Juice", "id": "orange-juice"},
+    {"name": "Grenadine", "id": "grenadine"}
   ]
 }

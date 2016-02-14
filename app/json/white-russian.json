@@ -1,0 +1,10 @@
+{
+  "id" : "white-russian",
+  "name": "White Russian",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Kahlua", "id": "kahlua"},
+    {"name": "Cream", "id": "cream"}
+  ]
+}

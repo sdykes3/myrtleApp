@@ -3,8 +3,10 @@
   "name": "Mojito",
   "cost": "/",
   "ingredients": [
-    {"name": "Vodka", "id": "vodka"},
-    {"name": "Mint", "id": "mint"},
-    {"name": "Lime", "id": "lime"}
+    {"name": "Light Rum", "id": "light-rum"},
+    {"name": "Mint Leaves", "id": "mint"},
+    {"name": "Lime Juice", "id": "lime"},
+    {"name": "Club Soda", "id": "club-soda"},
+    {"name": "Sugar", "id": "sugar"}
   ]
 }

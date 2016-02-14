@@ -6,7 +6,9 @@
     "ingredients": [
       {"name": "Light Rum", "id": "light-rum"},
       {"name": "Mint Leaves", "id": "mint"},
-      {"name": "Lime Juice", "id": "lime"}
+      {"name": "Lime Juice", "id": "lime"},
+      {"name": "Club Soda", "id": "club-soda"},
+      {"name": "Sugar", "id": "sugar"}
     ]
   },
 
@@ -16,7 +18,19 @@
     "cost": "/",
     "ingredients": [
       {"name": "Tequila", "id": "tequila"},
-      {"name": "Orange Juice", "id": "orange-juice"}
+      {"name": "Orange Juice", "id": "orange-juice"},
+      {"name": "Grenadine", "id": "grenadine"}
+    ]
+  },
+
+  {
+    "id" : "white-russian",
+    "name": "White Russian",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Kahlua", "id": "kahlua"},
+      {"name": "Cream", "id": "cream"}
     ]
   }
 
