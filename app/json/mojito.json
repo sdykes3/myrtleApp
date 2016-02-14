@@ -3,8 +3,8 @@
   "name": "Mojito",
   "cost": "/",
   "ingredients": [
-    {"name": "Mint"},
-    {"name": "Something alcoholic"},
-    {"name": "Other things"}
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Mint", "id": "mint"},
+    {"name": "Lime", "id": "lime"}
   ]
 }

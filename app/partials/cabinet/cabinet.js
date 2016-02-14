@@ -75,9 +75,7 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
                     numOut++;
                 }
             }
-
         });
-
 
 
         $scope.getContent=function(index){
@@ -88,10 +86,6 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
             { title:'Mixer'},
             { title:'Other'}
         ];
-
-
-
-        //todo: add back navigation button to header
 
         //todo: toggle selections, save state for entire app
 

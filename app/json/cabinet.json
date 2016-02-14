@@ -60,6 +60,13 @@
     "id" : "lime",
     "name": "Lime",
     "inStock": true
+  },
+
+  {
+    "type": "other",
+    "id" : "mint",
+    "name": "Mint",
+    "inStock": true
   }
 
 ]

@@ -15,6 +15,7 @@ drinkDetails.controller('DrinkDetailsCtrl', ['$scope', '$http', '$routeParams',
         var url = 'json/' + drinkID + '.json';
         $http.get(url).success(function (data) {
             $scope.drink = data;
+            console.log($scope.drink);
         });
         $scope.drinkId = $routeParams.drinkId;
     }
