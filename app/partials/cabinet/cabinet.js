@@ -32,6 +32,50 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
                     $scope.other.push($scope.cabinet[i]);
                 }
             }
+
+            //todo: sort by in stock, then alphabetically (add to it alphabetically???)
+            $scope.inLiquor = [];
+            $scope.outLiquor = [];
+            var numIn = 0;
+            var numOut = 0;
+            for(var i=0;i<$scope.liquor.length;i++) {
+                if($scope.liquor[i].inStock) {
+                    $scope.inLiquor[numIn] = $scope.liquor[i];
+                    numIn++;
+                } else {
+                    $scope.outLiquor[numOut] = $scope.liquor[i];
+                    numOut++;
+                }
+            }
+
+            $scope.inMixer = [];
+            $scope.outMixer = [];
+            numIn = 0;
+            numOut = 0;
+            for(var i=0;i<$scope.mixer.length;i++) {
+                if($scope.mixer[i].inStock) {
+                    $scope.inMixer[numIn] = $scope.mixer[i];
+                    numIn++;
+                } else {
+                    $scope.outMixer[numOut] = $scope.mixer[i];
+                    numOut++;
+                }
+            }
+
+            $scope.inOther = [];
+            $scope.outOther = [];
+            numIn = 0;
+            numOut = 0;
+            for(var i=0;i<$scope.other.length;i++) {
+                if($scope.other[i].inStock) {
+                    $scope.inOther[numIn] = $scope.other[i];
+                    numIn++;
+                } else {
+                    $scope.outOther[numOut] = $scope.other[i];
+                    numOut++;
+                }
+            }
+
         });
 
 

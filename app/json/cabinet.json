@@ -3,28 +3,28 @@
     "type": "liquor",
     "id" : "vodka",
     "name": "Vodka",
-    "inStock": "true"
+    "inStock": true
   },
 
   {
     "type": "liquor",
     "id" : "rum",
     "name": "Rum",
-    "inStock": "true"
+    "inStock": false
   },
 
   {
     "type": "liquor",
     "id" : "tequila",
     "name": "Tequila",
-    "inStock": "true"
+    "inStock": true
   },
 
   {
     "type": "liquor",
     "id" : "whiskey",
     "name": "Whiskey",
-    "inStock": "true"
+    "inStock": true
   },
 
   {
@@ -45,6 +45,20 @@
     "type": "mixer",
     "id" : "orange-juice",
     "name": "Orange Juice",
+    "inStock": "true"
+  },
+
+  {
+    "type": "other",
+    "id" : "cinnamon",
+    "name": "Cinnamon",
+    "inStock": "true"
+  },
+
+  {
+    "type": "other",
+    "id" : "lime",
+    "name": "Lime",
     "inStock": "true"
   }
 

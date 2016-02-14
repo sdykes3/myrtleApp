@@ -1,5 +1,10 @@
 <div  ng-show="tab.title=='Liquor'">
-    <ul ng-repeat="ing in liquor" class="list">
+    <ul ng-repeat="ing in inLiquor" class="list">
+        <li class="item">
+            <a href="#">{{ing.name}}</a>
+        </li>
+    </ul>
+    <ul ng-repeat="ing in outLiquor" class="list">
         <li class="item">
             <a href="#">{{ing.name}}</a>
         </li>
@@ -7,7 +12,12 @@
 </div>
 
 <div  ng-show="tab.title=='Mixer'">
-    <ul ng-repeat="ing in mixer" class="list">
+    <ul ng-repeat="ing in inMixer" class="list">
+        <li class="item">
+            <a href="#">{{ing.name}}</a>
+        </li>
+    </ul>
+    <ul ng-repeat="ing in outMixer" class="list">
         <li class="item">
             <a href="#">{{ing.name}}</a>
         </li>
@@ -15,7 +25,12 @@
 </div>
 
 <div  ng-show="tab.title=='Other'">
-    <ul ng-repeat="ing in other" class="list">
+    <ul ng-repeat="ing in inOther" class="list">
+        <li class="item">
+            <a href="#">{{ing.name}}</a>
+        </li>
+    </ul>
+    <ul ng-repeat="ing in outOther" class="list">
         <li class="item">
             <a href="#">{{ing.name}}</a>
         </li>
