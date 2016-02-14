@@ -9,6 +9,7 @@ var app = angular.module('myApp', [
   'mgcrea.ngStrap.tooltip',
   'ngAnimate',
   'ui.bootstrap',
+  'LocalStorageModule',
   'myApp.index',
   'myApp.view1',
   'myApp.view2',
@@ -18,8 +19,9 @@ var app = angular.module('myApp', [
   'myApp.version'
 ]).config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/view1'});
+}]).config(['localStorageServiceProvider', function(localStorageServiceProvider){
+  localStorageServiceProvider.setPrefix('ls');
 }]);
-
 
 
 app.directive("fruit", function() {

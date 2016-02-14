@@ -9,7 +9,7 @@ cabinet.config(['$routeProvider', function ($routeProvider) {
     });
 }]);
 
-cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService',
+cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService', 'localStorageService',
     function ($scope, $http, $routeParams, myService) {
         //$http.get('json/cabinet.json').success(function (data, status, headers, config) {
         //    $scope.cabinet = data;
@@ -100,7 +100,7 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
             //todo: now write that to the json file
 
 
-            
+
 
 
 
