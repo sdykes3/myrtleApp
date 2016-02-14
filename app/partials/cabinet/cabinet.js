@@ -10,15 +10,22 @@ cabinet.config(['$routeProvider', function ($routeProvider) {
 }]);
 
 cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService', 'localStorageService',
-    function ($scope, $http, $routeParams, myService) {
+    function ($scope, $http, $routeParams, myService, localStorageService) {
         //$http.get('json/cabinet.json').success(function (data, status, headers, config) {
         //    $scope.cabinet = data;
         //});
 
 
+        var cabInStore = localStorageService.get('cabinet');
+
+        $scope.$watch('cabinet', function () {
+            localStorageService.set('cabinet', $scope.cabinet);
+        }, true);
+
+
         var myDataPromise = myService.getData('json/cabinet.json');
         myDataPromise.then(function(result) {  // this is only run after $http completes
-            $scope.cabinet = result;
+            $scope.cabinet = cabInStore || result;
 
             $scope.liquor = [];
             $scope.mixer = [];
@@ -94,35 +101,7 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
                     $scope.cabinet[i].ing.inStock = !$scope.cabinet[i].ing.inStock;
                 }
             }
-
-            console.log(ing);
-
-            //todo: now write that to the json file
-
-
-
-
-
-
-
-
-
-            //$http.post('json/cabinet.json', $scope.cabinet).then(function(data) {
-            //    $scope.msg = 'Data saved';
-            //    console.log($scope.msg);
-            //});
-            //
-            //$http({
-            //    method: 'POST',
-            //    url: 'json/cabinet.json',
-            //    data: "cabinet" + cabinet,
-            //    headers: {'Content-Type': 'application/x-www-form-urlencoded'}
-            //}).then(function(data) {
-            //    $scope.msg = 'Data saved';
-            //    console.log($scope.msg);
-            //});
-
-
+            //console.log(ing);
         }
 
         //local storage webapp with nice mobile interface for now
