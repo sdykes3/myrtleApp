@@ -29,6 +29,17 @@ app.directive("fruit", function() {
   };
 });
 
+app.service('myService', function($http) {
+
+  var getData = function(url) {
+
+    return $http({method:"GET", url:url}).then(function(result){
+      return result.data;
+    });
+  };
+  return { getData: getData };
+});
+
 
 
 var index = angular.module('myApp.index', ['ngRoute']);

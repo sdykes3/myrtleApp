@@ -9,13 +9,32 @@ cabinet.config(['$routeProvider', function ($routeProvider) {
     });
 }]);
 
-cabinet.controller('CabinetCtrl', ['$scope', '$http', '$timeout', '$routeParams',
-    function ($scope, $http, $routeParams) {
-        $http.get('json/cabinet.json').success(function (data) {
-            $scope.cabinet = data;
+cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService',
+    function ($scope, $http, $routeParams, myService) {
+        //$http.get('json/cabinet.json').success(function (data, status, headers, config) {
+        //    $scope.cabinet = data;
+        //});
+
+
+        var myDataPromise = myService.getData('json/cabinet.json');
+        myDataPromise.then(function(result) {  // this is only run after $http completes
+            $scope.cabinet = result;
+
+            $scope.liquor = [];
+            $scope.mixer = [];
+            $scope.other = [];
+            for(var i=0;i<$scope.cabinet.length;i++) {
+                if($scope.cabinet[i].type == "liquor") {
+                    $scope.liquor[i] = $scope.cabinet[i];
+                } else if ($scope.cabinet[i].type == "mixer") {
+                    $scope.mixer.push($scope.cabinet[i]);
+                } else if ($scope.cabinet[i].type == "other") {
+                    $scope.other.push($scope.cabinet[i]);
+                }
+            }
         });
 
-        //todo: add tabs to switch mixers/liquor lists
+
 
         $scope.getContent=function(index){
             $scope.tabs.isLoaded=true;
@@ -25,6 +44,8 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$timeout', '$routeParams'
             { title:'Mixer'},
             { title:'Other'}
         ];
+
+
 
         //todo: add back navigation button to header
 
