@@ -87,14 +87,42 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
             { title:'Other'}
         ];
 
-        //todo: reflect inStock in the html
-
-        // is this redundant with the use of ng-checked? no, I still need to write to the json file
         $scope.toggleStock = function(ing) {
             ing.inStock = !ing.inStock;
+            for(var i=0;i<$scope.cabinet.length;i++) {
+                if($scope.cabinet[i].ing == ing) {
+                    $scope.cabinet[i].ing.inStock = !$scope.cabinet[i].ing.inStock;
+                }
+            }
+
             console.log(ing);
 
             //todo: now write that to the json file
+
+
+            
+
+
+
+
+
+
+            //$http.post('json/cabinet.json', $scope.cabinet).then(function(data) {
+            //    $scope.msg = 'Data saved';
+            //    console.log($scope.msg);
+            //});
+            //
+            //$http({
+            //    method: 'POST',
+            //    url: 'json/cabinet.json',
+            //    data: "cabinet" + cabinet,
+            //    headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+            //}).then(function(data) {
+            //    $scope.msg = 'Data saved';
+            //    console.log($scope.msg);
+            //});
+
+
         }
 
         //local storage webapp with nice mobile interface for now
