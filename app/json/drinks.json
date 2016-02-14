@@ -2,7 +2,7 @@
   {
     "id" : "mojito",
     "name": "Mojito",
-    "cost": "X",
+    "cost": "/",
     "ingredients": [
       {"name": "Vodka", "id": "vodka"},
       {"name": "Mint", "id": "mint"},

@@ -1,15 +1,36 @@
 [
   {
     "type": "liquor",
-    "id" : "vodka",
-    "name": "Vodka",
+    "id" : "brandy",
+    "name": "Brandy",
     "inStock": true
   },
 
   {
     "type": "liquor",
-    "id" : "rum",
-    "name": "Rum",
+    "id" : "bourbon",
+    "name": "Bourbon",
+    "inStock": true
+  },
+
+  {
+    "type": "liquor",
+    "id" : "dark-rum",
+    "name": "Dark Rum",
+    "inStock": false
+  },
+
+  {
+    "type": "liquor",
+    "id" : "gin",
+    "name": "Gin",
+    "inStock": false
+  },
+
+  {
+    "type": "liquor",
+    "id" : "light-rum",
+    "name": "Light Rum",
     "inStock": false
   },
 
@@ -22,15 +43,80 @@
 
   {
     "type": "liquor",
+    "id" : "vodka",
+    "name": "Vodka",
+    "inStock": true
+  },
+
+  {
+    "type": "liquor",
     "id" : "whiskey",
     "name": "Whiskey",
     "inStock": true
   },
 
+
+
+
+
+
+
+
+
+
   {
     "type": "mixer",
-    "id" : "sprite",
-    "name": "Sprite",
+    "id" : "amaretto",
+    "name": "Amaretto",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "apple-juice",
+    "name": "Apple Juice",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "bitters",
+    "name": "Bitters",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "champagne",
+    "name": "Champagne",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "club-soda",
+    "name": "Club Soda",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "cola",
+    "name": "Cola",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "creme-de-cacao",
+    "name": "Creme de Cacao",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "creme-de-menth",
+    "name": "Creme de Menthe",
     "inStock": true
   },
 
@@ -43,15 +129,158 @@
 
   {
     "type": "mixer",
+    "id" : "dry-vermouth",
+    "name": "Dry Vermouth",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "grapefruit-juice",
+    "name": "Grapefruit Juice",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "grenadine",
+    "name": "Grenadine",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "ginger-ale",
+    "name": "Ginger Ale",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "irish-cream",
+    "name": "Irish Cream",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "kahlua",
+    "name": "Kahlua",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "melon-liqueur",
+    "name": "Melon Liqueur",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
     "id" : "orange-juice",
     "name": "Orange Juice",
     "inStock": true
   },
 
   {
+    "type": "mixer",
+    "id" : "orange-schnapps",
+    "name": "Orange Schnapps",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "peach-schnapps",
+    "name": "Peach Schnapps",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "pineapple-juice",
+    "name": "Pineapple Juice",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "simple-syrup",
+    "name": "Simple Syrup",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "sour-mix",
+    "name": "Sour Mix",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "so-co",
+    "name": "Southern Comfort",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "sprite",
+    "name": "Sprite",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "sweet-lime",
+    "name": "Sweet Lime",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "sweet-sour-mix",
+    "name": "Sweet & Sour Mix",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "sweet-vermouth",
+    "name": "Sweet Vermouth",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "triple-sec",
+    "name": "Triple Sec",
+    "inStock": true
+  },
+
+
+
+
+
+
+
+
+
+
+
+  {
     "type": "other",
     "id" : "cinnamon",
     "name": "Cinnamon",
+    "inStock": true
+  },
+
+  {
+    "type": "other",
+    "id" : "cream",
+    "name": "Cream",
     "inStock": true
   },
 
@@ -64,8 +293,36 @@
 
   {
     "type": "other",
+    "id" : "lemon",
+    "name": "Lemon",
+    "inStock": true
+  },
+
+  {
+    "type": "other",
+    "id" : "cherry",
+    "name": "Maraschino Cherry",
+    "inStock": true
+  },
+
+  {
+    "type": "other",
+    "id" : "milk",
+    "name": "Milk",
+    "inStock": true
+  },
+
+  {
+    "type": "other",
     "id" : "mint",
     "name": "Mint",
+    "inStock": true
+  },
+
+  {
+    "type": "other",
+    "id" : "sugar",
+    "name": "Sugar",
     "inStock": true
   }
 
