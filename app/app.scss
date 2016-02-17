@@ -1,5 +1,11 @@
 /* CSS for ??? */
 
+body {
+  .title {
+    font-size: 22px;
+  }
+}
+
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -61,24 +67,37 @@
 
 /* Cabinet list items */
 
-.list {
+.cabinetList {
   padding: 0;
   margin: 0;
-}
 
-.cabinetItem {
-  list-style-type: none;
-  padding: 10px 0 10px 0;
-  div {
-    width: 90%;
-    margin: auto;
-    span {
+  .cabinetItem {
+    list-style-type: none;
+    padding: 10px 0 10px 0;
 
-    }
+    div {
+      width: 90%;
+      margin: auto;
 
-    input {
-      float: right;
+      span {
+
+      }
+      input {
+        float: right;
+      }
     }
   }
+}
 
+
+/* Drink List */
+
+.drinkList {
+
+  .availItem {
+    list-style-type: none;
+    a {
+
+    }
+  }
 }

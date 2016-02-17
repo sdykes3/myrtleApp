@@ -1,13 +1,13 @@
 <div class="container-fluid">
 
   <div class="bar bar-header bar-light">
-    <h1 class="title">Drinks</h1>
+    <h1 class="title">Available Drinks</h1>
   </div>
 
   <!-- Here goes... a filter search -->
 
-  <ul ng-repeat="drink in drinksAvail" class="list">
-    <li class="item">
+  <ul class="drinkList">
+    <li class="availItem" ng-repeat="drink in drinksAvail">
       <a href="#/drinks/{{drink.id}}">{{drink.name}}</a>
     </li>
   </ul>

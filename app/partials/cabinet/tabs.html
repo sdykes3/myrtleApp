@@ -1,12 +1,12 @@
 <div  ng-show="tab.title=='Liquor'">
-    <ul class="list">
+    <ul class="cabinetList">
         <li class="cabinetItem" ng-repeat="ing in inLiquor" >
             <div>
                 <span>{{ing.name}}</span><input type="checkbox" ng-click="toggleStock(ing)" ng-checked="ing.inStock"></input>
             </div>
         </li>
     </ul>
-    <ul class="list">
+    <ul class="cabinetList">
         <li class="cabinetItem" ng-repeat="ing in outLiquor" >
             <div>
                 <span>{{ing.name}}</span><input type="checkbox" ng-click="toggleStock(ing)" ng-checked="ing.inStock"></input>
@@ -16,14 +16,14 @@
 </div>
 
 <div  ng-show="tab.title=='Mixer'">
-    <ul class="list">
+    <ul class="cabinetList">
         <li class="cabinetItem" ng-repeat="ing in inMixer">
             <div>
                 <span>{{ing.name}}</span><input type="checkbox" ng-click="toggleStock(ing)" ng-checked="ing.inStock"></input>
             </div>
         </li>
     </ul>
-    <ul class="list">
+    <ul class="cabinetList">
         <li class="cabinetItem" ng-repeat="ing in outMixer">
             <div>
                 <span>{{ing.name}}</span><input type="checkbox" ng-click="toggleStock(ing)" ng-checked="ing.inStock"></input>
@@ -33,14 +33,14 @@
 </div>
 
 <div  ng-show="tab.title=='Other'">
-    <ul class="list">
+    <ul class="cabinetList">
         <li class="cabinetItem" ng-repeat="ing in inOther">
             <div>
                 <span>{{ing.name}}</span><input type="checkbox" ng-click="toggleStock(ing)" ng-checked="ing.inStock"></input>
             </div>
         </li>
     </ul>
-    <ul class="list">
+    <ul class="cabinetList">
         <li class="cabinetItem" ng-repeat="ing in outOther">
             <div>
                 <span>{{ing.name}}</span><input type="checkbox" ng-click="toggleStock(ing)" ng-checked="ing.inStock"></input>

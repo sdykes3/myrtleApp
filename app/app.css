@@ -1,4 +1,7 @@
 /* CSS for ??? */
+body .title {
+  font-size: 22px; }
+
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -53,17 +56,20 @@
   animation-name: fadeIn; }
 
 /* Cabinet list items */
-.list {
+.cabinetList {
   padding: 0;
   margin: 0; }
+  .cabinetList .cabinetItem {
+    list-style-type: none;
+    padding: 10px 0 10px 0; }
+    .cabinetList .cabinetItem div {
+      width: 90%;
+      margin: auto; }
+      .cabinetList .cabinetItem div input {
+        float: right; }
 
-.cabinetItem {
-  list-style-type: none;
-  padding: 10px 0 10px 0; }
-  .cabinetItem div {
-    width: 90%;
-    margin: auto; }
-    .cabinetItem div input {
-      float: right; }
+/* Drink List */
+.drinkList .availItem {
+  list-style-type: none; }
 
 /*# sourceMappingURL=app.css.map */
