@@ -1,7 +1,12 @@
-/* CSS for ??? */
+/* General */
 body .title {
   font-size: 22px; }
+body .navbar button {
+  border: none;
+  float: left;
+  margin-left: 10px; }
 
+/* CSS for ??? */
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;

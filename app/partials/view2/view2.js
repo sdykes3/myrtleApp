@@ -7,7 +7,7 @@ view2.config(['$routeProvider', function ($routeProvider) {
         templateUrl: 'partials/view2/view2.html',
         controller: 'View2Ctrl'
     });
-}])
+}]);
 
 
 view2.controller('View2Ctrl', ['$scope', '$http', '$q', 'localStorageService', function ($scope, $http, $q, localStorageService) {

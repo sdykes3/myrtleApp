@@ -73,8 +73,8 @@
 
   {
     "type": "mixer",
-    "id" : "apple-juice",
-    "name": "Apple Juice",
+    "id" : "beer",
+    "name": "Beer",
     "inStock": true
   },
 
@@ -101,13 +101,6 @@
 
   {
     "type": "mixer",
-    "id" : "cola",
-    "name": "Cola",
-    "inStock": true
-  },
-
-  {
-    "type": "mixer",
     "id" : "creme-de-cacao",
     "name": "Creme de Cacao",
     "inStock": true
@@ -122,22 +115,8 @@
 
   {
     "type": "mixer",
-    "id" : "cranberry-juice",
-    "name": "Cranberry Juice",
-    "inStock": true
-  },
-
-  {
-    "type": "mixer",
     "id" : "dry-vermouth",
     "name": "Dry Vermouth",
-    "inStock": true
-  },
-
-  {
-    "type": "mixer",
-    "id" : "grapefruit-juice",
-    "name": "Grapefruit Juice",
     "inStock": true
   },
 
@@ -157,8 +136,79 @@
 
   {
     "type": "mixer",
+    "id" : "ginger-beer",
+    "name": "Ginger Beer",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
     "id" : "irish-cream",
     "name": "Irish Cream",
+    "inStock": true
+  },
+
+
+  {
+    "type": "mixer",
+    "id" : "apple-juice",
+    "name": "Juice - Apple",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "cranberry-juice",
+    "name": "Juice - Cranberry",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "grapefruit-juice",
+    "name": "Juice - Grapefruit",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "lemon-juice",
+    "name": "Juice - Lemon",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "lime-juice",
+    "name": "Juice - Lime",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "mango-juice",
+    "name": "Juice - Mango",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "orange-juice",
+    "name": "Juice - Orange",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "peach-juice",
+    "name": "Juice - Peach",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "pineapple-juice",
+    "name": "Juice - Pineapple",
     "inStock": true
   },
 
@@ -178,13 +228,6 @@
 
   {
     "type": "mixer",
-    "id" : "orange-juice",
-    "name": "Orange Juice",
-    "inStock": true
-  },
-
-  {
-    "type": "mixer",
     "id" : "orange-schnapps",
     "name": "Orange Schnapps",
     "inStock": true
@@ -199,15 +242,22 @@
 
   {
     "type": "mixer",
-    "id" : "pineapple-juice",
-    "name": "Pineapple Juice",
+    "id" : "simple-syrup",
+    "name": "Simple Syrup",
     "inStock": true
   },
 
   {
     "type": "mixer",
-    "id" : "simple-syrup",
-    "name": "Simple Syrup",
+    "id" : "cola",
+    "name": "Soda - Cola",
+    "inStock": true
+  },
+
+  {
+    "type": "mixer",
+    "id" : "sprite",
+    "name": "Soda - Sprite",
     "inStock": true
   },
 
@@ -222,13 +272,6 @@
     "type": "mixer",
     "id" : "so-co",
     "name": "Southern Comfort",
-    "inStock": true
-  },
-
-  {
-    "type": "mixer",
-    "id" : "sprite",
-    "name": "Sprite",
     "inStock": true
   },
 

@@ -1,10 +1,25 @@
-/* CSS for ??? */
+/* General */
+
+
 
 body {
+
   .title {
     font-size: 22px;
   }
+
+  .navbar {
+    button {
+      border: none;
+      float: left;
+      margin-left: 10px;
+    }
+  }
+
 }
+
+
+/* CSS for ??? */
 
 .menu {
   list-style: none;

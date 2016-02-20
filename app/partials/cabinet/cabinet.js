@@ -1,7 +1,7 @@
 'use strict';
 
 var cabinet = angular.module('myApp.cabinet', ['ngRoute'])
-2
+
 cabinet.config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/cabinet', {
         templateUrl: 'partials/cabinet/cabinet.html',

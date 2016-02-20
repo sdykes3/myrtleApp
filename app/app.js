@@ -24,6 +24,8 @@ var app = angular.module('myApp', [
 }]);
 
 
+
+// For cabinet
 app.directive("fruit", function() {
   return {
     restrict: "E",
@@ -31,6 +33,9 @@ app.directive("fruit", function() {
   };
 });
 
+
+
+//For all http get calls
 app.service('myService', function($http) {
 
   var getData = function(url) {
@@ -44,7 +49,9 @@ app.service('myService', function($http) {
 
 
 
+//Main controller for index page
 var index = angular.module('myApp.index', ['ngRoute']);
+
 index.controller('MainCtrl', ['$scope', '$http', function ($scope, $http) {
 
   $scope.aside = {
