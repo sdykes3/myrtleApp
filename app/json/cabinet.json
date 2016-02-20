@@ -371,6 +371,13 @@
 
   {
     "type": "other",
+    "id" : "strawberry",
+    "name": "Strawberry",
+    "inStock": true
+  },
+
+  {
+    "type": "other",
     "id" : "sugar",
     "name": "Sugar",
     "inStock": true

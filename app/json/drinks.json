@@ -425,6 +425,236 @@
       {"name": "Dry Vermouth", "id": "dry-vermouth"},
       {"name": "Peach Schnapps", "id": "peach-schnapps"}
     ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id" : "blue-bird",
+    "name": "Blue Bird",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Bitters", "id": "bitters"}
+    ]
+  },
+
+  {
+    "id" : "bronx",
+    "name": "Bronx",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Dry Vermouth", "id": "dry-vermouth"},
+      {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
+      {"name": "Orange Juice", "id": "orange-juice"}
+    ]
+  },
+
+  {
+    "id" : "bronx-terrace",
+    "name": "Bronx Terrace",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Dry Vermouth", "id": "dry-vermouth"},
+      {"name": "Sweet Lime", "id": "sweet-lime"}
+    ]
+  },
+
+  {
+    "id" : "journalist",
+    "name": "Journalist",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Dry Vermouth", "id": "dry-vermouth"},
+      {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Lemon Juice", "id": "lemon-juice"},
+      {"name": "Bitters", "id": "bitters"}
+    ]
+  },
+
+  {
+    "id" : "mainbrace",
+    "name": "Mainbrace",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
+    ]
+  },
+
+  {
+    "id" : "manhattan",
+    "name": "Manhattan",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Whisky", "id": "whisky"},
+      {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
+      {"name": "Bitters", "id": "bitters"}
+    ]
+  },
+
+  {
+    "id" : "whisky-sour",
+    "name": "Whisky Sour",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Whisky", "id": "whisky"},
+      {"name": "Sweet & Sour Mix", "id": "sweet-sour-mix"},
+    ]
+  },
+
+  {
+    "id" : "old-fashioned",
+    "name": "Old Fashioned",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Whisky", "id": "whisky"},
+      {"name": "Simple Syrup", "id": "simple-syrup"},
+      {"name": "Bitters", "id": "bitters"},
+      {"name": "Maraschino Cherry", "id": "cherry"}
+    ]
+  },
+
+  {
+    "id" : "champagne-cocktail",
+    "name": "Champagne cocktail",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Brandy", "id": "brandy"},
+      {"name": "Simple Syrup", "id": "simple-syrup"},
+      {"name": "Bitters", "id": "bitters"},
+      {"name": "Champagne", "id": "champagne"}
+    ]
+  },
+
+  {
+    "id" : "moscow-mule",
+    "name": "Champagne cocktail",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Ginger Beer", "id": "ginger-beer"},
+      {"name": "Bitters", "id": "bitters"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Sweet Lime", "id": "sweet-lime"},
+      {"name": "Lime", "id": "lime"}
+    ]
+  },
+
+  {
+    "id" : "sidecar",
+    "name": "Sidercar",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Lemon Juice", "id": "lemon-juice"}
+    ]
+  },
+
+  {
+    "id" : "kamikaze",
+    "name": "Kamimaze",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Lime Juice", "id": "lime-juice"}
+    ]
+  },
+
+  {
+    "id" : "maidens-blush",
+    "name": "Maiden's Blush",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Lemon Juice", "id": "lemon-juice"},
+      {"name": "Grenadine", "id": "grenadine"}
+    ]
+  },
+
+  {
+    "id" : "gin-rickey",
+    "name": "Gin Rickey",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Lime Juice", "id": "lime-juice"},
+      {"name": "Club Soda", "id": "club-soda"}
+    ]
+  },
+
+  {
+    "id" : "tim-o-my-heart",
+    "name": "Tim o' My Heart",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Light Rum", "id": "light-rum"},
+      {"name": "Lime Juice", "id": "lime-juice"},
+      {"name": "Grenadine", "id": "grenadine"},
+      {"name": "Maraschino Cherry", "id": "cherry"}
+    ]
+  },
+
+  {
+    "id" : "salty-dog",
+    "name": "Salty Dog",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
+    ]
+  },
+
+  {
+    "id" : "daiquiri",
+    "name": "Daiquiri",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Light Rum", "id": "light-rum"},
+      {"name": "Lime Juice", "id": "lime-juice"},
+      {"name": "Simple Syrup", "id": "simple-syrup"},
+      {"name": "Strawberry", "id": "strawberry"}
+    ]
+  },
+
+  {
+    "id" : "maidens-prayer",
+    "name": "Maiden's Prayer",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Lemon Juice", "id": "lemon-juice"},
+      {"name": "Orange Juice", "id": "orange-juice"}
+    ]
+  },
+
+  {
+    "id" : "palm-beach",
+    "name": "Palm Beach",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
+      {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
+    ]
   }
 
 ]
