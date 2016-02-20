@@ -1,0 +1,10 @@
+{
+  "id" : "brandy-alexander",
+  "name": "Brandy Alexander",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Brandy", "id": "brandy"},
+    {"name": "Creme de Cacao", "id": "creme-de-cacao"},
+    {"name": "Cream", "id": "cream"}
+  ]
+}

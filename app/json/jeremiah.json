@@ -1,0 +1,11 @@
+{
+  "id" : "jeremiah",
+  "name": "Jeremiah",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Creme de Menthe", "id": "creme-de-menthe"},
+    {"name": "Creme de Cacao", "id": "creme-de-cacao"},
+    {"name": "Kahlua", "id": "kahlua"},
+    {"name": "Milk", "id": "milk"}
+  ]
+}

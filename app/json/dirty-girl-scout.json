@@ -1,0 +1,11 @@
+{
+  "id" : "dirty-girl-scout",
+  "name": "Dirty Girl Scout",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Creme de Menthe", "id": "creme-de-menthe"},
+    {"name": "Creme de Cacao", "id": "creme-de-cacao"},
+    {"name": "Irish Cream", "id": "irish-cream"}
+  ]
+}

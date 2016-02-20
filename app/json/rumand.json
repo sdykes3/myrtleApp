@@ -1,0 +1,11 @@
+{
+  "id" : "rumand",
+  "name": "Rumand",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Dark Rum", "id": "dark-rum"},
+    {"name": "Orange Juice", "id": "orange-juice"},
+    {"name": "Peach Juice", "id": "peach-juice"},
+    {"name": "Mango Juice", "id": "mango-juice"}
+  ]
+}

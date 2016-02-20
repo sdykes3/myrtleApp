@@ -1,0 +1,12 @@
+{
+  "id" : "brandy-cobbler",
+  "name": "Brandy Cobbler",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Brandy", "id": "brandy"},
+    {"name": "Simple Syrup", "id": "simple-syrup"},
+    {"name": "Lemon Juice", "id": "lemon-juice"},
+    {"name": "Orange Juice", "id": "orange-juice"},
+    {"name": "Cola", "id": "cola"}
+  ]
+}

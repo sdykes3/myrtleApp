@@ -1,0 +1,10 @@
+{
+  "id" : "perfect-lady",
+  "name": "Perfect Lady",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Gin", "id": "gin"},
+    {"name": "Peach Schnapps", "id": "peach-schnapps"},
+    {"name": "Lemon Juice", "id": "lemon-juice"}
+  ]
+}

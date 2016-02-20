@@ -1,0 +1,11 @@
+{
+  "id" : "orchard-maze",
+  "name": "Orchard Maze",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Peach Schnapps", "id": "peach-schnapps"},
+    {"name": "Orange Juice", "id": "orange-juice"},
+    {"name": "Cranberry Juice", "id": "cranberry-juice"}
+  ]
+}

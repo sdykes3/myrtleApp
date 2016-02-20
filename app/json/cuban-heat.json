@@ -1,0 +1,10 @@
+{
+  "id" : "cuban-heat",
+  "name": "Cuban Heat",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Light Rum", "id": "light-rum"},
+    {"name": "Amaretto", "id": "amaretto"},
+    {"name": "Cranberry Juice", "id": "cranberry-juice"}
+  ]
+}

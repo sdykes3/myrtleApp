@@ -1,0 +1,11 @@
+{
+  "id" : "loco",
+  "name": "Loco",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Light Rum", "id": "light-rum"},
+    {"name": "Peach Schnapps", "id": "peach-schnapps"},
+    {"name": "Cranberry Juice", "id": "cranberry-juice"},
+    {"name": "Lime Juice", "id": "lime-juice"}
+  ]
+}

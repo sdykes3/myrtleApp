@@ -1,0 +1,9 @@
+{
+  "id" : "dirty-mother",
+  "name": "Dirty Mother",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Brandy", "id": "brandy"},
+    {"name": "Kahlua", "id": "kahlua"}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id" : "seabreeze",
+  "name": "Seabreeze",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Grapefruit Juice", "id": "grapefruit-juice"},
+    {"name": "Cranberry Juice", "id": "cranberry-juice"}
+  ]
+}

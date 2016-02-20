@@ -1,0 +1,10 @@
+{
+  "id" : "grasshopper",
+  "name": "Grasshopper",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Creme de Menthe", "id": "creme-de-menthe"},
+    {"name": "Creme de Cacao", "id": "creme-de-cacao"},
+    {"name": "Cream", "id": "cream"}
+  ]
+}

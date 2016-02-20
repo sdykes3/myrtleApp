@@ -1,0 +1,14 @@
+{
+  "id" : "long-island",
+  "name": "Long Island Iced Tea",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Light Rum", "id": "light-rum"},
+    {"name": "Gin", "id": "gin"},
+    {"name": "Tequila", "id": "tequila"},
+    {"name": "Triple Sec", "id": "triple-sec"},
+    {"name": "Lemon Juice", "id": "lemon-juice"},
+    {"name": "Cola", "id": "cola"}
+  ]
+}

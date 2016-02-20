@@ -1,0 +1,10 @@
+{
+  "id" : "blue-lady",
+  "name": "Blue Lady",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Dry Vermouth", "id": "dry-vermouth"},
+    {"name": "Peach Schnapps", "id": "peach-schnapps"}
+  ]
+}

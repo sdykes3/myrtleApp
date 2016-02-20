@@ -1,0 +1,11 @@
+{
+  "id" : "sex-on-beach",
+  "name": "Sex on the Beach",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Peach Schnapps", "id": "peach-schnapps"},
+    {"name": "Pineapple Juice", "id": "pineapple-juice"},
+    {"name": "Cranberry Juice", "id": "cranberry-juice"}
+  ]
+}

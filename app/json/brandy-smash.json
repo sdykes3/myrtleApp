@@ -1,0 +1,13 @@
+{
+  "id" : "brandy-smash",
+  "name": "Brandy Smash",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Brandy", "id": "brandy"},
+    {"name": "Mint", "id": "mint"},
+    {"name": "Simple Syrup", "id": "simple-syrup"},
+    {"name": "Club Soda", "id": "club-soda"},
+    {"name": "Orange Juice", "id": "orange-juice"},
+    {"name": "Maraschino Cherry", "id": "cherry"}
+  ]
+}

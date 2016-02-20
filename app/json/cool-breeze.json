@@ -1,0 +1,10 @@
+{
+  "id" : "cool-breeze",
+  "name": "Cool Breeze",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Tequila", "id": "tequila"},
+    {"name": "Melon Liqueur", "id": "melon-liqueur"},
+    {"name": "Cranberry Juice", "id": "cranberry-juice"}
+  ]
+}

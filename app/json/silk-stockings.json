@@ -1,0 +1,11 @@
+{
+  "id" : "silk-stockings",
+  "name": "Silk Stockings",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Tequila", "id": "tequila"},
+    {"name": "Creme de Cacao", "id": "creme-de-cacao"},
+    {"name": "Cream", "id": "cream"},
+    {"name": "Grenadine", "id": "grenadine"}
+  ]
+}

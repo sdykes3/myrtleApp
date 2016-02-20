@@ -1,0 +1,13 @@
+{
+  "id" : "mai-tai",
+  "name": "Mai Tai",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Light Rum", "id": "light-rum"},
+    {"name": "Triple Sec", "id": "triple-sec"},
+    {"name": "Amaretto", "id": "amaretto"},
+    {"name": "Sweet & Sour Mix", "id": "sweet-sour-mix"},
+    {"name": "Pineapple Juice", "id": "pineapple-juice"},
+    {"name": "Dark Rum", "id": "dark-rum"}
+  ]
+}

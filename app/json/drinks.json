@@ -80,7 +80,7 @@
   },
 
   {
-    "id" : "brandy-smach",
+    "id" : "brandy-smash",
     "name": "Brandy Smash",
     "cost": "X",
     "ingredients": [
@@ -300,6 +300,130 @@
       {"name": "Melon Liqueur", "id": "melon-liqueur"},
       {"name": "Peach Schnapps", "id": "peach-schnapps"},
       {"name": "Orange Schnapps", "id": "orange-schnapps"}
+    ]
+  },
+
+  {
+    "id" : "pure-fetish",
+    "name": "Pure Fetish",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Peach Schnapps", "id": "peach-schnapps"},
+      {"name": "Orange Juice", "id": "orange-juice"},
+      {"name": "Cranberry Juice", "id": "cranberry-juice"}
+    ]
+  },
+
+  {
+    "id" : "black-russian",
+    "name": "Black Russian",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Kahlua", "id": "kahlua"}
+    ]
+  },
+
+  {
+    "id" : "dirty-mother",
+    "name": "Dirty Mother",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Brandy", "id": "brandy"},
+      {"name": "Kahlua", "id": "kahlua"}
+    ]
+  },
+
+  {
+    "id" : "brave-bull",
+    "name": "Brave Bull",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Tequila", "id": "tequila"},
+      {"name": "Kahlua", "id": "kahlua"}
+    ]
+  },
+
+  {
+    "id" : "long-island",
+    "name": "Long Island Iced Tea",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Light Rum", "id": "light-rum"},
+      {"name": "Gin", "id": "gin"},
+      {"name": "Tequila", "id": "tequila"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Lemon Juice", "id": "lemon-juice"},
+      {"name": "Cola", "id": "cola"}
+    ]
+  },
+
+  {
+    "id" : "brandy-cobbler",
+    "name": "Brandy Cobbler",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Brandy", "id": "brandy"},
+      {"name": "Simple Syrup", "id": "simple-syrup"},
+      {"name": "Lemon Juice", "id": "lemon-juice"},
+      {"name": "Orange Juice", "id": "orange-juice"},
+      {"name": "Cola", "id": "cola"}
+    ]
+  },
+
+  {
+    "id" : "perfect-lady",
+    "name": "Perfect Lady",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Peach Schnapps", "id": "peach-schnapps"},
+      {"name": "Lemon Juice", "id": "lemon-juice"}
+    ]
+  },
+
+  {
+    "id" : "french-connection",
+    "name": "French Connection",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Brandy", "id": "brandy"},
+      {"name": "Amaretto", "id": "amaretto"}
+    ]
+  },
+
+  {
+    "id" : "kalimixtro",
+    "name": "Kalimixtro",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Wine", "id": "wine"},
+      {"name": "Cola", "id": "cola"}
+    ]
+  },
+
+  {
+    "id" : "tom-collins",
+    "name": "Tom Collins",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Lemon Juice", "id": "lemon-juice"},
+      {"name": "Simple Syrup", "id": "simple-syrup"},
+      {"name": "Club Soda", "id": "club-soda"}
+    ]
+  },
+
+  {
+    "id" : "blue-lady",
+    "name": "Blue Lady",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Dry Vermouth", "id": "dry-vermouth"},
+      {"name": "Peach Schnapps", "id": "peach-schnapps"}
     ]
   }
 

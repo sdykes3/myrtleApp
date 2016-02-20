@@ -1,0 +1,11 @@
+{
+  "id" : "japanese-slipper",
+  "name": "Japanese Slipper",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Tequila", "id": "tequila"},
+    {"name": "Melon Liqueur", "id": "melon-liqueur"},
+    {"name": "Lime Juice", "id": "lime-juice"},
+    {"name": "Simple Syrup", "id": "simple-syrup"}
+  ]
+}

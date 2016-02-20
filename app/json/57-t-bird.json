@@ -1,0 +1,12 @@
+{
+  "id" : "57-t-bird",
+  "name": "57 T-Bird",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Amaretto", "id": "amaretto"},
+    {"name": "Melon Liqueur", "id": "melon-liqueur"},
+    {"name": "Peach Schnapps", "id": "peach-schnapps"},
+    {"name": "Orange Schnapps", "id": "orange-schnapps"}
+  ]
+}

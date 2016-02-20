@@ -1,0 +1,11 @@
+{
+  "id" : "tom-collins",
+  "name": "Tom Collins",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Gin", "id": "gin"},
+    {"name": "Lemon Juice", "id": "lemon-juice"},
+    {"name": "Simple Syrup", "id": "simple-syrup"},
+    {"name": "Club Soda", "id": "club-soda"}
+  ]
+}

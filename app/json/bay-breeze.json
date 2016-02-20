@@ -1,0 +1,10 @@
+{
+  "id" : "bay-breeze",
+  "name": "Bay Breeze",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Pineapple Juice", "id": "pineapple-juice"},
+    {"name": "Cranberry Juice", "id": "cranberry-juice"}
+  ]
+}

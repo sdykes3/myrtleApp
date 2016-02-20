@@ -1,0 +1,11 @@
+{
+  "id" : "cosmo",
+  "name": "Cosmopolitan",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Triple Sec", "id": "triple-sec"},
+    {"name": "Cranberry Juice", "id": "cranberry-juice"},
+    {"name": "Lime Juice", "id": "lime-juice"}
+  ]
+}

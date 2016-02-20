@@ -1,0 +1,9 @@
+{
+  "id" : "french-connection",
+  "name": "French Connection",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Brandy", "id": "brandy"},
+    {"name": "Amaretto", "id": "amaretto"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id" : "pure-fetish",
+  "name": "Pure Fetish",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Peach Schnapps", "id": "peach-schnapps"},
+    {"name": "Orange Juice", "id": "orange-juice"},
+    {"name": "Cranberry Juice", "id": "cranberry-juice"}
+  ]
+}

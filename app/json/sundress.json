@@ -1,0 +1,11 @@
+{
+  "id" : "sundress",
+  "name": "Sundress",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Brandy", "id": "brandy"},
+    {"name": "Peach Schnapps", "id": "peach-schnapps"},
+    {"name": "Orange Juice", "id": "orange-juice"},
+    {"name": "Grenadine", "id": "grenadine"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id" : "chocolate-martini",
+  "name": "Chocolate Martini",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Creme de Cacao", "id": "creme-de-cacao"}
+  ]
+}
