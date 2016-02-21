@@ -1,0 +1,11 @@
+{
+  "id" : "maidens-blush",
+  "name": "Maiden's Blush",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Gin", "id": "gin"},
+    {"name": "Triple Sec", "id": "triple-sec"},
+    {"name": "Lemon Juice", "id": "lemon-juice"},
+    {"name": "Grenadine", "id": "grenadine"}
+  ]
+}

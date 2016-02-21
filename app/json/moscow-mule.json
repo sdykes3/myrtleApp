@@ -1,0 +1,13 @@
+{
+  "id" : "moscow-mule",
+  "name": "Champagne cocktail",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Ginger Beer", "id": "ginger-beer"},
+    {"name": "Bitters", "id": "bitters"},
+    {"name": "Triple Sec", "id": "triple-sec"},
+    {"name": "Sweet Lime", "id": "sweet-lime"},
+    {"name": "Lime", "id": "lime"}
+  ]
+}

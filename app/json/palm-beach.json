@@ -1,0 +1,10 @@
+{
+  "id" : "palm-beach",
+  "name": "Palm Beach",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Gin", "id": "gin"},
+    {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
+    {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
+  ]
+}

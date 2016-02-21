@@ -1,0 +1,9 @@
+{
+  "id" : "whisky-sour",
+  "name": "Whisky Sour",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Whisky", "id": "whisky"},
+    {"name": "Sweet & Sour Mix", "id": "sweet-sour-mix"}
+  ]
+}

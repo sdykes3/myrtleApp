@@ -1,0 +1,10 @@
+{
+  "id" : "white-lady",
+  "name": "White Lady",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Gin", "id": "gin"},
+    {"name": "Triple Sec", "id": "triple-sec"},
+    {"name": "Lemon Juice", "id": "lemon-juice"}
+  ]
+}

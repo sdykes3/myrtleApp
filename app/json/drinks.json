@@ -427,16 +427,6 @@
     ]
   },
 
-
-
-
-
-
-
-
-
-
-
   {
     "id" : "blue-bird",
     "name": "Blue Bird",
@@ -513,7 +503,7 @@
     "cost": "/",
     "ingredients": [
       {"name": "Whisky", "id": "whisky"},
-      {"name": "Sweet & Sour Mix", "id": "sweet-sour-mix"},
+      {"name": "Sweet & Sour Mix", "id": "sweet-sour-mix"}
     ]
   },
 
@@ -654,6 +644,110 @@
       {"name": "Gin", "id": "gin"},
       {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
       {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
+    ]
+  },
+
+  {
+    "id" : "gin-buck",
+    "name": "Gin Buck",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Lemon Juice", "id": "lemon-juice"},
+      {"name": "Ginger Ale", "id": "ginger-ale"}
+    ]
+  },
+
+  {
+    "id" : "between-the-sheets",
+    "name": "Between the Sheets",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Brandy", "id": "brandy"},
+      {"name": "Light Rum", "id": "light-rum"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Lemon Juice", "id": "lemon-juice"}
+    ]
+  },
+
+  {
+    "id" : "three-miller",
+    "name": "Three Miller",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Brandy", "id": "brandy"},
+      {"name": "Light Rum", "id": "light-rum"},
+      {"name": "Lemon Juice", "id": "lemon-juice"},
+      {"name": "Grenadine", "id": "grenadine"}
+    ]
+  },
+
+  {
+    "id" : "gimlet",
+    "name": "Gimlet",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Sweet Lime", "id": "sweet-lime"}
+    ]
+  },
+
+  {
+    "id" : "white-lady",
+    "name": "White Lady",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Lemon Juice", "id": "lemon-juice"}
+    ]
+  },
+
+  {
+    "id" : "citrus-rum-cooler",
+    "name": "Citrus Rum Cooler",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Light Rum", "id": "light-rum"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Orange Juice", "id": "orange-juice"},
+      {"name": "Lime Juice", "id": "lime-juice"},
+      {"name": "Simple Syrup", "id": "simple-syrup"}
+    ]
+  },
+
+  {
+    "id" : "oscar-meyer",
+    "name": "Oscar Meyer",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Dark Rum", "id": "dark-rum"},
+      {"name": "Amaretto", "id": "amaretto"},
+      {"name": "Sour Mix", "id": "sour-mix"}
+    ]
+  },
+
+  {
+    "id" : "austin-special",
+    "name": "Austin Special",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Southern Comfort", "id": "so-co"},
+      {"name": "Sweet Lime", "id": "sweet-lime"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Amaretto", "id": "amaretto"},
+      {"name": "Bitters", "id": "bitters"}
+    ]
+  },
+
+  {
+    "id" : "horses-neck",
+    "name": "Horse's Neck",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Brandy", "id": "brandy"},
+      {"name": "Ginger Ale", "id": "ginger-ale"},
+      {"name": "Bitters", "id": "bitters"}
     ]
   }
 

@@ -1,0 +1,9 @@
+{
+  "id" : "salty-dog",
+  "name": "Salty Dog",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
+  ]
+}

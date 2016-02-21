@@ -1,0 +1,10 @@
+{
+  "id" : "oscar-meyer",
+  "name": "Oscar Meyer",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Dark Rum", "id": "dark-rum"},
+    {"name": "Amaretto", "id": "amaretto"},
+    {"name": "Sour Mix", "id": "sour-mix"}
+  ]
+}

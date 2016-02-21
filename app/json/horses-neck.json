@@ -1,0 +1,10 @@
+{
+  "id" : "horses-neck",
+  "name": "Horse's Neck",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Brandy", "id": "brandy"},
+    {"name": "Ginger Ale", "id": "ginger-ale"},
+    {"name": "Bitters", "id": "bitters"}
+  ]
+}

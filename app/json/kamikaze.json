@@ -1,0 +1,10 @@
+{
+  "id" : "kamikaze",
+  "name": "Kamimaze",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka"},
+    {"name": "Triple Sec", "id": "triple-sec"},
+    {"name": "Lime Juice", "id": "lime-juice"}
+  ]
+}

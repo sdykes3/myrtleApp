@@ -1,0 +1,11 @@
+{
+  "id" : "three-miller",
+  "name": "Three Miller",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Brandy", "id": "brandy"},
+    {"name": "Light Rum", "id": "light-rum"},
+    {"name": "Lemon Juice", "id": "lemon-juice"},
+    {"name": "Grenadine", "id": "grenadine"}
+  ]
+}

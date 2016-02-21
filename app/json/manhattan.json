@@ -1,0 +1,10 @@
+{
+  "id" : "manhattan",
+  "name": "Manhattan",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Whisky", "id": "whisky"},
+    {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
+    {"name": "Bitters", "id": "bitters"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id" : "citrus-rum-cooler",
+  "name": "Citrus Rum Cooler",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Light Rum", "id": "light-rum"},
+    {"name": "Triple Sec", "id": "triple-sec"},
+    {"name": "Orange Juice", "id": "orange-juice"},
+    {"name": "Lime Juice", "id": "lime-juice"},
+    {"name": "Simple Syrup", "id": "simple-syrup"}
+  ]
+}

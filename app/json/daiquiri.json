@@ -1,0 +1,11 @@
+{
+  "id" : "daiquiri",
+  "name": "Daiquiri",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Light Rum", "id": "light-rum"},
+    {"name": "Lime Juice", "id": "lime-juice"},
+    {"name": "Simple Syrup", "id": "simple-syrup"},
+    {"name": "Strawberry", "id": "strawberry"}
+  ]
+}

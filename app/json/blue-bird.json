@@ -1,0 +1,10 @@
+{
+  "id" : "blue-bird",
+  "name": "Blue Bird",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Gin", "id": "gin"},
+    {"name": "Triple Sec", "id": "triple-sec"},
+    {"name": "Bitters", "id": "bitters"}
+  ]
+}

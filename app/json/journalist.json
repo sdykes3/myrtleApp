@@ -1,0 +1,13 @@
+{
+  "id" : "journalist",
+  "name": "Journalist",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Gin", "id": "gin"},
+    {"name": "Dry Vermouth", "id": "dry-vermouth"},
+    {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
+    {"name": "Triple Sec", "id": "triple-sec"},
+    {"name": "Lemon Juice", "id": "lemon-juice"},
+    {"name": "Bitters", "id": "bitters"}
+  ]
+}

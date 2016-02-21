@@ -1,0 +1,11 @@
+{
+  "id" : "between-the-sheets",
+  "name": "Between the Sheets",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Brandy", "id": "brandy"},
+    {"name": "Light Rum", "id": "light-rum"},
+    {"name": "Triple Sec", "id": "triple-sec"},
+    {"name": "Lemon Juice", "id": "lemon-juice"}
+  ]
+}

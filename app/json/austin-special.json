@@ -1,0 +1,12 @@
+{
+  "id" : "austin-special",
+  "name": "Austin Special",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Southern Comfort", "id": "so-co"},
+    {"name": "Sweet Lime", "id": "sweet-lime"},
+    {"name": "Triple Sec", "id": "triple-sec"},
+    {"name": "Amaretto", "id": "amaretto"},
+    {"name": "Bitters", "id": "bitters"}
+  ]
+}

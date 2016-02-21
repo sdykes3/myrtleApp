@@ -1,0 +1,10 @@
+{
+  "id" : "bronx-terrace",
+  "name": "Bronx Terrace",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Gin", "id": "gin"},
+    {"name": "Dry Vermouth", "id": "dry-vermouth"},
+    {"name": "Sweet Lime", "id": "sweet-lime"}
+  ]
+}

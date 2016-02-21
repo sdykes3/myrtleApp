@@ -1,0 +1,11 @@
+{
+  "id" : "champagne-cocktail",
+  "name": "Champagne cocktail",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Brandy", "id": "brandy"},
+    {"name": "Simple Syrup", "id": "simple-syrup"},
+    {"name": "Bitters", "id": "bitters"},
+    {"name": "Champagne", "id": "champagne"}
+  ]
+}

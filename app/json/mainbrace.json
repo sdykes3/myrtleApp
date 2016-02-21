@@ -1,0 +1,10 @@
+{
+  "id" : "mainbrace",
+  "name": "Mainbrace",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Gin", "id": "gin"},
+    {"name": "Triple Sec", "id": "triple-sec"},
+    {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
+  ]
+}

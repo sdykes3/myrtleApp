@@ -1,0 +1,11 @@
+{
+  "id" : "maidens-prayer",
+  "name": "Maiden's Prayer",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Gin", "id": "gin"},
+    {"name": "Triple Sec", "id": "triple-sec"},
+    {"name": "Lemon Juice", "id": "lemon-juice"},
+    {"name": "Orange Juice", "id": "orange-juice"}
+  ]
+}
