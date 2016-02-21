@@ -6,7 +6,7 @@
     {"name": "Light Rum", "id": "light-rum", "amt": "1.5", "unit": "oz"},
     {"name": "Triple Sec", "id": "triple-sec", "amt": "0.5", "unit": "oz"},
     {"name": "Amaretto", "id": "amaretto", "amt": "0.5", "unit": "oz"},
-    {"name": "Sweet & Sour Mix", "id": "sweet-sour-mix", "amt": "0.5", "unit": "oz"},
+    {"name": "Sour Mix", "id": "sour-mix", "amt": "0.5", "unit": "oz"},
     {"name": "Pineapple Juice", "id": "pineapple-juice", "amt": "0.5", "unit": "oz"},
     {"name": "Dark Rum", "id": "dark-rum", "amt": "0.5", "unit": "oz"}
   ],

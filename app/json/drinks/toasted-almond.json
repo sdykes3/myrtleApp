@@ -1,0 +1,11 @@
+{
+  "id" : "toasted-almond",
+  "name": "Toasted Almond",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Amaretto", "id": "amaretto", "amt": "1", "unit": "oz"},
+    {"name": "Kahlua", "id": "kahlua", "amt": "1.5", "unit": "oz"},
+    {"name": "Milk", "id": "milk", "amt": "Fill", "unit": "with"}
+  ],
+  "prep": ""
+}

@@ -1,0 +1,11 @@
+{
+  "id" : "margarita",
+  "name": "Margarita",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Tequila", "id": "tequila", "amt": "1", "unit": "oz"},
+    {"name": "Triple Sec", "id": "triple-sec", "amt": "1", "unit": "oz"},
+    {"name": "Sour Mix", "id": "sour-mix", "amt": "1", "unit": "oz"}
+  ],
+  "prep": "Salt rim of glass. Shake ingredients and pour over ice. Garnish with lime."
+}

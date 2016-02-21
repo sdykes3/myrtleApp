@@ -1,0 +1,12 @@
+{
+  "id" : "creamsicle",
+  "name": "Creamsicle",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Vodka", "id": "vodka", "amt": "0.5", "unit": "oz"},
+    {"name": "Triple Sec", "id": "triple-sec", "amt": "0.5", "unit": "oz"},
+    {"name": "Orange Juice", "id": "orange-juice", "amt": "0.5", "unit": "oz"},
+    {"name": "Milk", "id": "milk", "amt": "1.5", "unit": "oz"}
+  ],
+  "prep": "Recommended: Vanilla vodka. Shake together briefly."
+}

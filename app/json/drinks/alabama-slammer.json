@@ -1,0 +1,12 @@
+{
+  "id" : "alabama-slammer",
+  "name": "Alabama Slammer",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Gin", "id": "gin", "amt": "1.5", "unit": "oz"},
+    {"name": "Amaretto", "id": "amaretto", "amt": "0.5", "unit": "oz"},
+    {"name": "Southern Comfort", "id": "so-co", "amt": "0.5", "unit": "oz"},
+    {"name": "Orange Juice", "id": "orange-juice", "amt": "Fill", "unit": "with"}
+  ],
+  "prep": "Shake together briefly."
+}

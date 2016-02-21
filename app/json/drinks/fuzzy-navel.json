@@ -1,0 +1,10 @@
+{
+  "id" : "fuzzy-navel",
+  "name": "Fuzzy Navel",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Peach Schnapps", "id": "peach-schnapps", "amt": "1.5", "unit": "oz"},
+    {"name": "Orange Juice", "id": "orange-juice", "amt": "Fill", "unit": "with"}
+  ],
+  "prep": ""
+}

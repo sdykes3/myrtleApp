@@ -3,9 +3,9 @@
   "name": "Kamimaze",
   "cost": "/",
   "ingredients": [
-    {"name": "Vodka", "id": "vodka", "amt": "1", "unit": "oz"},
-    {"name": "Triple Sec", "id": "triple-sec", "amt": "1", "unit": "oz"},
-    {"name": "Lime Juice", "id": "lime-juice", "amt": "1", "unit": "oz"}
+    {"name": "Vodka", "id": "vodka", "amt": "1.5", "unit": "oz"},
+    {"name": "Triple Sec", "id": "triple-sec", "amt": "0.5", "unit": "oz"},
+    {"name": "Lime Juice", "id": "lime-juice", "amt": "0.5", "unit": "oz"}
   ],
   "prep": "Garnish with lime."
 }

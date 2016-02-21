@@ -34,6 +34,29 @@
   },
 
   {
+    "id" : "toasted-almond",
+    "name": "Toasted Almond",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Amaretto", "id": "amaretto"},
+      {"name": "Kahlua", "id": "kahlua"},
+      {"name": "Milk", "id": "milk"}
+    ]
+  },
+
+  {
+    "id" : "creamsicle",
+    "name": "Creamsicle",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Orange Juice", "id": "orange-juice"},
+      {"name": "Milk", "id": "milk"}
+    ]
+  },
+
+  {
     "id" : "brandy-alexander",
     "name": "Brandy Alexander",
     "cost": "X",
@@ -168,7 +191,7 @@
       {"name": "Light Rum", "id": "light-rum"},
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Amaretto", "id": "amaretto"},
-      {"name": "Sweet & Sour Mix", "id": "sweet-sour-mix"},
+      {"name": "Sour Mix", "id": "sour-mix"},
       {"name": "Pineapple Juice", "id": "pineapple-juice"},
       {"name": "Dark Rum", "id": "dark-rum"}
     ]
@@ -183,6 +206,26 @@
       {"name": "Peach Schnapps", "id": "peach-schnapps"},
       {"name": "Pineapple Juice", "id": "pineapple-juice"},
       {"name": "Cranberry Juice", "id": "cranberry-juice"}
+    ]
+  },
+
+  {
+    "id" : "screwdriver",
+    "name": "Screwdriver",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Orange Juice", "id": "orange-juice"}
+    ]
+  },
+
+  {
+    "id" : "fuzzy-navel",
+    "name": "Fuzzy Navel",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Peach Schnapps", "id": "peach-schnapps"},
+      {"name": "Orange Juice", "id": "orange-juice"}
     ]
   },
 
@@ -338,6 +381,32 @@
   },
 
   {
+    "id" : "alabama-slammer",
+    "name": "Alabama Slammer",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Amaretto", "id": "amaretto"},
+      {"name": "Southern Comfort", "id": "so-co"},
+      {"name": "Orange Juice", "id": "orange-juice"}
+    ]
+  },
+
+  {
+    "id" : "red-devil",
+    "name": "Red Devil",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Amaretto", "id": "amaretto"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Southern Comfort", "id": "so-co"},
+      {"name": "Lime Juice", "id": "lime-juice"},
+      {"name": "Orange Juice", "id": "orange-juice"}
+    ]
+  },
+
+  {
     "id" : "brandy-cobbler",
     "name": "Brandy Cobbler",
     "cost": "/",
@@ -358,6 +427,27 @@
       {"name": "Gin", "id": "gin"},
       {"name": "Peach Schnapps", "id": "peach-schnapps"},
       {"name": "Lemon Juice", "id": "lemon-juice"}
+    ]
+  },
+
+  {
+    "id" : "margarita",
+    "name": "Margarita",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Tequila", "id": "tequila"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Sour Mix", "id": "sour-mix"}
+    ]
+  },
+
+  {
+    "id" : "martini",
+    "name": "Martini",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Dry Vermouth", "id": "dry-vermouth"}
     ]
   },
 
@@ -403,6 +493,17 @@
       {"name": "Blue Curacao", "id": "blue"},
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Bitters", "id": "bitters"}
+    ]
+  },
+
+  {
+    "id" : "blue-hawaiian",
+    "name": "Blue Hawaiian",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Light Rum", "id": "light-rum"},
+      {"name": "Blue Curacao", "id": "blue"},
+      {"name": "Pineapple Juice", "id": "pineapple-juice"}
     ]
   },
 

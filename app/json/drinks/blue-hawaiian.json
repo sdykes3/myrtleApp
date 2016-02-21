@@ -1,0 +1,11 @@
+{
+  "id" : "blue-hawaiian",
+  "name": "Blue Hawaiian",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Light Rum", "id": "light-rum", "amt": "1.5", "unit": "oz"},
+    {"name": "Blue Curacao", "id": "blue", "amt": "0.5", "unit": "oz"},
+    {"name": "Pineapple Juice", "id": "pineapple-juice", "amt": "Fill", "unit": "with"}
+  ],
+  "prep": "Garnish with pineapple and cherry."
+}

@@ -1,0 +1,10 @@
+{
+  "id" : "martini",
+  "name": "Martini",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Gin", "id": "gin", "amt": "2", "unit": "oz"},
+    {"name": "Dry Vermouth", "id": "dry-vermouth", "amt": "Dash", "unit": "of"}
+  ],
+  "prep": "Vodka can be substituted for gin. Stir ingredients together. Garnish with olive. Variations: dry (no vermouth), dirty (dash of olive juice), shaken, on the rocks (with ice)."
+}
