@@ -3,9 +3,10 @@
   "name": "Maiden's Prayer",
   "cost": "/",
   "ingredients": [
-    {"name": "Gin", "id": "gin"},
-    {"name": "Triple Sec", "id": "triple-sec"},
-    {"name": "Lemon Juice", "id": "lemon-juice"},
-    {"name": "Orange Juice", "id": "orange-juice"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "1.5", "unit": "oz"},
+    {"name": "Triple Sec", "id": "triple-sec", "amt": "0.5", "unit": "oz"},
+    {"name": "Lemon Juice", "id": "lemon-juice", "amt": "0.5", "unit": "oz"},
+    {"name": "Orange Juice", "id": "orange-juice", "amt": "0.5", "unit": "oz"}
+  ],
+  "prep": ""
 }

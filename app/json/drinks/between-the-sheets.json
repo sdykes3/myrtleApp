@@ -3,9 +3,10 @@
   "name": "Between the Sheets",
   "cost": "X",
   "ingredients": [
-    {"name": "Brandy", "id": "brandy"},
-    {"name": "Light Rum", "id": "light-rum"},
-    {"name": "Triple Sec", "id": "triple-sec"},
-    {"name": "Lemon Juice", "id": "lemon-juice"}
-  ]
+    {"name": "Brandy", "id": "brandy", "amt": "1", "unit": "oz"},
+    {"name": "Light Rum", "id": "light-rum", "amt": "1", "unit": "oz"},
+    {"name": "Triple Sec", "id": "triple-sec", "amt": "1", "unit": "oz"},
+    {"name": "Lemon Juice", "id": "lemon-juice", "amt": "Dash", "unit": "of"}
+  ],
+  "prep": "Garnish with lemon twist."
 }

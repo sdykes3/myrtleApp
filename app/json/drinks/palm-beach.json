@@ -3,8 +3,9 @@
   "name": "Palm Beach",
   "cost": "/",
   "ingredients": [
-    {"name": "Gin", "id": "gin"},
-    {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
-    {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "2", "unit": "oz"},
+    {"name": "Sweet Vermouth", "id": "sweet-vermouth", "amt": "1", "unit": "tsp"},
+    {"name": "Grapefruit Juice", "id": "grapefruit-juice", "amt": "2", "unit": "oz"}
+  ],
+  "prep": "Garnish with orange wedge."
 }

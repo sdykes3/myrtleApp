@@ -3,10 +3,12 @@
   "name": "Citrus Rum Cooler",
   "cost": "/",
   "ingredients": [
-    {"name": "Light Rum", "id": "light-rum"},
-    {"name": "Triple Sec", "id": "triple-sec"},
-    {"name": "Orange Juice", "id": "orange-juice"},
-    {"name": "Lime Juice", "id": "lime-juice"},
-    {"name": "Simple Syrup", "id": "simple-syrup"}
-  ]
+    {"name": "Light Rum", "id": "light-rum", "amt": "1.5", "unit": "oz"},
+    {"name": "Orange Juice", "id": "orange-juice", "amt": "1.5", "unit": "oz"},
+    {"name": "Triple Sec", "id": "triple-sec", "amt": "0.5", "unit": "oz"},
+    {"name": "Lime Juice", "id": "lime-juice", "amt": "0.5", "unit": "oz"},
+    {"name": "Simple Syrup", "id": "simple-syrup", "amt": "2", "unit": "dashes"},
+    {"name": "Sprite", "id": "sprite", "amt": "Fill", "unit": "with"}
+  ],
+  "prep": "Shake all except Sprite. Strain into glass with ice. Top with Sprite."
 }

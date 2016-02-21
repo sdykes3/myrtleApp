@@ -3,9 +3,9 @@
   "name": "Daiquiri",
   "cost": "/",
   "ingredients": [
-    {"name": "Light Rum", "id": "light-rum"},
-    {"name": "Lime Juice", "id": "lime-juice"},
-    {"name": "Simple Syrup", "id": "simple-syrup"},
-    {"name": "Strawberry", "id": "strawberry"}
-  ]
+    {"name": "Light Rum", "id": "light-rum", "amt": "2", "unit": "oz"},
+    {"name": "Lime Juice", "id": "lime-juice", "amt": "0.5", "unit": "oz"},
+    {"name": "Simple Syrup", "id": "simple-syrup", "amt": "0.5", "unit": "oz"}
+  ],
+  "prep": "Add fruit, such as strawberry."
 }

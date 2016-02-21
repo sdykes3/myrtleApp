@@ -3,10 +3,11 @@
   "name": "Austin Special",
   "cost": "X",
   "ingredients": [
-    {"name": "Southern Comfort", "id": "so-co"},
-    {"name": "Sweet Lime", "id": "sweet-lime"},
-    {"name": "Triple Sec", "id": "triple-sec"},
-    {"name": "Amaretto", "id": "amaretto"},
-    {"name": "Bitters", "id": "bitters"}
-  ]
+    {"name": "Southern Comfort", "id": "so-co", "amt": "2", "unit": "oz"},
+    {"name": "Sweet Lime", "id": "sweet-lime", "amt": "0.5", "unit": "oz"},
+    {"name": "Triple Sec", "id": "triple-sec", "amt": "1", "unit": "oz"},
+    {"name": "Amaretto", "id": "amaretto", "amt": "0.5", "unit": "oz"},
+    {"name": "Bitters", "id": "bitters", "amt": "Dash", "unit": "of"}
+  ],
+  "prep": ""
 }

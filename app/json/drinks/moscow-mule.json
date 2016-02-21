@@ -1,13 +1,14 @@
 {
   "id" : "moscow-mule",
-  "name": "Champagne cocktail",
+  "name": "Moscow Mule",
   "cost": "X",
   "ingredients": [
-    {"name": "Vodka", "id": "vodka"},
-    {"name": "Ginger Beer", "id": "ginger-beer"},
-    {"name": "Bitters", "id": "bitters"},
-    {"name": "Triple Sec", "id": "triple-sec"},
-    {"name": "Sweet Lime", "id": "sweet-lime"},
-    {"name": "Lime", "id": "lime"}
-  ]
+    {"name": "Vodka", "id": "vodka", "amt": "1.5", "unit": "oz"},
+    {"name": "Ginger Beer", "id": "ginger-beer", "amt": "1/2", "unit": "can"},
+    {"name": "Bitters", "id": "bitters", "amt": "2", "unit": "dashes"},
+    {"name": "Triple Sec", "id": "triple-sec", "amt": "1", "unit": "oz"},
+    {"name": "Sweet Lime", "id": "sweet-lime", "amt": "0.5", "unit": "oz"},
+    {"name": "Lime", "id": "lime", "amt": "1/3", "unit": ""}
+  ],
+  "prep": "Squeeze lime into drink and drop into glass."
 }

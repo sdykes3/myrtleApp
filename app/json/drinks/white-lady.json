@@ -3,8 +3,9 @@
   "name": "White Lady",
   "cost": "/",
   "ingredients": [
-    {"name": "Gin", "id": "gin"},
-    {"name": "Triple Sec", "id": "triple-sec"},
-    {"name": "Lemon Juice", "id": "lemon-juice"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "2", "unit": "oz"},
+    {"name": "Triple Sec", "id": "triple-sec", "amt": "0.5", "unit": "oz"},
+    {"name": "Lemon Juice", "id": "lemon-juice", "amt": "0.5", "unit": "oz"}
+  ],
+  "prep": "Optional: add 1 egg white. Shake all ingredients together, strain into glass without ice. Garnish with lemon."
 }

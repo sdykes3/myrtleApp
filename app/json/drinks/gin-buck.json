@@ -3,8 +3,9 @@
   "name": "Gin Buck",
   "cost": "/",
   "ingredients": [
-    {"name": "Gin", "id": "gin"},
-    {"name": "Lemon Juice", "id": "lemon-juice"},
-    {"name": "Ginger Ale", "id": "ginger-ale"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "1.5", "unit": "oz"},
+    {"name": "Lemon Juice", "id": "lemon-juice", "amt": "1", "unit": "oz"},
+    {"name": "Ginger Ale", "id": "ginger-ale", "amt": "Fill", "unit": "with"}
+  ],
+  "prep": "Pour in gin and lemon juice. Fill with ginger ale. Stir. Garnish with lemon."
 }

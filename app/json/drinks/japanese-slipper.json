@@ -8,5 +8,5 @@
     {"name": "Lime Juice", "id": "lime-juice", "amt": "0.5", "unit": "oz"},
     {"name": "Simple Syrup", "id": "simple-syrup", "amt": "Dash", "unit": "of"}
   ],
-  "prep": ""
+  "prep": "Add cherry to bottom of glass."
 }

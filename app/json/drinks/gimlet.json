@@ -3,7 +3,8 @@
   "name": "Gimlet",
   "cost": "/",
   "ingredients": [
-    {"name": "Gin", "id": "gin"},
-    {"name": "Sweet Lime", "id": "sweet-lime"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "1.5", "unit": "oz"},
+    {"name": "Sweet Lime", "id": "sweet-lime", "amt": "0.5", "unit": "oz"}
+  ],
+  "prep": "Stir over ice. Garnish with lime slice."
 }

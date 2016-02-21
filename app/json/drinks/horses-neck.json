@@ -3,8 +3,9 @@
   "name": "Horse's Neck",
   "cost": "/",
   "ingredients": [
-    {"name": "Brandy", "id": "brandy"},
-    {"name": "Ginger Ale", "id": "ginger-ale"},
-    {"name": "Bitters", "id": "bitters"}
-  ]
+    {"name": "Brandy", "id": "brandy", "amt": "1.5", "unit": "oz"},
+    {"name": "Bitters", "id": "bitters", "amt": "2", "unit": "dashes"},
+    {"name": "Ginger Ale", "id": "ginger-ale", "amt": "Fill", "unit": "with"}
+  ],
+  "prep": "Pour brandy and bitters into glass with ice. Top up with ginger ale. Stir."
 }

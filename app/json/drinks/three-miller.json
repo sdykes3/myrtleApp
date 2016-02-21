@@ -3,9 +3,10 @@
   "name": "Three Miller",
   "cost": "X",
   "ingredients": [
-    {"name": "Brandy", "id": "brandy"},
-    {"name": "Light Rum", "id": "light-rum"},
-    {"name": "Lemon Juice", "id": "lemon-juice"},
-    {"name": "Grenadine", "id": "grenadine"}
-  ]
+    {"name": "Brandy", "id": "brandy", "amt": "2", "unit": "oz"},
+    {"name": "Light Rum", "id": "light-rum", "amt": "1", "unit": "oz"},
+    {"name": "Lemon Juice", "id": "lemon-juice", "amt": "Dash", "unit": "of"},
+    {"name": "Grenadine", "id": "grenadine", "amt": "2", "unit": "dashes"}
+  ],
+  "prep": ""
 }

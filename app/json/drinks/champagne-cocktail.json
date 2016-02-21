@@ -6,7 +6,7 @@
     {"name": "Brandy", "id": "brandy", "amt": "1", "unit": "oz"},
     {"name": "Champagne", "id": "champagne", "amt": "4", "unit": "oz"},
     {"name": "Simple Syrup", "id": "simple-syrup", "amt": "0.5", "unit": "oz"},
-    {"name": "Bitters", "id": "bitters", "amt": "3", "unit": "dashes"},
+    {"name": "Bitters", "id": "bitters", "amt": "3", "unit": "dashes"}
   ],
-  "prep": "Serve without ice."
+  "prep": "Serve without ice. Garnish with orange twist or cherry."
 }

@@ -93,18 +93,6 @@
   },
 
   {
-    "id" : "the-buck",
-    "name": "The Buck",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Gin", "id": "gin"},
-      {"name": "Lemon Juice", "id": "lemon-juice"},
-      {"name": "Creme de Menthe", "id": "creme-de-menthe"},
-      {"name": "Ginger Ale", "id": "ginger-ale"}
-    ]
-  },
-
-  {
     "id" : "mojito",
     "name": "Mojito",
     "cost": "/",
@@ -384,16 +372,6 @@
   },
 
   {
-    "id" : "kalimixtro",
-    "name": "Kalimixtro",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Wine", "id": "wine"},
-      {"name": "Cola", "id": "cola"}
-    ]
-  },
-
-  {
     "id" : "tom-collins",
     "name": "Tom Collins",
     "cost": "/",
@@ -509,8 +487,20 @@
   },
 
   {
-    "id" : "moscow-mule",
+    "id" : "champagne-cocktail",
     "name": "Champagne Cocktail",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Brandy", "id": "brandy"},
+      {"name": "Champagne", "id": "champagne"},
+      {"name": "Simple Syrup", "id": "simple-syrup"},
+      {"name": "Bitters", "id": "bitters"}
+    ]
+  },
+
+  {
+    "id" : "moscow-mule",
+    "name": "Moscow Mule",
     "cost": "X",
     "ingredients": [
       {"name": "Vodka", "id": "vodka"},
@@ -688,7 +678,8 @@
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Orange Juice", "id": "orange-juice"},
       {"name": "Lime Juice", "id": "lime-juice"},
-      {"name": "Simple Syrup", "id": "simple-syrup"}
+      {"name": "Simple Syrup", "id": "simple-syrup"},
+      {"name": "Sprite", "id": "sprite"}
     ]
   },
 

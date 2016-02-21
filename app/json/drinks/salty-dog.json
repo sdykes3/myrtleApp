@@ -3,7 +3,8 @@
   "name": "Salty Dog",
   "cost": "/",
   "ingredients": [
-    {"name": "Vodka", "id": "vodka"},
-    {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
-  ]
+    {"name": "Vodka", "id": "vodka", "amt": "1.5", "unit": "oz"},
+    {"name": "Grapefruit Juice", "id": "grapefruit-juice", "amt": "Fill", "unit": "with"}
+  ],
+  "prep": "Salt rim of glass. Add vodka, fill with grapefruit juice. Stir."
 }
