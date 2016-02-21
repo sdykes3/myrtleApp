@@ -90,23 +90,4 @@ view2.controller('View2Ctrl', ['$scope', '$http', '$q', 'localStorageService', f
 
     console.log("3");
 
-    //$scope.$apply(function () {
-    //    for(var i = 0; i < $scope.drinks[i].length; i++) { //go through all drinks
-    //        console.log("all drinks 4");
-    //        for(var j = 0; j < $scope.drinks[i].ingredients.length; j++) { //go through all ingredients in each drink
-    //            var ing = $scope.drinks[i].ingredients.id;
-    //
-    //            //is this ingredient in the cabinet and in stock?
-    //            for(var k = 0; k < $scope.cabinet.length; k++) { //go through all ingredients in each drink
-    //                if ($scope.cabinet[k].id == ing) {
-    //                    if (($scope.cabinet[k].inStock)) { //if found and in stock
-    //                        $scope.drinksAvail.add($scope.drinks[i]);
-    //                        console.log($scope.drinksAvail);
-    //                    }
-    //                }
-    //            }
-    //        }
-    //    }
-    //});
-
 }]);

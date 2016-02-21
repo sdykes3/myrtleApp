@@ -12,7 +12,7 @@ drinkDetails.config(['$routeProvider', function ($routeProvider) {
 drinkDetails.controller('DrinkDetailsCtrl', ['$scope', '$http', '$routeParams',
     function ($scope, $http, $routeParams) {
         var drinkID = $routeParams.drinkId;
-        var url = 'json/' + drinkID + '.json';
+        var url = 'json/drinks/' + drinkID + '.json';
         $http.get(url).success(function (data) {
             $scope.drink = data;
             console.log($scope.drink);
