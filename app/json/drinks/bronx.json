@@ -3,9 +3,10 @@
   "name": "Bronx",
   "cost": "/",
   "ingredients": [
-    {"name": "Gin", "id": "gin"},
-    {"name": "Dry Vermouth", "id": "dry-vermouth"},
-    {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
-    {"name": "Orange Juice", "id": "orange-juice"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "1", "unit": "oz"},
+    {"name": "Dry Vermouth", "id": "dry-vermouth", "amt": "0.5", "unit": "oz"},
+    {"name": "Sweet Vermouth", "id": "sweet-vermouth", "amt": "0.5", "unit": "oz"},
+    {"name": "Orange Juice", "id": "orange-juice", "amt": "1", "unit": "oz"}
+  ],
+  "prep": "Garnish with orange."
 }

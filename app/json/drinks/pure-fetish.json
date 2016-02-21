@@ -3,9 +3,10 @@
   "name": "Pure Fetish",
   "cost": "/",
   "ingredients": [
-    {"name": "Vodka", "id": "vodka"},
-    {"name": "Peach Schnapps", "id": "peach-schnapps"},
-    {"name": "Orange Juice", "id": "orange-juice"},
-    {"name": "Cranberry Juice", "id": "cranberry-juice"}
-  ]
+    {"name": "Vodka", "id": "vodka", "amt": "1", "unit": "oz"},
+    {"name": "Peach Schnapps", "id": "peach-schnapps", "amt": "1", "unit": "oz"},
+    {"name": "Orange Juice", "id": "orange-juice", "amt": "2", "unit": "oz"},
+    {"name": "Cranberry Juice", "id": "cranberry-juice", "amt": "2", "unit": "oz"}
+  ],
+  "prep": ""
 }

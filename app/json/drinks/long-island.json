@@ -3,12 +3,13 @@
   "name": "Long Island Iced Tea",
   "cost": "X",
   "ingredients": [
-    {"name": "Vodka", "id": "vodka"},
-    {"name": "Light Rum", "id": "light-rum"},
-    {"name": "Gin", "id": "gin"},
-    {"name": "Tequila", "id": "tequila"},
-    {"name": "Triple Sec", "id": "triple-sec"},
-    {"name": "Lemon Juice", "id": "lemon-juice"},
-    {"name": "Cola", "id": "cola"}
-  ]
+    {"name": "Vodka", "id": "vodka", "amt": "0.5", "unit": "oz"},
+    {"name": "Light Rum", "id": "light-rum", "amt": "0.5", "unit": "oz"},
+    {"name": "Gin", "id": "gin", "amt": "0.5", "unit": "oz"},
+    {"name": "Tequila", "id": "tequila", "amt": "0.5", "unit": "oz"},
+    {"name": "Triple Sec", "id": "triple-sec", "amt": "0.5", "unit": "oz"},
+    {"name": "Lemon Juice", "id": "lemon-juice", "amt": "0.5", "unit": "oz"},
+    {"name": "Cola", "id": "cola", "amt": "Splash", "unit": "of"}
+  ],
+  "prep": "Stir over ice. Garnish with lemon."
 }

@@ -1,11 +1,12 @@
 {
   "id" : "champagne-cocktail",
-  "name": "Champagne cocktail",
+  "name": "Champagne Cocktail",
   "cost": "X",
   "ingredients": [
-    {"name": "Brandy", "id": "brandy"},
-    {"name": "Simple Syrup", "id": "simple-syrup"},
-    {"name": "Bitters", "id": "bitters"},
-    {"name": "Champagne", "id": "champagne"}
-  ]
+    {"name": "Brandy", "id": "brandy", "amt": "1", "unit": "oz"},
+    {"name": "Champagne", "id": "champagne", "amt": "4", "unit": "oz"},
+    {"name": "Simple Syrup", "id": "simple-syrup", "amt": "0.5", "unit": "oz"},
+    {"name": "Bitters", "id": "bitters", "amt": "3", "unit": "dashes"},
+  ],
+  "prep": "Serve without ice."
 }

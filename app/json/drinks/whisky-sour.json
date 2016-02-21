@@ -3,7 +3,8 @@
   "name": "Whisky Sour",
   "cost": "/",
   "ingredients": [
-    {"name": "Whisky", "id": "whisky"},
-    {"name": "Sweet & Sour Mix", "id": "sweet-sour-mix"}
-  ]
+    {"name": "Whisky", "id": "whisky", "amt": "2", "unit": "oz"},
+    {"name": "Sweet & Sour Mix", "id": "sweet-sour-mix", "amt": "0.5", "unit": "oz"}
+  ],
+  "prep": "Add sweet & sour mix to taste. Shake with ice, strain into glass with ice. Garnish with lemon, orange, and/or sugared rim."
 }

@@ -3,8 +3,9 @@
   "name": "Grasshopper",
   "cost": "X",
   "ingredients": [
-    {"name": "Creme de Menthe", "id": "creme-de-menthe"},
-    {"name": "Creme de Cacao", "id": "creme-de-cacao"},
-    {"name": "Cream", "id": "cream"}
-  ]
+    {"name": "Creme de Menthe", "id": "creme-de-menthe", "amt": "1", "unit": "oz"},
+    {"name": "Creme de Cacao", "id": "creme-de-cacao", "amt": "1", "unit": "oz"},
+    {"name": "Cream", "id": "cream", "amt": "1", "unit": "oz"}
+  ],
+  "prep": ""
 }

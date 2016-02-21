@@ -3,7 +3,8 @@
   "name": "Brave Bull",
   "cost": "X",
   "ingredients": [
-    {"name": "Tequila", "id": "tequila"},
-    {"name": "Kahlua", "id": "kahlua"}
-  ]
+    {"name": "Tequila", "id": "tequila", "amt": "1.5", "unit": "oz"},
+    {"name": "Kahlua", "id": "kahlua", "amt": "0.75", "unit": "oz"}
+  ],
+  "prep": "Stir over ice."
 }

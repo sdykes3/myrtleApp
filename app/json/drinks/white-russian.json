@@ -3,8 +3,9 @@
   "name": "White Russian",
   "cost": "X",
   "ingredients": [
-    {"name": "Vodka", "id": "vodka"},
-    {"name": "Kahlua", "id": "kahlua"},
-    {"name": "Cream", "id": "cream"}
-  ]
+    {"name": "Vodka", "id": "vodka", "amt": "1.5", "unit": "oz"},
+    {"name": "Kahlua", "id": "kahlua", "amt": "0.75", "unit": "oz"},
+    {"name": "Cream", "id": "cream", "amt": "1", "unit": "oz"}
+  ],
+  "prep": "Shake and strain into tumbler full of ice."
 }

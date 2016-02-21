@@ -1,9 +1,0 @@
-{
-  "id" : "beer-mosa",
-  "name": "Beer Mosa",
-  "cost": "/",
-  "ingredients": [
-    {"name": "Beer", "id": "beer"},
-    {"name": "Orange Juice", "id": "orange-juice"}
-  ]
-}

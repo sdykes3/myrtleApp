@@ -88,8 +88,7 @@
       {"name": "Mint", "id": "mint"},
       {"name": "Simple Syrup", "id": "simple-syrup"},
       {"name": "Club Soda", "id": "club-soda"},
-      {"name": "Orange Juice", "id": "orange-juice"},
-      {"name": "Maraschino Cherry", "id": "cherry"}
+      {"name": "Orange Juice", "id": "orange-juice"}
     ]
   },
 
@@ -114,7 +113,7 @@
       {"name": "Mint Leaves", "id": "mint"},
       {"name": "Lime Juice", "id": "lime-juice"},
       {"name": "Club Soda", "id": "club-soda"},
-      {"name": "Sugar", "id": "sugar"}
+      {"name": "Simple Syrup", "id": "simple-syrup"}
     ]
   },
 
@@ -134,16 +133,6 @@
     "cost": "X",
     "ingredients": [
       {"name": "Champagne", "id": "champagne"},
-      {"name": "Orange Juice", "id": "orange-juice"}
-    ]
-  },
-
-  {
-    "id" : "beer-mosa",
-    "name": "Beer Mosa",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Beer", "id": "beer"},
       {"name": "Orange Juice", "id": "orange-juice"}
     ]
   },
@@ -369,7 +358,7 @@
       {"name": "Simple Syrup", "id": "simple-syrup"},
       {"name": "Lemon Juice", "id": "lemon-juice"},
       {"name": "Orange Juice", "id": "orange-juice"},
-      {"name": "Cola", "id": "cola"}
+      {"name": "Club Soda", "id": "club-soda"}
     ]
   },
 
@@ -421,18 +410,19 @@
     "name": "Blue Lady",
     "cost": "X",
     "ingredients": [
-      {"name": "Vodka", "id": "vodka"},
-      {"name": "Dry Vermouth", "id": "dry-vermouth"},
-      {"name": "Peach Schnapps", "id": "peach-schnapps"}
+      {"name": "Gin", "id": "gin"},
+      {"name": "Blue Curacao", "id": "blue"},
+      {"name": "Lemon Juice", "id": "lemon-juice"}
     ]
   },
 
   {
     "id" : "blue-bird",
-    "name": "Blue Bird",
+    "name": "Bluebird",
     "cost": "/",
     "ingredients": [
       {"name": "Gin", "id": "gin"},
+      {"name": "Blue Curacao", "id": "blue"},
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Bitters", "id": "bitters"}
     ]
@@ -514,26 +504,13 @@
     "ingredients": [
       {"name": "Whisky", "id": "whisky"},
       {"name": "Simple Syrup", "id": "simple-syrup"},
-      {"name": "Bitters", "id": "bitters"},
-      {"name": "Maraschino Cherry", "id": "cherry"}
-    ]
-  },
-
-  {
-    "id" : "champagne-cocktail",
-    "name": "Champagne cocktail",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Brandy", "id": "brandy"},
-      {"name": "Simple Syrup", "id": "simple-syrup"},
-      {"name": "Bitters", "id": "bitters"},
-      {"name": "Champagne", "id": "champagne"}
+      {"name": "Bitters", "id": "bitters"}
     ]
   },
 
   {
     "id" : "moscow-mule",
-    "name": "Champagne cocktail",
+    "name": "Champagne Cocktail",
     "cost": "X",
     "ingredients": [
       {"name": "Vodka", "id": "vodka"},
@@ -568,6 +545,17 @@
   },
 
   {
+    "id" : "blue-kamikaze",
+    "name": "Blue Kamimaze",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Blue Curacao", "id": "blue"},
+      {"name": "Lime Juice", "id": "lime-juice"}
+    ]
+  },
+
+  {
     "id" : "maidens-blush",
     "name": "Maiden's Blush",
     "cost": "/",
@@ -587,18 +575,6 @@
       {"name": "Gin", "id": "gin"},
       {"name": "Lime Juice", "id": "lime-juice"},
       {"name": "Club Soda", "id": "club-soda"}
-    ]
-  },
-
-  {
-    "id" : "tim-o-my-heart",
-    "name": "Tim o' My Heart",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Light Rum", "id": "light-rum"},
-      {"name": "Lime Juice", "id": "lime-juice"},
-      {"name": "Grenadine", "id": "grenadine"},
-      {"name": "Maraschino Cherry", "id": "cherry"}
     ]
   },
 

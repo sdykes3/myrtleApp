@@ -3,10 +3,11 @@
   "name": "Mojito",
   "cost": "/",
   "ingredients": [
-    {"name": "Light Rum", "id": "light-rum"},
-    {"name": "Mint Leaves", "id": "mint"},
-    {"name": "Lime Juice", "id": "lime"},
-    {"name": "Club Soda", "id": "club-soda"},
-    {"name": "Sugar", "id": "sugar"}
-  ]
+    {"name": "Light Rum", "id": "light-rum", "amt": "1.5", "unit": "oz"},
+    {"name": "Mint Leaves", "id": "mint", "amt": "3", "unit": "leaves"},
+    {"name": "Lime Juice", "id": "lime", "amt": "0.5", "unit": "oz"},
+    {"name": "Club Soda", "id": "club-soda", "amt": "Splash", "unit": "of"},
+    {"name": "Simple Syrup", "id": "simple-syrup", "amt": "1", "unit": "oz"}
+  ],
+  "prep": "Muddle syrup and mint in bottom of glass. Pour in ice, light rum and lime juice. Top up with club soda."
 }

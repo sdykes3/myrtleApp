@@ -3,7 +3,8 @@
   "name": "Mimosa",
   "cost": "X",
   "ingredients": [
-    {"name": "Champagne", "id": "champagne"},
-    {"name": "Orange Juice", "id": "orange-juice"}
-  ]
+    {"name": "Champagne", "id": "champagne", "amt": "1/2", "unit": "cup"},
+    {"name": "Orange Juice", "id": "orange-juice", "amt": "1/2", "unit": "cup"}
+  ],
+  "prep": ""
 }

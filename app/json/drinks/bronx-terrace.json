@@ -3,8 +3,9 @@
   "name": "Bronx Terrace",
   "cost": "/",
   "ingredients": [
-    {"name": "Gin", "id": "gin"},
-    {"name": "Dry Vermouth", "id": "dry-vermouth"},
-    {"name": "Sweet Lime", "id": "sweet-lime"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "2", "unit": "oz"},
+    {"name": "Dry Vermouth", "id": "dry-vermouth", "amt": "1", "unit": "oz"},
+    {"name": "Sweet Lime", "id": "sweet-lime", "amt": "0.75", "unit": "oz"}
+  ],
+  "prep": "Shake well with ice, strain into glass. Garnish with cherry at the bottom."
 }

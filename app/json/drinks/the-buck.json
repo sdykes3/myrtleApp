@@ -3,9 +3,10 @@
   "name": "The Buck",
   "cost": "X",
   "ingredients": [
-    {"name": "Gin", "id": "gin"},
-    {"name": "Lemon Juice", "id": "lemon-juice"},
-    {"name": "Creme de Menthe", "id": "creme-de-menthe"},
-    {"name": "Ginger Ale", "id": "ginger-ale"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "1.5", "unit": "oz"},
+    {"name": "Lemon Juice", "id": "lemon-juice", "amt": "1", "unit": "oz"},
+    {"name": "Creme de Menthe", "id": "creme-de-menthe", "amt": "0.5", "unit": "oz"},
+    {"name": "Ginger Ale", "id": "ginger-ale", "amt": "Fill", "unit": "with"}
+  ],
+  "prep": ""
 }

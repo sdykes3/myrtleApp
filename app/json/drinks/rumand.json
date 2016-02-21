@@ -3,9 +3,10 @@
   "name": "Rumand",
   "cost": "X",
   "ingredients": [
-    {"name": "Dark Rum", "id": "dark-rum"},
-    {"name": "Orange Juice", "id": "orange-juice"},
-    {"name": "Peach Juice", "id": "peach-juice"},
-    {"name": "Mango Juice", "id": "mango-juice"}
-  ]
+    {"name": "Dark Rum", "id": "dark-rum", "amt": "2", "unit": "oz"},
+    {"name": "Orange Juice", "id": "orange-juice", "amt": "1", "unit": "oz"},
+    {"name": "Peach Juice", "id": "peach-juice", "amt": "1", "unit": "oz"},
+    {"name": "Mango Juice", "id": "mango-juice", "amt": "1", "unit": "oz"}
+  ],
+  "prep": "Pour juices. Add rum to preferred color (~2 oz)."
 }

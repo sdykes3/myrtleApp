@@ -3,10 +3,11 @@
   "name": "Brandy Cobbler",
   "cost": "/",
   "ingredients": [
-    {"name": "Brandy", "id": "brandy"},
-    {"name": "Simple Syrup", "id": "simple-syrup"},
-    {"name": "Lemon Juice", "id": "lemon-juice"},
-    {"name": "Orange Juice", "id": "orange-juice"},
-    {"name": "Cola", "id": "cola"}
-  ]
+    {"name": "Brandy", "id": "brandy", "amt": "2", "unit": "oz"},
+    {"name": "Simple Syrup", "id": "simple-syrup", "amt": "0.5", "unit": "oz"},
+    {"name": "Lemon Juice", "id": "lemon-juice", "amt": "Dash", "unit": "of"},
+    {"name": "Orange Juice", "id": "orange-juice", "amt": "Dash", "unit": "of"},
+    {"name": "Club Soda", "id": "club-soda", "amt": "Dash", "unit": "of"}
+  ],
+  "prep": "Shake together first 4 ingredients. Pour into glass, top up with club soda. Garnish with fruit (orange, lemon, and/or cherry)."
 }

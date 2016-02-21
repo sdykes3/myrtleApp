@@ -3,9 +3,10 @@
   "name": "Sundress",
   "cost": "X",
   "ingredients": [
-    {"name": "Brandy", "id": "brandy"},
-    {"name": "Peach Schnapps", "id": "peach-schnapps"},
-    {"name": "Orange Juice", "id": "orange-juice"},
-    {"name": "Grenadine", "id": "grenadine"}
-  ]
+    {"name": "Brandy", "id": "brandy", "amt": "2", "unit": "oz"},
+    {"name": "Peach Schnapps", "id": "peach-schnapps", "amt": "1", "unit": "oz"},
+    {"name": "Orange Juice", "id": "orange-juice", "amt": "4", "unit": "oz"},
+    {"name": "Grenadine", "id": "grenadine", "amt": "1", "unit": "tsp"}
+  ],
+  "prep": "Pour over ice and stir."
 }

@@ -3,8 +3,9 @@
   "name": "Sidercar",
   "cost": "/",
   "ingredients": [
-    {"name": "Gin", "id": "gin"},
-    {"name": "Triple Sec", "id": "triple-sec"},
-    {"name": "Lemon Juice", "id": "lemon-juice"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "2", "unit": "oz"},
+    {"name": "Triple Sec", "id": "triple-sec", "amt": "1", "unit": "oz"},
+    {"name": "Lemon Juice", "id": "lemon-juice", "amt": "1", "unit": "oz"}
+  ],
+  "prep": "Shake well, strain into glass. Serve without ice."
 }

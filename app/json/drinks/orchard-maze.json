@@ -3,9 +3,10 @@
   "name": "Orchard Maze",
   "cost": "X",
   "ingredients": [
-    {"name": "Vodka", "id": "vodka"},
-    {"name": "Peach Schnapps", "id": "peach-schnapps"},
-    {"name": "Orange Juice", "id": "orange-juice"},
-    {"name": "Cranberry Juice", "id": "cranberry-juice"}
-  ]
+    {"name": "Vodka", "id": "vodka", "amt": "1.5", "unit": "oz"},
+    {"name": "Peach Schnapps", "id": "peach-schnapps", "amt": "1.5", "unit": "oz"},
+    {"name": "Orange Juice", "id": "orange-juice", "amt": "1.5", "unit": "oz"},
+    {"name": "Cranberry Juice", "id": "cranberry-juice", "amt": "1.5", "unit": "oz"}
+  ],
+  "prep": "Pour vodka and peach schnapps into glass. Fill with equal parts orange and cranberry juice."
 }

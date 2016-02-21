@@ -3,8 +3,9 @@
   "name": "Brandy Alexander",
   "cost": "X",
   "ingredients": [
-    {"name": "Brandy", "id": "brandy"},
-    {"name": "Creme de Cacao", "id": "creme-de-cacao"},
-    {"name": "Cream", "id": "cream"}
-  ]
+    {"name": "Brandy", "id": "brandy", "amt": "1", "unit": "oz"},
+    {"name": "Creme de Cacao", "id": "creme-de-cacao", "amt": "1", "unit": "oz"},
+    {"name": "Cream", "id": "cream", "amt": "1", "unit": "oz"}
+  ],
+  "prep": ""
 }

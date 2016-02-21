@@ -3,9 +3,10 @@
   "name": "Tom Collins",
   "cost": "/",
   "ingredients": [
-    {"name": "Gin", "id": "gin"},
-    {"name": "Lemon Juice", "id": "lemon-juice"},
-    {"name": "Simple Syrup", "id": "simple-syrup"},
-    {"name": "Club Soda", "id": "club-soda"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "2", "unit": "oz"},
+    {"name": "Lemon Juice", "id": "lemon-juice", "amt": "1", "unit": "oz"},
+    {"name": "Simple Syrup", "id": "simple-syrup", "amt": "1", "unit": "oz"},
+    {"name": "Club Soda", "id": "club-soda", "amt": "Fill", "unit": "with"}
+  ],
+  "prep": "Shake first 2 with ice, strain into glass. Add ice cubes. Top with club soda. Garnish with cherry and lemon slice."
 }

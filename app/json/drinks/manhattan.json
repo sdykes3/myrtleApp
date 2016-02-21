@@ -3,8 +3,9 @@
   "name": "Manhattan",
   "cost": "/",
   "ingredients": [
-    {"name": "Whisky", "id": "whisky"},
-    {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
-    {"name": "Bitters", "id": "bitters"}
-  ]
+    {"name": "Whisky", "id": "whisky", "amt": "2", "unit": "oz"},
+    {"name": "Sweet Vermouth", "id": "sweet-vermouth", "amt": "1", "unit": "oz"},
+    {"name": "Bitters", "id": "bitters", "amt": "3", "unit": "dashes"}
+  ],
+  "prep": "Shake with ice, strain into glass without ice. Garnish with cherry."
 }

@@ -3,8 +3,9 @@
   "name": "Mainbrace",
   "cost": "/",
   "ingredients": [
-    {"name": "Gin", "id": "gin"},
-    {"name": "Triple Sec", "id": "triple-sec"},
-    {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "1", "unit": "oz"},
+    {"name": "Triple Sec", "id": "triple-sec", "amt": "1", "unit": "oz"},
+    {"name": "Grapefruit Juice", "id": "grapefruit-juice", "amt": "1", "unit": "oz"}
+  ],
+  "prep": "Shake with ice, strain into glass."
 }

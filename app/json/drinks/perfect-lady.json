@@ -3,8 +3,9 @@
   "name": "Perfect Lady",
   "cost": "X",
   "ingredients": [
-    {"name": "Gin", "id": "gin"},
-    {"name": "Peach Schnapps", "id": "peach-schnapps"},
-    {"name": "Lemon Juice", "id": "lemon-juice"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "2", "unit": "oz"},
+    {"name": "Peach Schnapps", "id": "peach-schnapps", "amt": "0.5", "unit": "oz"},
+    {"name": "Lemon Juice", "id": "lemon-juice", "amt": "0.5", "unit": "oz"}
+  ],
+  "prep": "Shake with ice. Strain into glass. Garnish with lemon."
 }

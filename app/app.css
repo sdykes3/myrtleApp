@@ -77,4 +77,16 @@ body .navbar button {
 .drinkList .availItem {
   list-style-type: none; }
 
+/* Drink Details */
+.drinkTitle {
+  font-size: 22px;
+  width: 80%;
+  margin-bottom: 20px; }
+
+.cost {
+  font-size: 16px;
+  margin: 0;
+  margin-top: -40px;
+  float: right; }
+
 /*# sourceMappingURL=app.css.map */

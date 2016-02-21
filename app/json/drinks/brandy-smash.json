@@ -3,11 +3,11 @@
   "name": "Brandy Smash",
   "cost": "X",
   "ingredients": [
-    {"name": "Brandy", "id": "brandy"},
-    {"name": "Mint", "id": "mint"},
-    {"name": "Simple Syrup", "id": "simple-syrup"},
-    {"name": "Club Soda", "id": "club-soda"},
-    {"name": "Orange Juice", "id": "orange-juice"},
-    {"name": "Maraschino Cherry", "id": "cherry"}
-  ]
+    {"name": "Brandy", "id": "brandy", "amt": "2.5", "unit": "oz"},
+    {"name": "Mint", "id": "mint", "amt": "4", "unit": "sprigs"},
+    {"name": "Simple Syrup", "id": "simple-syrup", "amt": "0.5", "unit": "oz"},
+    {"name": "Club Soda", "id": "club-soda", "amt": "1", "unit": "oz"},
+    {"name": "Orange Juice", "id": "orange-juice", "amt": "Dash", "unit": "of"}
+  ],
+  "prep": "Muddle mint sprigs with simple syrup and club soda. Fill glass with ice cubes. Add brandy. Add dash of orange juice. Stir together. Garnish with maraschino cherry and mint."
 }

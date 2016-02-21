@@ -3,7 +3,8 @@
   "name": "Dirty Mother",
   "cost": "X",
   "ingredients": [
-    {"name": "Brandy", "id": "brandy"},
-    {"name": "Kahlua", "id": "kahlua"}
-  ]
+    {"name": "Brandy", "id": "brandy", "amt": "1.5", "unit": "oz"},
+    {"name": "Kahlua", "id": "kahlua", "amt": "1", "unit": "oz"}
+  ],
+  "prep": ""
 }

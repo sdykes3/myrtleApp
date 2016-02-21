@@ -1,11 +1,14 @@
 <div class="container-fluid">
 
     <div class="bar bar-header bar-light">
-        <h1 class="title">{{drink.name}}</h1>
+        <h1 class="drinkTitle">{{drink.name}}</h1>
+        <h2 class="cost">Cost: {{drink.cost}}</h2>
     </div>
 
-    <ul ng-repeat="ing in drink.ingredients" class="list">
-        <li class="item">{{ing.name}}</li>
+    <ul class="detailList">
+        <li class="ing" ng-repeat="ing in drink.ingredients">{{ing.amt}} {{ing.unit}} {{ing.name}}</li>
     </ul>
+
+    <p>{{drink.prep}}</p>
 
 </div>

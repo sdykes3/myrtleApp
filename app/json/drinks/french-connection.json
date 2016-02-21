@@ -3,7 +3,8 @@
   "name": "French Connection",
   "cost": "X",
   "ingredients": [
-    {"name": "Brandy", "id": "brandy"},
-    {"name": "Amaretto", "id": "amaretto"}
-  ]
+    {"name": "Brandy", "id": "brandy", "amt": "1.5", "unit": "oz"},
+    {"name": "Amaretto", "id": "amaretto", "amt": "1", "unit": "oz"}
+  ],
+  "prep": "Pour into glass over ice. Stir gently."
 }

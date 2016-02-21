@@ -73,15 +73,15 @@
 
   {
     "type": "mixer",
-    "id" : "beer",
-    "name": "Beer",
+    "id" : "bitters",
+    "name": "Bitters",
     "inStock": true
   },
 
   {
     "type": "mixer",
-    "id" : "bitters",
-    "name": "Bitters",
+    "id" : "blue",
+    "name": "Blue Curacao",
     "inStock": true
   },
 

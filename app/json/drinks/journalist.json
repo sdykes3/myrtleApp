@@ -3,11 +3,12 @@
   "name": "Journalist",
   "cost": "/",
   "ingredients": [
-    {"name": "Gin", "id": "gin"},
-    {"name": "Dry Vermouth", "id": "dry-vermouth"},
-    {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
-    {"name": "Triple Sec", "id": "triple-sec"},
-    {"name": "Lemon Juice", "id": "lemon-juice"},
-    {"name": "Bitters", "id": "bitters"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "1.75", "unit": "oz"},
+    {"name": "Dry Vermouth", "id": "dry-vermouth", "amt": "0.5", "unit": "oz"},
+    {"name": "Sweet Vermouth", "id": "sweet-vermouth", "amt": "0.5", "unit": "oz"},
+    {"name": "Triple Sec", "id": "triple-sec", "amt": "Dash", "unit": "of"},
+    {"name": "Lemon Juice", "id": "lemon-juice", "amt": "Dash", "unit": "of"},
+    {"name": "Bitters", "id": "bitters", "amt": "2", "unit": "dashes"}
+  ],
+  "prep": "Shake with ice, strain into glass. Garnish with cherry."
 }

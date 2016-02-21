@@ -3,8 +3,9 @@
   "name": "Cuban Heat",
   "cost": "X",
   "ingredients": [
-    {"name": "Light Rum", "id": "light-rum"},
-    {"name": "Amaretto", "id": "amaretto"},
-    {"name": "Cranberry Juice", "id": "cranberry-juice"}
-  ]
+    {"name": "Light Rum", "id": "light-rum", "amt": "2", "unit": "oz"},
+    {"name": "Amaretto", "id": "amaretto", "amt": "1", "unit": "oz"},
+    {"name": "Cranberry Juice", "id": "cranberry-juice", "amt": "Fill", "unit": "with"}
+  ],
+  "prep": ""
 }

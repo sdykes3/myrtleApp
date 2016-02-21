@@ -3,9 +3,10 @@
   "name": "Maiden's Blush",
   "cost": "/",
   "ingredients": [
-    {"name": "Gin", "id": "gin"},
-    {"name": "Triple Sec", "id": "triple-sec"},
-    {"name": "Lemon Juice", "id": "lemon-juice"},
-    {"name": "Grenadine", "id": "grenadine"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "2", "unit": "oz"},
+    {"name": "Triple Sec", "id": "triple-sec", "amt": "1/2", "unit": "tsp"},
+    {"name": "Lemon Juice", "id": "lemon-juice", "amt": "1/2", "unit": "tsp"},
+    {"name": "Grenadine", "id": "grenadine", "amt": "1/2", "unit": "tsp"}
+  ],
+  "prep": ""
 }

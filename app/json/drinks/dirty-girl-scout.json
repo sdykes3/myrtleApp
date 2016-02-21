@@ -3,9 +3,10 @@
   "name": "Dirty Girl Scout",
   "cost": "X",
   "ingredients": [
-    {"name": "Vodka", "id": "vodka"},
-    {"name": "Creme de Menthe", "id": "creme-de-menthe"},
-    {"name": "Creme de Cacao", "id": "creme-de-cacao"},
-    {"name": "Irish Cream", "id": "irish-cream"}
-  ]
+    {"name": "Vodka", "id": "vodka", "amt": "1", "unit": "oz"},
+    {"name": "Creme de Menthe", "id": "creme-de-menthe", "amt": "1", "unit": "oz"},
+    {"name": "Creme de Cacao", "id": "creme-de-cacao", "amt": "1", "unit": "oz"},
+    {"name": "Irish Cream", "id": "irish-cream", "amt": "1", "unit": "oz"}
+  ],
+  "prep": "Pour over ice and mix."
 }

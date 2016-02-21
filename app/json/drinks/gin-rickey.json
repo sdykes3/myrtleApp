@@ -3,8 +3,9 @@
   "name": "Gin Rickey",
   "cost": "/",
   "ingredients": [
-    {"name": "Gin", "id": "gin"},
-    {"name": "Lime Juice", "id": "lime-juice"},
-    {"name": "Club Soda", "id": "club-soda"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "2", "unit": "oz"},
+    {"name": "Lime Juice", "id": "lime-juice", "amt": "0.5", "unit": "oz"},
+    {"name": "Club Soda", "id": "club-soda", "amt": "Fill", "unit": "with"}
+  ],
+  "prep": "Pour gin over ice into glass. Add lime juice, fill with club soda. Stir gently. Garnish with lime."
 }

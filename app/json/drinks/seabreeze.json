@@ -3,8 +3,9 @@
   "name": "Seabreeze",
   "cost": "/",
   "ingredients": [
-    {"name": "Vodka", "id": "vodka"},
-    {"name": "Grapefruit Juice", "id": "grapefruit-juice"},
-    {"name": "Cranberry Juice", "id": "cranberry-juice"}
-  ]
+    {"name": "Vodka", "id": "vodka", "amt": "2", "unit": "oz"},
+    {"name": "Grapefruit Juice", "id": "grapefruit-juice", "amt": "3", "unit": "oz"},
+    {"name": "Cranberry Juice", "id": "cranberry-juice", "amt": "3", "unit": "oz"}
+  ],
+  "prep": "Pour over ice and stir."
 }

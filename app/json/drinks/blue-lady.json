@@ -3,8 +3,9 @@
   "name": "Blue Lady",
   "cost": "X",
   "ingredients": [
-    {"name": "Vodka", "id": "vodka"},
-    {"name": "Dry Vermouth", "id": "dry-vermouth"},
-    {"name": "Peach Schnapps", "id": "peach-schnapps"}
-  ]
+    {"name": "Gin", "id": "gin", "amt": "1", "unit": "oz"},
+    {"name": "Blue Curacao", "id": "blue", "amt": "0.5", "unit": "oz"},
+    {"name": "Lemon Juice", "id": "lemon-juice", "amt": "1", "unit": "oz"}
+  ],
+  "prep": "Recommended: add sugar to glass rim. Shake well, strain into glass. Garnish with a cherry."
 }
