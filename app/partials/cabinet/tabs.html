@@ -1,49 +1,43 @@
 <div  ng-show="tab.title=='Liquor'">
     <ul class="cabinetList">
-        <li class="cabinetItem" ng-repeat="ing in inLiquor" >
+        <li class="cabinetItem list-group-item" ng-repeat="ing in inLiquor" ng-click="toggleStock(ing)">
             <div>
-                <span>{{ing.name}}</span><input type="checkbox" ng-click="toggleStock(ing)" ng-checked="ing.inStock"></input>
+                <span>{{ing.name}}</span><input type="checkbox" ng-checked="ing.inStock"></input>
             </div>
         </li>
-    </ul>
-    <ul class="cabinetList">
-        <li class="cabinetItem" ng-repeat="ing in outLiquor" >
+        <li class="cabinetItem list-group-item" ng-repeat="ing in outLiquor" ng-click="toggleStock(ing)">
             <div>
-                <span>{{ing.name}}</span><input type="checkbox" ng-click="toggleStock(ing)" ng-checked="ing.inStock"></input>
+                <span>{{ing.name}}</span><input type="checkbox" ng-checked="ing.inStock"></input>
             </div>
         </li>
     </ul>
 </div>
 
 <div  ng-show="tab.title=='Mixer'">
-    <ul class="cabinetList">
-        <li class="cabinetItem" ng-repeat="ing in inMixer">
+    <ul class="cabinetList list-group">
+        <li class="cabinetItem list-group-item" ng-repeat="ing in inMixer" ng-click="toggleStock(ing)">
             <div>
-                <span>{{ing.name}}</span><input type="checkbox" ng-click="toggleStock(ing)" ng-checked="ing.inStock"></input>
+                <span>{{ing.name}}</span><input type="checkbox" ng-checked="ing.inStock"></input>
             </div>
         </li>
-    </ul>
-    <ul class="cabinetList">
-        <li class="cabinetItem" ng-repeat="ing in outMixer">
+        <li class="cabinetItem list-group-item" ng-repeat="ing in outMixer" ng-click="toggleStock(ing)">
             <div>
-                <span>{{ing.name}}</span><input type="checkbox" ng-click="toggleStock(ing)" ng-checked="ing.inStock"></input>
+                <span>{{ing.name}}</span><input type="checkbox" ng-checked="ing.inStock"></input>
             </div>
         </li>
     </ul>
 </div>
 
 <div  ng-show="tab.title=='Other'">
-    <ul class="cabinetList">
-        <li class="cabinetItem" ng-repeat="ing in inOther">
+    <ul class="cabinetList list-group">
+        <li class="cabinetItem list-group-item" ng-repeat="ing in inOther" ng-click="toggleStock(ing)">
             <div>
-                <span>{{ing.name}}</span><input type="checkbox" ng-click="toggleStock(ing)" ng-checked="ing.inStock"></input>
+                <span>{{ing.name}}</span><input type="checkbox" ng-checked="ing.inStock"></input>
             </div>
         </li>
-    </ul>
-    <ul class="cabinetList">
-        <li class="cabinetItem" ng-repeat="ing in outOther">
+        <li class="cabinetItem list-group-item" ng-repeat="ing in outOther" ng-click="toggleStock(ing)">
             <div>
-                <span>{{ing.name}}</span><input type="checkbox" ng-click="toggleStock(ing)" ng-checked="ing.inStock"></input>
+                <span>{{ing.name}}</span><input type="checkbox" ng-checked="ing.inStock"></input>
             </div>
         </li>
     </ul>

@@ -6,10 +6,10 @@
 
   <!-- Here goes... a filter search -->
 
-  <ul class="drinkList">
-    <li class="availItem" ng-repeat="drink in drinksAvail">
-      <a href="#/drinks/{{drink.id}}">{{drink.name}}</a>
-    </li>
+  <ul class="drinkList list-group">
+      <a href="#/drinks/{{drink.id}}" ng-repeat="drink in drinksAvail">
+        <li class="availItem list-group-item">{{drink.name}}</li>
+      </a>
   </ul>
 
 </div>
