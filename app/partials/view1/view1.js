@@ -13,7 +13,7 @@ view1.controller('View1Ctrl', ['$scope', '$http', function ($scope, $http) {
 
     $scope.aside = {
         "title": "Title",
-        "content": "Hello this is in ng-view!"
+        "content": "Hello this is in ng-view! </br> </br> Break!"
     };
 
 }]);

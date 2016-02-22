@@ -10,6 +10,7 @@ var app = angular.module('myApp', [
   'ngAnimate',
   'ui.bootstrap',
   'LocalStorageModule',
+  'mm.foundation.offcanvas',
   'myApp.index',
   'myApp.view1',
   'myApp.view2',
@@ -55,14 +56,8 @@ var index = angular.module('myApp.index', ['ngRoute']);
 index.controller('MainCtrl', ['$scope', '$http', function ($scope, $http) {
 
   $scope.aside = {
-    "title": "Title",
-    "content": "Hello Aside<br />This is a multiline message!"
+    "title": "Title!!!",
+    "content": "Hello Aside!!!!<br/>This is a multiline message!"
   };
-
-  $scope.showgraphSidebar = false;
-  $scope.toggle = function() {
-    $scope.showgraphSidebar = !$scope.showgraphSidebar;
-    console.log("call");
-  }
 
 }]);
