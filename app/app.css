@@ -2,11 +2,20 @@
 body {
   height: 100%; }
   body .title {
-    font-size: 22px; }
+    font-size: 22px;
+    margin-bottom: 15px; }
   body .navbar button {
     border: none;
     float: left;
     margin-left: 10px; }
+  body .tab-bar {
+    margin-bottom: 20px; }
+  body .left-small {
+    border: none;
+    box-shadow: none; }
+  body .left-off-canvas-menu {
+    border: none;
+    box-shadow: none; }
 
 /* CSS for ??? */
 .menu {
@@ -72,8 +81,22 @@ body {
     .cabinetList .cabinetItem div {
       width: 90%;
       margin: auto; }
-      .cabinetList .cabinetItem div input {
-        float: right; }
+      .cabinetList .cabinetItem div input[type=checkbox] {
+        display: none; }
+      .cabinetList .cabinetItem div input[type=checkbox] + label {
+        float: right;
+        background: #999;
+        height: 16px;
+        width: 16px;
+        display: inline-block;
+        padding: 0 0 0 0px; }
+      .cabinetList .cabinetItem div input[type=checkbox]:checked + label {
+        float: right;
+        background: #000;
+        height: 16px;
+        width: 16px;
+        display: inline-block;
+        padding: 0 0 0 0px; }
 
 /* Drink List */
 .drinkList .availItem {

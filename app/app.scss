@@ -8,14 +8,32 @@ body {
 
   .title {
     font-size: 22px;
+    margin-bottom: 15px;
   }
 
+  //for old nav bar
   .navbar {
     button {
       border: none;
       float: left;
       margin-left: 10px;
     }
+  }
+
+  //offcanvas nav bar
+
+  .tab-bar {
+    margin-bottom: 20px;
+  }
+
+  .left-small {
+    border: none;
+    box-shadow: none;
+  }
+
+  .left-off-canvas-menu {
+    border: none;
+    box-shadow: none;
   }
 
 }
@@ -99,8 +117,29 @@ body {
       span {
 
       }
-      input {
+
+      input[type=checkbox] {
+        display:none;
+      }
+
+      input[type=checkbox] + label
+      {
         float: right;
+        background: #999;
+        height: 16px;
+        width: 16px;
+        display:inline-block;
+        padding: 0 0 0 0px;
+      }
+      input[type=checkbox]:checked + label
+      {
+        float: right;
+        //background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Check_mark_23x20_02.svg/1000px-Check_mark_23x20_02.svg.png") no-repeat;
+        background: #000;
+        height: 16px;
+        width: 16px;
+        display:inline-block;
+        padding: 0 0 0 0px;
       }
     }
   }
