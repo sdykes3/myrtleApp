@@ -1,10 +1,12 @@
 /* General */
-body .title {
-  font-size: 22px; }
-body .navbar button {
-  border: none;
-  float: left;
-  margin-left: 10px; }
+body {
+  height: 100%; }
+  body .title {
+    font-size: 22px; }
+  body .navbar button {
+    border: none;
+    float: left;
+    margin-left: 10px; }
 
 /* CSS for ??? */
 .menu {

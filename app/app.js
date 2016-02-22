@@ -59,4 +59,10 @@ index.controller('MainCtrl', ['$scope', '$http', function ($scope, $http) {
     "content": "Hello Aside<br />This is a multiline message!"
   };
 
+  $scope.showgraphSidebar = false;
+  $scope.toggle = function() {
+    $scope.showgraphSidebar = !$scope.showgraphSidebar;
+    console.log("call");
+  }
+
 }]);
