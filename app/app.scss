@@ -1,3 +1,5 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
 /* General */
 
 
@@ -118,32 +120,38 @@ body {
 
       }
 
-      input[type=checkbox] {
-        display:none;
+      label {
+        float: right;
       }
 
-      input[type=checkbox] + label
-      {
-        float: right;
-        background: #999;
-        height: 16px;
-        width: 16px;
-        display:inline-block;
-        padding: 0 0 0 0px;
+      /*** custom checkboxes ***/
+      input[type=checkbox] {
+        position: relative;
       }
-      input[type=checkbox]:checked + label
-      {
-        float: right;
-        //background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Check_mark_23x20_02.svg/1000px-Check_mark_23x20_02.svg.png") no-repeat;
-        background: #000;
-        height: 16px;
-        width: 16px;
-        display:inline-block;
-        padding: 0 0 0 0px;
+      /* to hide the checkbox itself */
+      label>input[type=checkbox]:before {
+        position: absolute;
+        background-color: #FFFFFF;
+        height: 100%;
+        width: 100%;
+        font-family: FontAwesome;
+        display: inline-block;
+        content:"\f096";
+        letter-spacing: 10px;
       }
+      /* space between checkbox and label */
+      label>input[type=checkbox]:checked:before {
+        float: right;
+        font-family: FontAwesome;
+        display: inline-block;
+        content:"\f046";
+        letter-spacing: 5px;
+      }
+      /* allow space for check mark */
     }
   }
 }
+
 
 
 /* Drink List */

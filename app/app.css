@@ -1,3 +1,4 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 /* General */
 body {
   height: 100%; }
@@ -80,23 +81,30 @@ body {
     padding: 10px 0 10px 0; }
     .cabinetList .cabinetItem div {
       width: 90%;
-      margin: auto; }
+      margin: auto;
+      /*** custom checkboxes ***/
+      /* to hide the checkbox itself */
+      /* space between checkbox and label */
+      /* allow space for check mark */ }
+      .cabinetList .cabinetItem div label {
+        float: right; }
       .cabinetList .cabinetItem div input[type=checkbox] {
-        display: none; }
-      .cabinetList .cabinetItem div input[type=checkbox] + label {
-        float: right;
-        background: #999;
-        height: 16px;
-        width: 16px;
+        position: relative; }
+      .cabinetList .cabinetItem div label > input[type=checkbox]:before {
+        position: absolute;
+        background-color: #FFFFFF;
+        height: 100%;
+        width: 100%;
+        font-family: FontAwesome;
         display: inline-block;
-        padding: 0 0 0 0px; }
-      .cabinetList .cabinetItem div input[type=checkbox]:checked + label {
+        content: "\f096";
+        letter-spacing: 10px; }
+      .cabinetList .cabinetItem div label > input[type=checkbox]:checked:before {
         float: right;
-        background: #000;
-        height: 16px;
-        width: 16px;
+        font-family: FontAwesome;
         display: inline-block;
-        padding: 0 0 0 0px; }
+        content: "\f046";
+        letter-spacing: 5px; }
 
 /* Drink List */
 .drinkList .availItem {
