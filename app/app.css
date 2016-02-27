@@ -17,6 +17,8 @@ body {
   body .left-off-canvas-menu {
     border: none;
     box-shadow: none; }
+  body .row {
+    max-width: none; }
 
 /* CSS for ??? */
 .menu {
@@ -82,7 +84,6 @@ body {
     .cabinetList .cabinetItem div {
       width: 90%;
       margin: auto;
-      /*** custom checkboxes ***/
       /* to hide the checkbox itself */
       /* space between checkbox and label */
       /* allow space for check mark */ }

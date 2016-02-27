@@ -11,21 +11,23 @@ cabinet.config(['$routeProvider', function ($routeProvider) {
 
 cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService', 'localStorageService',
     function ($scope, $http, $routeParams, myService, localStorageService) {
-        //$http.get('json/cabinet.json').success(function (data, status, headers, config) {
-        //    $scope.cabinet = data;
-        //});
 
-
+        //gets local storage of current cabinet (may be null, thats okay, we check for that later)
         var cabInStore = localStorageService.get('cabinet');
 
         $scope.$watch('cabinet', function () {
-            localStorageService.set('cabinet', $scope.cabinet);
+            localStorageService.set('cabinet', $scope.cabinet); //sets local storage copy of cabinet
+        }, true);
+
+        $scope.$watch('cabinetChanged', function () {
+            localStorageService.set('cabinetChanged', $scope.cabinetChanged); //sets local storage boolean of cabinet status
         }, true);
 
 
         var myDataPromise = myService.getData('json/cabinet.json');
         myDataPromise.then(function(result) {  // this is only run after $http completes
-            $scope.cabinet = cabInStore || result;
+            $scope.cabinet = cabInStore || result; //uses local storage if its there, otherwise just the json result
+            $scope.cabinetChanged = false; //just setting up this initially
 
             $scope.liquor = [];
             $scope.mixer = [];
@@ -40,7 +42,7 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
                 }
             }
 
-            //todo: sort by in stock, then alphabetically (add to it alphabetically???)
+            //sort by in stock
             $scope.inLiquor = [];
             $scope.outLiquor = [];
             var numIn = 0;
@@ -96,6 +98,7 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
 
         $scope.toggleStock = function(ing) {
             console.log("called");
+            $scope.cabinetChanged = true;
             ing.inStock = !ing.inStock;
             for(var i=0;i<$scope.cabinet.length;i++) {
                 if($scope.cabinet[i].ing == ing) {
@@ -103,6 +106,7 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
                 }
             }
             console.log(ing);
+            //console.log($scope.cabinetChanged);
         }
 
         //local storage webapp with nice mobile interface for now

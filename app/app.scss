@@ -27,15 +27,16 @@ body {
   .tab-bar {
     margin-bottom: 20px;
   }
-
   .left-small {
     border: none;
     box-shadow: none;
   }
-
   .left-off-canvas-menu {
     border: none;
     box-shadow: none;
+  }
+  .row {
+    max-width: none;
   }
 
 }
@@ -124,11 +125,11 @@ body {
         float: right;
       }
 
-      /*** custom checkboxes ***/
+      /* to hide the checkbox itself */
       input[type=checkbox] {
         position: relative;
       }
-      /* to hide the checkbox itself */
+      /* space between checkbox and label */
       label>input[type=checkbox]:before {
         position: absolute;
         background-color: #FFFFFF;
@@ -139,7 +140,7 @@ body {
         content:"\f096";
         letter-spacing: 10px;
       }
-      /* space between checkbox and label */
+      /* allow space for check mark */
       label>input[type=checkbox]:checked:before {
         float: right;
         font-family: FontAwesome;
@@ -147,7 +148,6 @@ body {
         content:"\f046";
         letter-spacing: 5px;
       }
-      /* allow space for check mark */
     }
   }
 }
