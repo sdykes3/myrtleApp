@@ -75,7 +75,7 @@ view2.controller('View2Ctrl', ['$scope', '$http', '$q', 'localStorageService', f
                     addedAlready = true;
                     //console.log($scope.drinksAvail);
                     localStorageService.set('drinksAvailable', $scope.drinksAvail);
-                    console.log("set drinks available");
+                    //console.log("set drinks available");
 
                 }
 
