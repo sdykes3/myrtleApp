@@ -7,23 +7,23 @@ html {
 
 body {
   height: 100%; }
-  body .title {
-    font-size: 22px;
-    margin-bottom: 15px; }
-  body .navbar button {
-    border: none;
-    float: left;
-    margin-left: 10px; }
-  body .tab-bar {
-    margin-bottom: 20px; }
-  body .left-small {
-    border: none;
-    box-shadow: none; }
-  body .left-off-canvas-menu {
-    border: none;
-    box-shadow: none; }
-  body .row {
-    max-width: none; }
+body .title {
+  font-size: 22px;
+  margin-bottom: 15px; }
+body .navbar button {
+  border: none;
+  float: left;
+  margin-left: 10px; }
+body .tab-bar {
+  margin-bottom: 20px; }
+body .left-small {
+  border: none;
+  box-shadow: none; }
+body .left-off-canvas-menu {
+  border: none;
+  box-shadow: none; }
+body .row {
+  max-width: none; }
 
 /* CSS for ??? */
 .menu {
@@ -79,40 +79,47 @@ body {
 .tab-pane.am-fade.active-add {
   animation-name: fadeIn; }
 
+.nav-tabs {
+  margin-left: 0;
+}
+
 /* Cabinet list items */
 .cabinetList {
   padding: 0;
   margin: 0; }
-  .cabinetList .cabinetItem {
-    list-style-type: none;
-    padding: 10px 0 10px 0; }
-    .cabinetList .cabinetItem div {
-      width: 90%;
-      margin: auto;
-      /* to hide the checkbox itself */
-      /* space between checkbox and label */
-      /* allow space for check mark */ }
-      .cabinetList .cabinetItem div label {
-        float: right; }
-      .cabinetList .cabinetItem div input[type=checkbox] {
-        position: relative; }
-      .cabinetList .cabinetItem div label > input[type=checkbox]:before {
-        position: absolute;
-        background-color: #FFFFFF;
-        height: 100%;
-        width: 100%;
-        font-family: FontAwesome;
-        display: inline-block;
-        content: "\f096";
-        letter-spacing: 10px; }
-      .cabinetList .cabinetItem div label > input[type=checkbox]:checked:before {
-        float: right;
-        font-family: FontAwesome;
-        display: inline-block;
-        content: "\f046";
-        letter-spacing: 5px; }
+.cabinetList .cabinetItem {
+  list-style-type: none;
+  padding: 10px 0 10px 0; }
+.cabinetList .cabinetItem div {
+  width: 90%;
+  margin: auto;
+  /* to hide the checkbox itself */
+  /* space between checkbox and label */
+  /* allow space for check mark */ }
+.cabinetList .cabinetItem div label {
+  float: right; }
+.cabinetList .cabinetItem div input[type=checkbox] {
+  position: relative; }
+.cabinetList .cabinetItem div label > input[type=checkbox]:before {
+  position: absolute;
+  background-color: #FFFFFF;
+  height: 100%;
+  width: 100%;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f096";
+  letter-spacing: 10px; }
+.cabinetList .cabinetItem div label > input[type=checkbox]:checked:before {
+  float: right;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f046";
+  letter-spacing: 5px; }
 
 /* Drink List */
+.drinkList {
+  margin-left: 0;
+}
 .drinkList .availItem {
   list-style-type: none; }
 
@@ -128,4 +135,3 @@ body {
   margin-top: -40px;
   float: right; }
 
-/*# sourceMappingURL=app.css.map */
