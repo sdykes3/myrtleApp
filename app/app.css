@@ -25,6 +25,20 @@ body .left-off-canvas-menu {
 body .row {
   max-width: none; }
 
+.back-button {
+  color: white;
+  font-size: 30px;
+  padding-left: 13px;
+  padding-top: 6px;
+  width: 45px;
+  height: 45px;
+}
+
+.back-button:hover {
+  color: darkgray;
+  text-decoration: none;
+}
+
 /* CSS for ??? */
 .menu {
   list-style: none;
