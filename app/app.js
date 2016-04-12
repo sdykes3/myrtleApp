@@ -19,7 +19,7 @@ var app = angular.module('myApp', [
   'myApp.cabinet',
   'myApp.version'
 ]).config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/view1'});
+  $routeProvider.otherwise({redirectTo: '/view2'});
 }]).config(['localStorageServiceProvider', function(localStorageServiceProvider){
   localStorageServiceProvider.setPrefix('ls');
 }]);

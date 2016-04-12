@@ -560,18 +560,18 @@
     "name": "Manhattan",
     "cost": "/",
     "ingredients": [
-      {"name": "Whisky", "id": "whisky"},
+      {"name": "Whiskey", "id": "whiskey"},
       {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
       {"name": "Bitters", "id": "bitters"}
     ]
   },
 
   {
-    "id" : "whisky-sour",
-    "name": "Whisky Sour",
+    "id" : "whiskey-sour",
+    "name": "Whiskey Sour",
     "cost": "/",
     "ingredients": [
-      {"name": "Whisky", "id": "whisky"},
+      {"name": "Whiskey", "id": "whiskey"},
       {"name": "Sweet & Sour Mix", "id": "sweet-sour-mix"}
     ]
   },
@@ -581,7 +581,7 @@
     "name": "Old Fashioned",
     "cost": "/",
     "ingredients": [
-      {"name": "Whisky", "id": "whisky"},
+      {"name": "Whiskey", "id": "whiskey"},
       {"name": "Simple Syrup", "id": "simple-syrup"},
       {"name": "Bitters", "id": "bitters"}
     ]

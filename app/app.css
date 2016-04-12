@@ -113,7 +113,9 @@ body .row {
 .cabinetList .cabinetItem div label {
   float: right; }
 .cabinetList .cabinetItem div input[type=checkbox] {
-  position: relative; }
+  position: relative;
+  font-size: 20px;
+}
 .cabinetList .cabinetItem div label > input[type=checkbox]:before {
   position: absolute;
   background-color: #FFFFFF;
