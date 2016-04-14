@@ -1,9 +1,17 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 /* General */
+
+.bar-header { /* addded to fix span issue in available drinks list */
+  font-size: 22px;
+  margin-bottom: 15px;
+}
 html {
   min-height: 100%;
   /* make sure it is at least as tall as the viewport */
-  position: relative; }
+  position: relative;
+  overflow-y: scroll; /* attempt to fix Scott's scrolling issue */
+  -webkit-overflow-scrolling: touch;
+}
 
 body {
   height: 100%; }
@@ -149,5 +157,10 @@ body .row {
   font-size: 16px;
   margin: 0;
   margin-top: -40px;
-  float: right; }
+  float: right;
+}
+.drinkFilter {
+  float: right;
+  width: 100px;
+}
 
