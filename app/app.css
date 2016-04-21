@@ -159,7 +159,7 @@ body .row {
   margin-top: -40px;
   float: right;
 }
-.drinkFilter {
+#drinkFilter {
   float: right;
   width: 100px;
 }

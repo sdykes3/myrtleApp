@@ -7,6 +7,9 @@
       {"name": "Tequila", "id": "tequila"},
       {"name": "Orange Juice", "id": "orange-juice"},
       {"name": "Grenadine", "id": "grenadine"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -19,6 +22,11 @@
       {"name": "Creme de Menthe", "id": "creme-de-menthe"},
       {"name": "Creme de Cacao", "id": "creme-de-cacao"},
       {"name": "Irish Cream", "id": "irish-cream"}
+    ],
+    "flavors": [
+      {"flavor": "creamy"},
+      {"flavor": "minty"},
+      {"flavor": "chocolatey"}
     ]
   },
 
@@ -30,6 +38,10 @@
       {"name": "Vodka", "id": "vodka"},
       {"name": "Kahlua", "id": "kahlua"},
       {"name": "Cream", "id": "cream"}
+    ],
+    "flavors": [
+      {"flavor": "creamy"},
+      {"flavor": "coffee"}
     ]
   },
 
@@ -41,6 +53,9 @@
       {"name": "Amaretto", "id": "amaretto"},
       {"name": "Kahlua", "id": "kahlua"},
       {"name": "Milk", "id": "milk"}
+    ],
+    "flavors": [
+      {"flavor": "creamy"}
     ]
   },
 
@@ -53,6 +68,9 @@
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Orange Juice", "id": "orange-juice"},
       {"name": "Milk", "id": "milk"}
+    ],
+    "flavors": [
+      {"flavor": "creamy"}
     ]
   },
 
@@ -64,6 +82,10 @@
       {"name": "Brandy", "id": "brandy"},
       {"name": "Creme de Cacao", "id": "creme-de-cacao"},
       {"name": "Cream", "id": "cream"}
+    ],
+    "flavors": [
+      {"flavor": "creamy"},
+      {"flavor": "chocolatey"}
     ]
   },
 
@@ -75,6 +97,10 @@
       {"name": "Creme de Menthe", "id": "creme-de-menthe"},
       {"name": "Creme de Cacao", "id": "creme-de-cacao"},
       {"name": "Cream", "id": "cream"}
+    ],
+    "flavors": [
+      {"flavor": "creamy"},
+      {"flavor": "minty"}
     ]
   },
 
@@ -87,6 +113,11 @@
       {"name": "Creme de Cacao", "id": "creme-de-cacao"},
       {"name": "Kahlua", "id": "kahlua"},
       {"name": "Milk", "id": "milk"}
+    ],
+    "flavors": [
+      {"flavor": "creamy"},
+      {"flavor": "minty"},
+      {"flavor": "chocolatey"}
     ]
   },
 
@@ -99,6 +130,10 @@
       {"name": "Creme de Cacao", "id": "creme-de-cacao"},
       {"name": "Cream", "id": "cream"},
       {"name": "Grenadine", "id": "grenadine"}
+    ],
+    "flavors": [
+      {"flavor": "creamy"},
+      {"flavor": "chocolatey"}
     ]
   },
 
@@ -112,6 +147,9 @@
       {"name": "Simple Syrup", "id": "simple-syrup"},
       {"name": "Club Soda", "id": "club-soda"},
       {"name": "Orange Juice", "id": "orange-juice"}
+    ],
+    "flavors": [
+      {"flavor": "minty"}
     ]
   },
 
@@ -125,6 +163,9 @@
       {"name": "Lime Juice", "id": "lime-juice"},
       {"name": "Club Soda", "id": "club-soda"},
       {"name": "Simple Syrup", "id": "simple-syrup"}
+    ],
+    "flavors": [
+      {"flavor": "minty"}
     ]
   },
 
@@ -135,6 +176,9 @@
     "ingredients": [
       {"name": "Vodka", "id": "vodka"},
       {"name": "Creme de Cacao", "id": "creme-de-cacao"}
+    ],
+    "flavors": [
+      {"flavor": "chocolatey"}
     ]
   },
 
@@ -145,6 +189,9 @@
     "ingredients": [
       {"name": "Champagne", "id": "champagne"},
       {"name": "Orange Juice", "id": "orange-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -157,6 +204,9 @@
       {"name": "Orange Juice", "id": "orange-juice"},
       {"name": "Peach Juice", "id": "peach-juice"},
       {"name": "Mango Juice", "id": "mango-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -168,6 +218,9 @@
       {"name": "Vodka", "id": "vodka"},
       {"name": "Pineapple Juice", "id": "pineapple-juice"},
       {"name": "Cranberry Juice", "id": "cranberry-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -180,6 +233,9 @@
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Cranberry Juice", "id": "cranberry-juice"},
       {"name": "Lime Juice", "id": "lime-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -194,6 +250,9 @@
       {"name": "Sour Mix", "id": "sour-mix"},
       {"name": "Pineapple Juice", "id": "pineapple-juice"},
       {"name": "Dark Rum", "id": "dark-rum"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -206,6 +265,9 @@
       {"name": "Peach Schnapps", "id": "peach-schnapps"},
       {"name": "Pineapple Juice", "id": "pineapple-juice"},
       {"name": "Cranberry Juice", "id": "cranberry-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -216,6 +278,9 @@
     "ingredients": [
       {"name": "Vodka", "id": "vodka"},
       {"name": "Orange Juice", "id": "orange-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -226,6 +291,9 @@
     "ingredients": [
       {"name": "Peach Schnapps", "id": "peach-schnapps"},
       {"name": "Orange Juice", "id": "orange-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -237,6 +305,9 @@
       {"name": "Vodka", "id": "vodka"},
       {"name": "Grapefruit Juice", "id": "grapefruit-juice"},
       {"name": "Cranberry Juice", "id": "cranberry-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -249,6 +320,9 @@
       {"name": "Peach Schnapps", "id": "peach-schnapps"},
       {"name": "Orange Juice", "id": "orange-juice"},
       {"name": "Cranberry Juice", "id": "cranberry-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -261,6 +335,9 @@
       {"name": "Peach Schnapps", "id": "peach-schnapps"},
       {"name": "Orange Juice", "id": "orange-juice"},
       {"name": "Grenadine", "id": "grenadine"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -272,6 +349,9 @@
       {"name": "Light Rum", "id": "light-rum"},
       {"name": "Amaretto", "id": "amaretto"},
       {"name": "Cranberry Juice", "id": "cranberry-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -284,6 +364,9 @@
       {"name": "Peach Schnapps", "id": "peach-schnapps"},
       {"name": "Cranberry Juice", "id": "cranberry-juice"},
       {"name": "Lime Juice", "id": "lime-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -295,6 +378,9 @@
       {"name": "Tequila", "id": "tequila"},
       {"name": "Melon Liqueur", "id": "melon-liqueur"},
       {"name": "Cranberry Juice", "id": "cranberry-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -307,6 +393,9 @@
       {"name": "Melon Liqueur", "id": "melon-liqueur"},
       {"name": "Lime Juice", "id": "lime-juice"},
       {"name": "Simple Syrup", "id": "simple-syrup"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -320,6 +409,9 @@
       {"name": "Melon Liqueur", "id": "melon-liqueur"},
       {"name": "Peach Schnapps", "id": "peach-schnapps"},
       {"name": "Orange Schnapps", "id": "orange-schnapps"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -332,6 +424,9 @@
       {"name": "Peach Schnapps", "id": "peach-schnapps"},
       {"name": "Orange Juice", "id": "orange-juice"},
       {"name": "Cranberry Juice", "id": "cranberry-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -342,6 +437,9 @@
     "ingredients": [
       {"name": "Vodka", "id": "vodka"},
       {"name": "Kahlua", "id": "kahlua"}
+    ],
+    "flavors": [
+      {"flavor": "coffee"}
     ]
   },
 
@@ -352,6 +450,9 @@
     "ingredients": [
       {"name": "Brandy", "id": "brandy"},
       {"name": "Kahlua", "id": "kahlua"}
+    ],
+    "flavors": [
+      {"flavor": "coffee"}
     ]
   },
 
@@ -362,8 +463,20 @@
     "ingredients": [
       {"name": "Tequila", "id": "tequila"},
       {"name": "Kahlua", "id": "kahlua"}
+    ],
+    "flavors": [
+      {"flavor": "coffee"}
     ]
   },
+
+
+
+
+
+
+
+
+
 
   {
     "id" : "long-island",

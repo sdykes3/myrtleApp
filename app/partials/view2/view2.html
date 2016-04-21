@@ -3,17 +3,20 @@
   <div class="bar bar-header bar-light">
       <section style="padding-top: 20px">
         <span>Available Drinks</span>
-          <select class="drinkFilter">
-              <option>All</option>
-              <option>Creamy</option>
-              <option>Minty</option>
-              <option>Fruity</option>
+          <select name="drinkFilter" id="drinkFilter" ng-model="flavorDrop">
+              <option value="" selected>All</option>
+              <option value="creamy">Creamy</option>
+              <option value="minty">Minty</option>
+              <option value="fruity">Fruity</option>
+              <option value="chocolatey">Chocolatey</option>
+              <option value="coffee">Coffee</option>
           </select>
       </section>
   </div>
 
   <ul class="drinkList list-group">
-      <a href="#/drinks/{{drink.id}}" ng-repeat="drink in drinksAvail">
+      <a href="#/drinks/{{drink.id}}" ng-repeat="drink in drinksAvail | filter:flavorDrop:drink.flavors.flavor">
+          <!--<label>{{drink.flavors}}</label>-->
         <li class="availItem list-group-item">{{drink.name}}</li>
       </a>
   </ul>
