@@ -3,7 +3,7 @@
 
 .bar-header { /* addded to fix span issue in available drinks list */
   font-size: 22px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 html {
   min-height: 100%;
@@ -162,5 +162,6 @@ body .row {
 #drinkFilter {
   float: right;
   width: 100px;
+  margin-top: -5px;
 }
 
