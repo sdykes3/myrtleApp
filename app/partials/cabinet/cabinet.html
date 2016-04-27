@@ -1,7 +1,7 @@
 <div class="container-fluid">
 
     <uib-tabset>
-        <input class="button toggleButton" ng-click="checkTab()" type="button" value="Check All"></input>
+        <input class="button toggleButton" ng-click="toggleTab()" type="button" value="Toggle"></input>
         <!--<input class="button toggleButton" ng-click="uncheckTab()" type="button" value="Uncheck All"></input>-->
         <uib-tab ng-repeat="tab in tabs" select="getContent($index)" heading="{{tab.title}}" active="tab.active" disable="tab.disabled">
             <div ng-hide="!tabs.isLoaded">
