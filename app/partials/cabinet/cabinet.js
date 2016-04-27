@@ -97,21 +97,51 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
         ];
 
         $scope.toggleStock = function(ing) {
-            console.log("called");
+            //console.log("called");
             $scope.cabinetChanged = true;
             ing.inStock = !ing.inStock;
-            for(var i=0;i<$scope.cabinet.length;i++) {
+            for(var i=0; i<$scope.cabinet.length; i++) {
                 if($scope.cabinet[i].ing == ing) {
                     $scope.cabinet[i].ing.inStock = !$scope.cabinet[i].ing.inStock;
                 }
             }
-            console.log(ing);
+            //console.log(ing);
             //console.log($scope.cabinetChanged);
-        }
+        };
 
         //local storage webapp with nice mobile interface for now
             //future: use server to hold what is/isnt at myrtle bar, sync to everyone
 
 
+        //toggles inStock of all ingredients within current active tab
+        $scope.checkTab = function() {;
+            var activeTab;
+            if($scope.tabs[0].active) {
+                activeTab = $scope.liquor;
+            } else if ($scope.tabs[1].active) {
+                activeTab = $scope.mixer;
+            } else if ($scope.tabs[2].active) {
+                activeTab = $scope.other;
+            }
+
+            for(var i=0;i<activeTab.length;i++) {
+                activeTab[i].inStock = true;
+            }
+        }
+
+        $scope.uncheckTab = function() {;
+            var activeTab;
+            if($scope.tabs[0].active) {
+                activeTab = $scope.liquor;
+            } else if ($scope.tabs[1].active) {
+                activeTab = $scope.mixer;
+            } else if ($scope.tabs[2].active) {
+                activeTab = $scope.other;
+            }
+
+            for(var i=0;i<activeTab.length;i++) {
+                activeTab[i].inStock = false;
+            }
+        }
     }
 ]);

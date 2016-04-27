@@ -9,11 +9,17 @@ addDrink.config(['$routeProvider', function ($routeProvider) {
     });
 }]);
 
-addDrink.controller('AddDrinkCtrl', ['$scope', '$http', '$routeParams',
-    function ($scope, $http, $routeParams) {
+addDrink.controller('AddDrinkCtrl', ['$scope', '$http', '$routeParams', 'localStorageService',
+    function ($scope, $http, $routeParams, localStorageService) {
         $http.get('json/drinks.json').success(function (data) {
             $scope.drinks = data;
         });
+
+
+        //gets local storage of current cabinet (may be null, thats okay, we check for that later)
+        var drinkRecInStore = localStorageService.get('drinkRecipes');
+
+
 
         $scope.newDrink = {
             name: '',
@@ -48,14 +54,22 @@ addDrink.controller('AddDrinkCtrl', ['$scope', '$http', '$routeParams',
 
 
                 //todo: add to local storage
-                window.localStorage['drinks'] = JSON.stringify(drinks);
-                $scope.newList = JSON.parse(window.localStorage['drinks']);
 
-                //todo: make changes to json file or add to local storage
+                //localStorageService.set('drinkRecipes', $scope.drinks);
+
+
+                //todo: make changes to local storage
+                    //if ingredient, write new ls.cabinet; if drink recipe, write new completely
+                    //todo: make other pages pulling drinks.json check for local storage override, including this page!
+                        //dont overload old custom recipes with new ones here
+
                 //todo: create new details json file for new drink
 
-                //todo: at start, check if have local storage. if not, put defaults in. if so, use that
 
+
+
+                //window.localStorage['drinks'] = JSON.stringify(drinks);
+                //$scope.newList = JSON.parse(window.localStorage['drinks']);
                 //$http.post('json/drinks.json', $scope.drinks);
             }
         };

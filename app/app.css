@@ -139,6 +139,15 @@ body .row {
   display: inline-block;
   content: "\f046";
   letter-spacing: 5px; }
+.toggleButton {
+  float: right;
+  line-height: 3px;
+  border-radius: 5px;
+  margin: 0;
+  margin-right: 5px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
 /* Drink List */
 .drinkList {
