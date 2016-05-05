@@ -113,7 +113,7 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
 
         $scope.toggleTab = function() {
             $scope.cabinetChanged = true;
-            
+
             var activeTab;
             if($scope.tabs[0].active) {
                 activeTab = $scope.liquor;
