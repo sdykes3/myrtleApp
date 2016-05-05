@@ -4,9 +4,8 @@
   "cost": "/",
   "ingredients": [
     {"name": "Gin", "id": "gin", "amt": "1.5", "unit": "oz"},
-    {"name": "Blue Curacao", "id": "blue", "amt": "0.5", "unit": "oz"},
-    {"name": "Triple Sec", "id": "triple-sec", "amt": "0.5", "unit": "oz"},
-    {"name": "Bitters", "id": "bitters", "amt": "2", "unit": "dashes"}
+    {"name": "Triple Sec", "id": "triple-sec", "amt": "1", "unit": "oz"},
+    {"name": "Bitters", "id": "bitters", "amt": "4", "unit": "dashes"}
   ],
   "prep": "Combine in glass. Stir well. Garnish with lemon twist."
 }

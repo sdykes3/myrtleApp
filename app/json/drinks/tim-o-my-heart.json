@@ -1,0 +1,12 @@
+{
+  "id" : "tim-o-my-heart",
+  "name": "Tim 'o My Heart",
+  "cost": "/",
+  "ingredients": [
+    {"name": "Light Rum", "id": "light-rum", "amt": "2", "unit": "oz"},
+    {"name": "Lime Juice", "id": "lime-juice", "amt": "1", "unit": "oz"},
+    {"name": "Grenadine", "id": "grenadine", "amt": "1.5", "unit": "oz"},
+    {"name": "Maraschino Cherry", "id": "cherry", "amt": "1", "unit": ""}
+  ],
+  "prep": "Shake liquor together, strain into glass. Drop in cherry with some syrup."
+}

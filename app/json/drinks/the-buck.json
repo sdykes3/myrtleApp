@@ -1,0 +1,12 @@
+{
+  "id" : "the-buck",
+  "name": "The Buck",
+  "cost": "X",
+  "ingredients": [
+    {"name": "Gin", "id": "gin"},
+    {"name": "Lemon Juice", "id": "lemon-juice"},
+    {"name": "Creme de Menthe", "id": "creme-de-methe"},
+    {"name": "Ginger Ale", "id": "ginger-ale"}
+  ],
+  "prep": ""
+}
