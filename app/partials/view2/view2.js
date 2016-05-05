@@ -1,5 +1,6 @@
 'use strict';
 
+var serverurl = "http://myrtleapi.prismo.biz/";
 var view2 = angular.module('myApp.view2', ['ngRoute'])
 
 view2.config(['$routeProvider', function ($routeProvider) {
@@ -24,6 +25,7 @@ view2.controller('View2Ctrl', ['$scope', '$http', '$q', 'localStorageService', f
 
     //only decide new drinks available if cabinet has changed from last time
     var cabinetChanged = localStorageService.get('cabinetChanged');
+    cabinetChanged = true;
 
 
     console.log("drinks avail: " + drinksAvailable);
@@ -33,8 +35,8 @@ view2.controller('View2Ctrl', ['$scope', '$http', '$q', 'localStorageService', f
         var httpDrinks = $http.get('json/drinks.json').success(function (data) {
             $scope.drinks = data;
         });
-        var httpCabinet = $http.get('json/cabinet.json').success(function (data) {
-            $scope.cabinet = cabInStore || data; //uses local storage if its there, otherwise just the json result
+        var httpCabinet = $http.get(serverurl + "checkIngredients").success(function (data) {
+            $scope.cabinet = data; //uses local storage if its there, otherwise just the json result
             //console.log("1");
             //console.log($scope.drinks);
             //console.log("111");

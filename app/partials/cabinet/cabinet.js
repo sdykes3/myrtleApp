@@ -2,6 +2,8 @@
 
 var cabinet = angular.module('myApp.cabinet', ['ngRoute'])
 
+var serverurl = "http://myrtleapi.prismo.biz/";
+
 cabinet.config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/cabinet', {
         templateUrl: 'partials/cabinet/cabinet.html',
@@ -24,9 +26,9 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
         }, true);
 
 
-        var myDataPromise = myService.getData('json/cabinet.json');
+        var myDataPromise = myService.getData(serverurl + "checkIngredients");
         myDataPromise.then(function(result) {  // this is only run after $http completes
-            $scope.cabinet = cabInStore || result; //uses local storage if its there, otherwise just the json result
+            $scope.cabinet = result; //uses local storage if its there, otherwise just the json result
             $scope.cabinetChanged = false; //just setting up this initially
 
             $scope.liquor = [];
@@ -105,7 +107,9 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
                     $scope.cabinet[i].ing.inStock = !$scope.cabinet[i].ing.inStock;
                 }
             }
-            //console.log(ing);
+	    var inOut = "markOut/";
+	    if(ing.inStock) inOut = "markIn/";
+            $http.get(serverurl + inOut + ing.id);
             //console.log($scope.cabinetChanged);
         };
 
@@ -134,10 +138,15 @@ cabinet.controller('CabinetCtrl', ['$scope', '$http', '$routeParams', 'myService
             if(allSame) { //either all on or all off, just reverse
                 for(var i=0;i<activeTab.length;i++) {
                     activeTab[i].inStock = !activeTab[i].inStock;
+		    var inOut = "markOut/";
+		    if(activeTab[i].inStock) inOut = "markIn/";
+		    $http.get(serverurl + inOut + activeTab[i].id);
                 }
             } else { //theres a mix; turn all to checked
                 for(var i=0;i<activeTab.length;i++) {
                     activeTab[i].inStock = true;
+		    $http.get(serverurl + "markIn/" + activeTab[i].id);
+
                 }
             }
         };
