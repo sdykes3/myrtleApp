@@ -412,6 +412,9 @@
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Lemon Juice", "id": "lemon-juice"},
       {"name": "Cola", "id": "cola"}
+    ],
+    "flavors": [
+      {"flavor": "sweet"}
     ]
   },
 
@@ -425,6 +428,9 @@
       {"name": "Lemon Juice", "id": "lemon-juice"},
       {"name": "Orange Juice", "id": "orange-juice"},
       {"name": "Club Soda", "id": "club-soda"}
+    ],
+    "flavors": [
+      {"flavor": "sweet"}
     ]
   },
 
@@ -436,6 +442,9 @@
       {"name": "Gin", "id": "gin"},
       {"name": "Peach Schnapps", "id": "peach-schnapps"},
       {"name": "Lemon Juice", "id": "lemon-juice"}
+    ],
+    "flavors": [
+      {"flavor": "sweet"}
     ]
   },
 
@@ -446,6 +455,9 @@
     "ingredients": [
       {"name": "Brandy", "id": "brandy"},
       {"name": "Amaretto", "id": "amaretto"}
+    ],
+    "flavors": [
+      {"flavor": "sweet"}
     ]
   },
 
@@ -458,6 +470,9 @@
       {"name": "Lemon Juice", "id": "lemon-juice"},
       {"name": "Simple Syrup", "id": "simple-syrup"},
       {"name": "Club Soda", "id": "club-soda"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
     ]
   },
 
@@ -470,6 +485,9 @@
       {"name": "Dry Vermouth", "id": "dry-vermouth"},
       {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
       {"name": "Orange Juice", "id": "orange-juice"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
     ]
   },
 
@@ -481,6 +499,9 @@
       {"name": "Gin", "id": "gin"},
       {"name": "Dry Vermouth", "id": "dry-vermouth"},
       {"name": "Sweet Lime", "id": "sweet-lime"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
     ]
   },
 
@@ -495,6 +516,9 @@
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Lemon Juice", "id": "lemon-juice"},
       {"name": "Bitters", "id": "bitters"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
     ]
   },
 
@@ -506,6 +530,9 @@
       {"name": "Gin", "id": "gin"},
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
     ]
   },
 
@@ -517,6 +544,9 @@
       {"name": "Whiskey", "id": "whiskey"},
       {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
       {"name": "Bitters", "id": "bitters"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
     ]
   },
 
@@ -527,6 +557,9 @@
     "ingredients": [
       {"name": "Whiskey", "id": "whiskey"},
       {"name": "Sweet & Sour Mix", "id": "sweet-sour-mix"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
     ]
   },
 
@@ -538,6 +571,9 @@
       {"name": "Whiskey", "id": "whiskey"},
       {"name": "Simple Syrup", "id": "simple-syrup"},
       {"name": "Bitters", "id": "bitters"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
     ]
   },
 
@@ -550,6 +586,9 @@
       {"name": "Champagne", "id": "champagne"},
       {"name": "Simple Syrup", "id": "simple-syrup"},
       {"name": "Bitters", "id": "bitters"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
     ]
   },
 
@@ -564,6 +603,10 @@
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Sweet Lime", "id": "sweet-lime"},
       {"name": "Lime", "id": "lime"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"},
+      {"flavor": "ginger"}
     ]
   },
 
@@ -575,6 +618,9 @@
       {"name": "Gin", "id": "gin"},
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Lemon Juice", "id": "lemon-juice"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -586,6 +632,9 @@
       {"name": "Vodka", "id": "vodka"},
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Lime Juice", "id": "lime-juice"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -598,6 +647,9 @@
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Lemon Juice", "id": "lemon-juice"},
       {"name": "Grenadine", "id": "grenadine"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -609,6 +661,9 @@
       {"name": "Gin", "id": "gin"},
       {"name": "Lime Juice", "id": "lime-juice"},
       {"name": "Club Soda", "id": "club-soda"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -619,6 +674,9 @@
     "ingredients": [
       {"name": "Vodka", "id": "vodka"},
       {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -631,6 +689,9 @@
       {"name": "Lime Juice", "id": "lime-juice"},
       {"name": "Simple Syrup", "id": "simple-syrup"},
       {"name": "Strawberry", "id": "strawberry"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -643,6 +704,9 @@
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Lemon Juice", "id": "lemon-juice"},
       {"name": "Orange Juice", "id": "orange-juice"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -654,6 +718,9 @@
       {"name": "Gin", "id": "gin"},
       {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
       {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -665,6 +732,10 @@
       {"name": "Gin", "id": "gin"},
       {"name": "Lemon Juice", "id": "lemon-juice"},
       {"name": "Ginger Ale", "id": "ginger-ale"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"},
+      {"flavor": "ginger"}
     ]
   },
 
@@ -677,6 +748,9 @@
       {"name": "Light Rum", "id": "light-rum"},
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Lemon Juice", "id": "lemon-juice"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -689,6 +763,9 @@
       {"name": "Light Rum", "id": "light-rum"},
       {"name": "Lemon Juice", "id": "lemon-juice"},
       {"name": "Grenadine", "id": "grenadine"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -699,6 +776,9 @@
     "ingredients": [
       {"name": "Gin", "id": "gin"},
       {"name": "Sweet Lime", "id": "sweet-lime"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -710,6 +790,9 @@
       {"name": "Gin", "id": "gin"},
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Lemon Juice", "id": "lemon-juice"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -724,6 +807,9 @@
       {"name": "Lime Juice", "id": "lime-juice"},
       {"name": "Simple Syrup", "id": "simple-syrup"},
       {"name": "Sprite", "id": "sprite"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -735,6 +821,9 @@
       {"name": "Dark Rum", "id": "dark-rum"},
       {"name": "Amaretto", "id": "amaretto"},
       {"name": "Sour Mix", "id": "sour-mix"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -748,6 +837,9 @@
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Amaretto", "id": "amaretto"},
       {"name": "Bitters", "id": "bitters"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -759,6 +851,9 @@
       {"name": "Brandy", "id": "brandy"},
       {"name": "Ginger Ale", "id": "ginger-ale"},
       {"name": "Bitters", "id": "bitters"}
+    ],
+    "flavors": [
+      {"flavor": "ginger"}
     ]
   },
 
@@ -786,6 +881,9 @@
       {"name": "Vodka", "id": "vodka"},
       {"name": "Dry Vermouth", "id": "dry-vermouth"},
       {"name": "Peach Schnapps", "id": "peach-schnapps"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
     ]
   },
 
@@ -797,6 +895,9 @@
       {"name": "Gin", "id": "gin"},
       {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Bitters", "id": "bitters"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
     ]
   },
 
@@ -809,6 +910,9 @@
       {"name": "Lime Juice", "id": "lime-juice"},
       {"name": "Grenadine", "id": "grenadine"},
       {"name": "Maraschino Cherry", "id": "cherry"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
     ]
   }
 
