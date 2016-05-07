@@ -128,7 +128,7 @@
       {"name": "Club Soda", "id": "club-soda"}
     ],
     "flavors": [
-      {"flavor": "sweet"}
+      {"flavor": "sweet drink"}
     ]
   },
 
@@ -331,7 +331,7 @@
       {"name": "Amaretto", "id": "amaretto"}
     ],
     "flavors": [
-      {"flavor": "sweet"}
+      {"flavor": "sweet drink"}
     ]
   },
 
@@ -499,7 +499,7 @@
       {"name": "Cola", "id": "cola"}
     ],
     "flavors": [
-      {"flavor": "sweet"}
+      {"flavor": "sweet drink"}
     ]
   },
 
@@ -692,7 +692,7 @@
       {"name": "Lemon Juice", "id": "lemon-juice"}
     ],
     "flavors": [
-      {"flavor": "sweet"}
+      {"flavor": "sweet drink"}
     ]
   },
 
