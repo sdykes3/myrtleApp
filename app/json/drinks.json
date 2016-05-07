@@ -1,151 +1,14 @@
 [
   {
-    "id" : "dirty-girl-scout",
-    "name": "Dirty Girl Scout",
+    "id" : "57-t-bird",
+    "name": "57 T-Bird",
     "cost": "X",
     "ingredients": [
       {"name": "Vodka", "id": "vodka"},
-      {"name": "Creme de Menthe", "id": "creme-de-menthe"},
-      {"name": "Creme de Cacao", "id": "creme-de-cacao"},
-      {"name": "Irish Cream", "id": "irish-cream"}
-    ],
-    "flavors": [
-      {"flavor": "creamy"},
-      {"flavor": "minty"},
-      {"flavor": "chocolatey"}
-    ]
-  },
-
-  {
-    "id" : "white-russian",
-    "name": "White Russian",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Vodka", "id": "vodka"},
-      {"name": "Kahlua", "id": "kahlua"},
-      {"name": "Cream", "id": "cream"}
-    ],
-    "flavors": [
-      {"flavor": "creamy"},
-      {"flavor": "coffee"}
-    ]
-  },
-
-  {
-    "id" : "brandy-alexander",
-    "name": "Brandy Alexander",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Brandy", "id": "brandy"},
-      {"name": "Creme de Cacao", "id": "creme-de-cacao"},
-      {"name": "Cream", "id": "cream"}
-    ],
-    "flavors": [
-      {"flavor": "creamy"},
-      {"flavor": "chocolatey"}
-    ]
-  },
-
-  {
-    "id" : "grasshopper",
-    "name": "Grasshopper",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Creme de Menthe", "id": "creme-de-menthe"},
-      {"name": "Creme de Cacao", "id": "creme-de-cacao"},
-      {"name": "Cream", "id": "cream"}
-    ],
-    "flavors": [
-      {"flavor": "creamy"},
-      {"flavor": "minty"}
-    ]
-  },
-
-  {
-    "id" : "jeremiah",
-    "name": "Jeremiah",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Creme de Menthe", "id": "creme-de-menthe"},
-      {"name": "Creme de Cacao", "id": "creme-de-cacao"},
-      {"name": "Kahlua", "id": "kahlua"},
-      {"name": "Milk", "id": "milk"}
-    ],
-    "flavors": [
-      {"flavor": "creamy"},
-      {"flavor": "minty"},
-      {"flavor": "chocolatey"}
-    ]
-  },
-
-  {
-    "id" : "silk-stockings",
-    "name": "Silk Stockings",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Tequila", "id": "tequila"},
-      {"name": "Creme de Cacao", "id": "creme-de-cacao"},
-      {"name": "Cream", "id": "cream"},
-      {"name": "Grenadine", "id": "grenadine"}
-    ],
-    "flavors": [
-      {"flavor": "creamy"},
-      {"flavor": "chocolatey"}
-    ]
-  },
-
-  {
-    "id" : "brandy-smash",
-    "name": "Brandy Smash",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Brandy", "id": "brandy"},
-      {"name": "Mint", "id": "mint"},
-      {"name": "Simple Syrup", "id": "simple-syrup"},
-      {"name": "Club Soda", "id": "club-soda"},
-      {"name": "Orange Juice", "id": "orange-juice"}
-    ],
-    "flavors": [
-      {"flavor": "minty"}
-    ]
-  },
-
-  {
-    "id" : "mojito",
-    "name": "Mojito",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Light Rum", "id": "light-rum"},
-      {"name": "Mint Leaves", "id": "mint"},
-      {"name": "Lime Juice", "id": "lime-juice"},
-      {"name": "Club Soda", "id": "club-soda"},
-      {"name": "Simple Syrup", "id": "simple-syrup"}
-    ],
-    "flavors": [
-      {"flavor": "minty"}
-    ]
-  },
-
-  {
-    "id" : "chocolate-martini",
-    "name": "Chocolate Martini",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Vodka", "id": "vodka"},
-      {"name": "Creme de Cacao", "id": "creme-de-cacao"}
-    ],
-    "flavors": [
-      {"flavor": "chocolatey"}
-    ]
-  },
-
-  {
-    "id" : "mimosa",
-    "name": "Mimosa",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Champagne", "id": "champagne"},
-      {"name": "Orange Juice", "id": "orange-juice"}
+      {"name": "Amaretto", "id": "amaretto"},
+      {"name": "Melon Liqueur", "id": "melon-liqueur"},
+      {"name": "Peach Schnapps", "id": "peach-schnapps"},
+      {"name": "Orange Schnapps", "id": "orange-schnapps"}
     ],
     "flavors": [
       {"flavor": "fruity"}
@@ -153,17 +16,18 @@
   },
 
   {
-    "id" : "rumand",
-    "name": "Rumand",
+    "id" : "austin-special",
+    "name": "Austin Special",
     "cost": "X",
     "ingredients": [
-      {"name": "Dark Rum", "id": "dark-rum"},
-      {"name": "Orange Juice", "id": "orange-juice"},
-      {"name": "Peach Juice", "id": "peach-juice"},
-      {"name": "Mango Juice", "id": "mango-juice"}
+      {"name": "Southern Comfort", "id": "so-co"},
+      {"name": "Sweet Lime", "id": "sweet-lime"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Amaretto", "id": "amaretto"},
+      {"name": "Bitters", "id": "bitters"}
     ],
     "flavors": [
-      {"flavor": "fruity"}
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -182,182 +46,17 @@
   },
 
   {
-    "id" : "cosmo",
-    "name": "Cosmopolitan",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Vodka", "id": "vodka"},
-      {"name": "Triple Sec", "id": "triple-sec"},
-      {"name": "Cranberry Juice", "id": "cranberry-juice"},
-      {"name": "Lime Juice", "id": "lime-juice"}
-    ],
-    "flavors": [
-      {"flavor": "fruity"}
-    ]
-  },
-
-  {
-    "id" : "mai-tai",
-    "name": "Mai Tai",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Light Rum", "id": "light-rum"},
-      {"name": "Triple Sec", "id": "triple-sec"},
-      {"name": "Amaretto", "id": "amaretto"},
-      {"name": "Sour Mix", "id": "sour-mix"},
-      {"name": "Pineapple Juice", "id": "pineapple-juice"},
-      {"name": "Dark Rum", "id": "dark-rum"}
-    ],
-    "flavors": [
-      {"flavor": "fruity"}
-    ]
-  },
-
-  {
-    "id" : "sex-on-beach",
-    "name": "Sex on the Beach",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Vodka", "id": "vodka"},
-      {"name": "Peach Schnapps", "id": "peach-schnapps"},
-      {"name": "Pineapple Juice", "id": "pineapple-juice"},
-      {"name": "Cranberry Juice", "id": "cranberry-juice"}
-    ],
-    "flavors": [
-      {"flavor": "fruity"}
-    ]
-  },
-
-  {
-    "id" : "seabreeze",
-    "name": "Seabreeze",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Vodka", "id": "vodka"},
-      {"name": "Grapefruit Juice", "id": "grapefruit-juice"},
-      {"name": "Cranberry Juice", "id": "cranberry-juice"}
-    ],
-    "flavors": [
-      {"flavor": "fruity"}
-    ]
-  },
-
-  {
-    "id" : "orchard-maze",
-    "name": "Orchard Maze",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Vodka", "id": "vodka"},
-      {"name": "Peach Schnapps", "id": "peach-schnapps"},
-      {"name": "Orange Juice", "id": "orange-juice"},
-      {"name": "Cranberry Juice", "id": "cranberry-juice"}
-    ],
-    "flavors": [
-      {"flavor": "fruity"}
-    ]
-  },
-
-  {
-    "id" : "sundress",
-    "name": "Sundress",
+    "id" : "between-the-sheets",
+    "name": "Between the Sheets",
     "cost": "X",
     "ingredients": [
       {"name": "Brandy", "id": "brandy"},
-      {"name": "Peach Schnapps", "id": "peach-schnapps"},
-      {"name": "Orange Juice", "id": "orange-juice"},
-      {"name": "Grenadine", "id": "grenadine"}
-    ],
-    "flavors": [
-      {"flavor": "fruity"}
-    ]
-  },
-
-  {
-    "id" : "cuban-heat",
-    "name": "Cuban Heat",
-    "cost": "X",
-    "ingredients": [
       {"name": "Light Rum", "id": "light-rum"},
-      {"name": "Amaretto", "id": "amaretto"},
-      {"name": "Cranberry Juice", "id": "cranberry-juice"}
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Lemon Juice", "id": "lemon-juice"}
     ],
     "flavors": [
-      {"flavor": "fruity"}
-    ]
-  },
-
-  {
-    "id" : "loco",
-    "name": "Loco",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Light Rum", "id": "light-rum"},
-      {"name": "Peach Schnapps", "id": "peach-schnapps"},
-      {"name": "Cranberry Juice", "id": "cranberry-juice"},
-      {"name": "Lime Juice", "id": "lime-juice"}
-    ],
-    "flavors": [
-      {"flavor": "fruity"}
-    ]
-  },
-
-  {
-    "id" : "cool-breeze",
-    "name": "Cool Breeze",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Tequila", "id": "tequila"},
-      {"name": "Melon Liqueur", "id": "melon-liqueur"},
-      {"name": "Cranberry Juice", "id": "cranberry-juice"}
-    ],
-    "flavors": [
-      {"flavor": "fruity"}
-    ]
-  },
-
-  {
-    "id" : "japanese-slipper",
-    "name": "Japanese Slipper",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Tequila", "id": "tequila"},
-      {"name": "Melon Liqueur", "id": "melon-liqueur"},
-      {"name": "Lime Juice", "id": "lime-juice"},
-      {"name": "Simple Syrup", "id": "simple-syrup"}
-    ],
-    "flavors": [
-      {"flavor": "fruity"}
-    ]
-  },
-
-  {
-    "id" : "57-t-bird",
-    "name": "57 T-Bird",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Vodka", "id": "vodka"},
-      {"name": "Amaretto", "id": "amaretto"},
-      {"name": "Melon Liqueur", "id": "melon-liqueur"},
-      {"name": "Peach Schnapps", "id": "peach-schnapps"},
-      {"name": "Orange Schnapps", "id": "orange-schnapps"}
-    ],
-    "flavors": [
-      {"flavor": "fruity"}
-    ]
-  },
-
-  {
-    "id" : "pure-fetish",
-    "name": "Pure Fetish",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Vodka", "id": "vodka"},
-      {"name": "Peach Schnapps", "id": "peach-schnapps"},
-      {"name": "Orange Juice", "id": "orange-juice"},
-      {"name": "Cranberry Juice", "id": "cranberry-juice"}
-    ],
-    "flavors": [
-      {"flavor": "fruity"}
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -375,46 +74,45 @@
   },
 
   {
-    "id" : "dirty-mother",
-    "name": "Dirty Mother",
-    "cost": "X",
+    "id" : "blue-bird",
+    "name": "Bluebird",
+    "cost": "/",
     "ingredients": [
-      {"name": "Brandy", "id": "brandy"},
-      {"name": "Kahlua", "id": "kahlua"}
+      {"name": "Gin", "id": "gin"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Bitters", "id": "bitters"}
     ],
     "flavors": [
-      {"flavor": "coffee"}
+      {"flavor": "stiff"}
     ]
   },
 
   {
-    "id" : "brave-bull",
-    "name": "Brave Bull",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Tequila", "id": "tequila"},
-      {"name": "Kahlua", "id": "kahlua"}
-    ],
-    "flavors": [
-      {"flavor": "coffee"}
-    ]
-  },
-
-  {
-    "id" : "long-island",
-    "name": "Long Island Iced Tea",
+    "id" : "blue-lady",
+    "name": "Blue Lady",
     "cost": "X",
     "ingredients": [
       {"name": "Vodka", "id": "vodka"},
-      {"name": "Light Rum", "id": "light-rum"},
-      {"name": "Gin", "id": "gin"},
-      {"name": "Tequila", "id": "tequila"},
-      {"name": "Triple Sec", "id": "triple-sec"},
-      {"name": "Lemon Juice", "id": "lemon-juice"},
-      {"name": "Cola", "id": "cola"}
+      {"name": "Dry Vermouth", "id": "dry-vermouth"},
+      {"name": "Peach Schnapps", "id": "peach-schnapps"}
     ],
     "flavors": [
-      {"flavor": "sweet"}
+      {"flavor": "stiff"}
+    ]
+  },
+
+  {
+    "id" : "brandy-alexander",
+    "name": "Brandy Alexander",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Brandy", "id": "brandy"},
+      {"name": "Creme de Cacao", "id": "creme-de-cacao"},
+      {"name": "Cream", "id": "cream"}
+    ],
+    "flavors": [
+      {"flavor": "creamy"},
+      {"flavor": "chocolatey"}
     ]
   },
 
@@ -435,44 +133,31 @@
   },
 
   {
-    "id" : "perfect-lady",
-    "name": "Perfect Lady",
-    "cost": "X",
-    "ingredients": [
-      {"name": "Gin", "id": "gin"},
-      {"name": "Peach Schnapps", "id": "peach-schnapps"},
-      {"name": "Lemon Juice", "id": "lemon-juice"}
-    ],
-    "flavors": [
-      {"flavor": "sweet"}
-    ]
-  },
-
-  {
-    "id" : "french-connection",
-    "name": "French Connection",
+    "id" : "brandy-smash",
+    "name": "Brandy Smash",
     "cost": "X",
     "ingredients": [
       {"name": "Brandy", "id": "brandy"},
-      {"name": "Amaretto", "id": "amaretto"}
+      {"name": "Mint", "id": "mint"},
+      {"name": "Simple Syrup", "id": "simple-syrup"},
+      {"name": "Club Soda", "id": "club-soda"},
+      {"name": "Orange Juice", "id": "orange-juice"}
     ],
     "flavors": [
-      {"flavor": "sweet"}
+      {"flavor": "minty"}
     ]
   },
 
   {
-    "id" : "tom-collins",
-    "name": "Tom Collins",
-    "cost": "/",
+    "id" : "brave-bull",
+    "name": "Brave Bull",
+    "cost": "X",
     "ingredients": [
-      {"name": "Gin", "id": "gin"},
-      {"name": "Lemon Juice", "id": "lemon-juice"},
-      {"name": "Simple Syrup", "id": "simple-syrup"},
-      {"name": "Club Soda", "id": "club-soda"}
+      {"name": "Tequila", "id": "tequila"},
+      {"name": "Kahlua", "id": "kahlua"}
     ],
     "flavors": [
-      {"flavor": "stiff"}
+      {"flavor": "coffee"}
     ]
   },
 
@@ -506,78 +191,6 @@
   },
 
   {
-    "id" : "journalist",
-    "name": "Journalist",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Gin", "id": "gin"},
-      {"name": "Dry Vermouth", "id": "dry-vermouth"},
-      {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
-      {"name": "Triple Sec", "id": "triple-sec"},
-      {"name": "Lemon Juice", "id": "lemon-juice"},
-      {"name": "Bitters", "id": "bitters"}
-    ],
-    "flavors": [
-      {"flavor": "stiff"}
-    ]
-  },
-
-  {
-    "id" : "mainbrace",
-    "name": "Mainbrace",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Gin", "id": "gin"},
-      {"name": "Triple Sec", "id": "triple-sec"},
-      {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
-    ],
-    "flavors": [
-      {"flavor": "stiff"}
-    ]
-  },
-
-  {
-    "id" : "manhattan",
-    "name": "Manhattan",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Whiskey", "id": "whiskey"},
-      {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
-      {"name": "Bitters", "id": "bitters"}
-    ],
-    "flavors": [
-      {"flavor": "stiff"}
-    ]
-  },
-
-  {
-    "id" : "whiskey-sour",
-    "name": "Whiskey Sour",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Whiskey", "id": "whiskey"},
-      {"name": "Sweet & Sour Mix", "id": "sweet-sour-mix"}
-    ],
-    "flavors": [
-      {"flavor": "stiff"}
-    ]
-  },
-
-  {
-    "id" : "old-fashioned",
-    "name": "Old Fashioned",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Whiskey", "id": "whiskey"},
-      {"name": "Simple Syrup", "id": "simple-syrup"},
-      {"name": "Bitters", "id": "bitters"}
-    ],
-    "flavors": [
-      {"flavor": "stiff"}
-    ]
-  },
-
-  {
     "id" : "champagne-cocktail",
     "name": "Champagne Cocktail",
     "cost": "X",
@@ -593,31 +206,29 @@
   },
 
   {
-    "id" : "moscow-mule",
-    "name": "Moscow Mule",
+    "id" : "chocolate-martini",
+    "name": "Chocolate Martini",
     "cost": "X",
     "ingredients": [
       {"name": "Vodka", "id": "vodka"},
-      {"name": "Ginger Beer", "id": "ginger-beer"},
-      {"name": "Bitters", "id": "bitters"},
-      {"name": "Triple Sec", "id": "triple-sec"},
-      {"name": "Sweet Lime", "id": "sweet-lime"},
-      {"name": "Lime", "id": "lime"}
+      {"name": "Creme de Cacao", "id": "creme-de-cacao"}
     ],
     "flavors": [
-      {"flavor": "citrusy"},
-      {"flavor": "ginger"}
+      {"flavor": "chocolatey"}
     ]
   },
 
   {
-    "id" : "sidecar",
-    "name": "Sidercar",
+    "id" : "citrus-rum-cooler",
+    "name": "Citrus Rum Cooler",
     "cost": "/",
     "ingredients": [
-      {"name": "Gin", "id": "gin"},
+      {"name": "Light Rum", "id": "light-rum"},
       {"name": "Triple Sec", "id": "triple-sec"},
-      {"name": "Lemon Juice", "id": "lemon-juice"}
+      {"name": "Orange Juice", "id": "orange-juice"},
+      {"name": "Lime Juice", "id": "lime-juice"},
+      {"name": "Simple Syrup", "id": "simple-syrup"},
+      {"name": "Sprite", "id": "sprite"}
     ],
     "flavors": [
       {"flavor": "citrusy"}
@@ -625,58 +236,45 @@
   },
 
   {
-    "id" : "kamikaze",
-    "name": "Kamimaze",
+    "id" : "cosmo",
+    "name": "Cosmopolitan",
     "cost": "/",
     "ingredients": [
       {"name": "Vodka", "id": "vodka"},
       {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Cranberry Juice", "id": "cranberry-juice"},
       {"name": "Lime Juice", "id": "lime-juice"}
     ],
     "flavors": [
-      {"flavor": "citrusy"}
+      {"flavor": "fruity"}
     ]
   },
 
   {
-    "id" : "maidens-blush",
-    "name": "Maiden's Blush",
+    "id" : "cool-breeze",
+    "name": "Cool Breeze",
     "cost": "/",
     "ingredients": [
-      {"name": "Gin", "id": "gin"},
-      {"name": "Triple Sec", "id": "triple-sec"},
-      {"name": "Lemon Juice", "id": "lemon-juice"},
-      {"name": "Grenadine", "id": "grenadine"}
+      {"name": "Tequila", "id": "tequila"},
+      {"name": "Melon Liqueur", "id": "melon-liqueur"},
+      {"name": "Cranberry Juice", "id": "cranberry-juice"}
     ],
     "flavors": [
-      {"flavor": "citrusy"}
+      {"flavor": "fruity"}
     ]
   },
 
   {
-    "id" : "gin-rickey",
-    "name": "Gin Rickey",
-    "cost": "/",
+    "id" : "cuban-heat",
+    "name": "Cuban Heat",
+    "cost": "X",
     "ingredients": [
-      {"name": "Gin", "id": "gin"},
-      {"name": "Lime Juice", "id": "lime-juice"},
-      {"name": "Club Soda", "id": "club-soda"}
+      {"name": "Light Rum", "id": "light-rum"},
+      {"name": "Amaretto", "id": "amaretto"},
+      {"name": "Cranberry Juice", "id": "cranberry-juice"}
     ],
     "flavors": [
-      {"flavor": "citrusy"}
-    ]
-  },
-
-  {
-    "id" : "salty-dog",
-    "name": "Salty Dog",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Vodka", "id": "vodka"},
-      {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
-    ],
-    "flavors": [
-      {"flavor": "citrusy"}
+      {"flavor": "fruity"}
     ]
   },
 
@@ -687,8 +285,7 @@
     "ingredients": [
       {"name": "Light Rum", "id": "light-rum"},
       {"name": "Lime Juice", "id": "lime-juice"},
-      {"name": "Simple Syrup", "id": "simple-syrup"},
-      {"name": "Strawberry", "id": "strawberry"}
+      {"name": "Simple Syrup", "id": "simple-syrup"}
     ],
     "flavors": [
       {"flavor": "citrusy"}
@@ -696,28 +293,55 @@
   },
 
   {
-    "id" : "maidens-prayer",
-    "name": "Maiden's Prayer",
-    "cost": "/",
+    "id" : "dirty-girl-scout",
+    "name": "Dirty Girl Scout",
+    "cost": "X",
     "ingredients": [
-      {"name": "Gin", "id": "gin"},
-      {"name": "Triple Sec", "id": "triple-sec"},
-      {"name": "Lemon Juice", "id": "lemon-juice"},
-      {"name": "Orange Juice", "id": "orange-juice"}
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Creme de Menthe", "id": "creme-de-menthe"},
+      {"name": "Creme de Cacao", "id": "creme-de-cacao"},
+      {"name": "Irish Cream", "id": "irish-cream"}
     ],
     "flavors": [
-      {"flavor": "citrusy"}
+      {"flavor": "creamy"},
+      {"flavor": "minty"},
+      {"flavor": "chocolatey"}
     ]
   },
 
   {
-    "id" : "palm-beach",
-    "name": "Palm Beach",
+    "id" : "dirty-mother",
+    "name": "Dirty Mother",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Brandy", "id": "brandy"},
+      {"name": "Kahlua", "id": "kahlua"}
+    ],
+    "flavors": [
+      {"flavor": "coffee"}
+    ]
+  },
+
+  {
+    "id" : "french-connection",
+    "name": "French Connection",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Brandy", "id": "brandy"},
+      {"name": "Amaretto", "id": "amaretto"}
+    ],
+    "flavors": [
+      {"flavor": "sweet"}
+    ]
+  },
+
+  {
+    "id" : "gimlet",
+    "name": "Gimlet",
     "cost": "/",
     "ingredients": [
       {"name": "Gin", "id": "gin"},
-      {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
-      {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
+      {"name": "Sweet Lime", "id": "sweet-lime"}
     ],
     "flavors": [
       {"flavor": "citrusy"}
@@ -740,14 +364,106 @@
   },
 
   {
-    "id" : "between-the-sheets",
-    "name": "Between the Sheets",
+    "id" : "gin-rickey",
+    "name": "Gin Rickey",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Lime Juice", "id": "lime-juice"},
+      {"name": "Club Soda", "id": "club-soda"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
+    ]
+  },
+
+
+  {
+    "id" : "grasshopper",
+    "name": "Grasshopper",
     "cost": "X",
     "ingredients": [
+      {"name": "Creme de Menthe", "id": "creme-de-menthe"},
+      {"name": "Creme de Cacao", "id": "creme-de-cacao"},
+      {"name": "Cream", "id": "cream"}
+    ],
+    "flavors": [
+      {"flavor": "creamy"},
+      {"flavor": "minty"}
+    ]
+  },
+
+  {
+    "id" : "horses-neck",
+    "name": "Horse's Neck",
+    "cost": "/",
+    "ingredients": [
       {"name": "Brandy", "id": "brandy"},
-      {"name": "Light Rum", "id": "light-rum"},
+      {"name": "Ginger Ale", "id": "ginger-ale"},
+      {"name": "Bitters", "id": "bitters"}
+    ],
+    "flavors": [
+      {"flavor": "ginger"}
+    ]
+  },
+
+  {
+    "id" : "japanese-slipper",
+    "name": "Japanese Slipper",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Tequila", "id": "tequila"},
+      {"name": "Melon Liqueur", "id": "melon-liqueur"},
+      {"name": "Lime Juice", "id": "lime-juice"},
+      {"name": "Simple Syrup", "id": "simple-syrup"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
+    ]
+  },
+
+  {
+    "id" : "jeremiah",
+    "name": "Jeremiah",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Creme de Menthe", "id": "creme-de-menthe"},
+      {"name": "Creme de Cacao", "id": "creme-de-cacao"},
+      {"name": "Kahlua", "id": "kahlua"},
+      {"name": "Milk", "id": "milk"}
+    ],
+    "flavors": [
+      {"flavor": "creamy"},
+      {"flavor": "minty"},
+      {"flavor": "chocolatey"}
+    ]
+  },
+
+  {
+    "id" : "journalist",
+    "name": "Journalist",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Dry Vermouth", "id": "dry-vermouth"},
+      {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
       {"name": "Triple Sec", "id": "triple-sec"},
-      {"name": "Lemon Juice", "id": "lemon-juice"}
+      {"name": "Lemon Juice", "id": "lemon-juice"},
+      {"name": "Bitters", "id": "bitters"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
+    ]
+  },
+
+  {
+    "id" : "kamikaze",
+    "name": "Kamimaze",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Lime Juice", "id": "lime-juice"}
     ],
     "flavors": [
       {"flavor": "citrusy"}
@@ -755,12 +471,45 @@
   },
 
   {
-    "id" : "three-miller",
-    "name": "Three Miller",
+    "id" : "loco",
+    "name": "Loco",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Light Rum", "id": "light-rum"},
+      {"name": "Peach Schnapps", "id": "peach-schnapps"},
+      {"name": "Cranberry Juice", "id": "cranberry-juice"},
+      {"name": "Lime Juice", "id": "lime-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
+    ]
+  },
+
+  {
+    "id" : "long-island",
+    "name": "Long Island Iced Tea",
     "cost": "X",
     "ingredients": [
-      {"name": "Brandy", "id": "brandy"},
+      {"name": "Vodka", "id": "vodka"},
       {"name": "Light Rum", "id": "light-rum"},
+      {"name": "Gin", "id": "gin"},
+      {"name": "Tequila", "id": "tequila"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Lemon Juice", "id": "lemon-juice"},
+      {"name": "Cola", "id": "cola"}
+    ],
+    "flavors": [
+      {"flavor": "sweet"}
+    ]
+  },
+
+  {
+    "id" : "maidens-blush",
+    "name": "Maiden's Blush",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Triple Sec", "id": "triple-sec"},
       {"name": "Lemon Juice", "id": "lemon-juice"},
       {"name": "Grenadine", "id": "grenadine"}
     ],
@@ -770,26 +519,14 @@
   },
 
   {
-    "id" : "gimlet",
-    "name": "Gimlet",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Gin", "id": "gin"},
-      {"name": "Sweet Lime", "id": "sweet-lime"}
-    ],
-    "flavors": [
-      {"flavor": "citrusy"}
-    ]
-  },
-
-  {
-    "id" : "white-lady",
-    "name": "White Lady",
+    "id" : "maidens-prayer",
+    "name": "Maiden's Prayer",
     "cost": "/",
     "ingredients": [
       {"name": "Gin", "id": "gin"},
       {"name": "Triple Sec", "id": "triple-sec"},
-      {"name": "Lemon Juice", "id": "lemon-juice"}
+      {"name": "Lemon Juice", "id": "lemon-juice"},
+      {"name": "Orange Juice", "id": "orange-juice"}
     ],
     "flavors": [
       {"flavor": "citrusy"}
@@ -797,19 +534,123 @@
   },
 
   {
-    "id" : "citrus-rum-cooler",
-    "name": "Citrus Rum Cooler",
+    "id" : "mainbrace",
+    "name": "Mainbrace",
     "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
+    ]
+  },
+
+  {
+    "id" : "mai-tai",
+    "name": "Mai Tai",
+    "cost": "X",
     "ingredients": [
       {"name": "Light Rum", "id": "light-rum"},
       {"name": "Triple Sec", "id": "triple-sec"},
-      {"name": "Orange Juice", "id": "orange-juice"},
-      {"name": "Lime Juice", "id": "lime-juice"},
-      {"name": "Simple Syrup", "id": "simple-syrup"},
-      {"name": "Sprite", "id": "sprite"}
+      {"name": "Amaretto", "id": "amaretto"},
+      {"name": "Sour Mix", "id": "sour-mix"},
+      {"name": "Pineapple Juice", "id": "pineapple-juice"},
+      {"name": "Dark Rum", "id": "dark-rum"}
     ],
     "flavors": [
-      {"flavor": "citrusy"}
+      {"flavor": "fruity"}
+    ]
+  },
+
+  {
+    "id" : "manhattan",
+    "name": "Manhattan",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Whiskey", "id": "whiskey"},
+      {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
+      {"name": "Bitters", "id": "bitters"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
+    ]
+  },
+
+  {
+    "id" : "mimosa",
+    "name": "Mimosa",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Champagne", "id": "champagne"},
+      {"name": "Orange Juice", "id": "orange-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
+    ]
+  },
+
+  {
+    "id" : "mojito",
+    "name": "Mojito",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Light Rum", "id": "light-rum"},
+      {"name": "Mint Leaves", "id": "mint"},
+      {"name": "Lime Juice", "id": "lime-juice"},
+      {"name": "Club Soda", "id": "club-soda"},
+      {"name": "Simple Syrup", "id": "simple-syrup"}
+    ],
+    "flavors": [
+      {"flavor": "minty"}
+    ]
+  },
+
+  {
+    "id" : "moscow-mule",
+    "name": "Moscow Mule",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Ginger Beer", "id": "ginger-beer"},
+      {"name": "Bitters", "id": "bitters"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Sweet Lime", "id": "sweet-lime"},
+      {"name": "Lime", "id": "lime"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"},
+      {"flavor": "ginger"}
+    ]
+  },
+
+  {
+    "id" : "old-fashioned",
+    "name": "Old Fashioned",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Whiskey", "id": "whiskey"},
+      {"name": "Simple Syrup", "id": "simple-syrup"},
+      {"name": "Bitters", "id": "bitters"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
+    ]
+  },
+
+  {
+    "id" : "orchard-maze",
+    "name": "Orchard Maze",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Peach Schnapps", "id": "peach-schnapps"},
+      {"name": "Orange Juice", "id": "orange-juice"},
+      {"name": "Cranberry Juice", "id": "cranberry-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -828,15 +669,13 @@
   },
 
   {
-    "id" : "austin-special",
-    "name": "Austin Special",
-    "cost": "X",
+    "id" : "palm-beach",
+    "name": "Palm Beach",
+    "cost": "/",
     "ingredients": [
-      {"name": "Southern Comfort", "id": "so-co"},
-      {"name": "Sweet Lime", "id": "sweet-lime"},
-      {"name": "Triple Sec", "id": "triple-sec"},
-      {"name": "Amaretto", "id": "amaretto"},
-      {"name": "Bitters", "id": "bitters"}
+      {"name": "Gin", "id": "gin"},
+      {"name": "Sweet Vermouth", "id": "sweet-vermouth"},
+      {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
     ],
     "flavors": [
       {"flavor": "citrusy"}
@@ -844,16 +683,134 @@
   },
 
   {
-    "id" : "horses-neck",
-    "name": "Horse's Neck",
-    "cost": "/",
+    "id" : "perfect-lady",
+    "name": "Perfect Lady",
+    "cost": "X",
     "ingredients": [
-      {"name": "Brandy", "id": "brandy"},
-      {"name": "Ginger Ale", "id": "ginger-ale"},
-      {"name": "Bitters", "id": "bitters"}
+      {"name": "Gin", "id": "gin"},
+      {"name": "Peach Schnapps", "id": "peach-schnapps"},
+      {"name": "Lemon Juice", "id": "lemon-juice"}
     ],
     "flavors": [
-      {"flavor": "ginger"}
+      {"flavor": "sweet"}
+    ]
+  },
+
+  {
+    "id" : "pure-fetish",
+    "name": "Pure Fetish",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Peach Schnapps", "id": "peach-schnapps"},
+      {"name": "Orange Juice", "id": "orange-juice"},
+      {"name": "Cranberry Juice", "id": "cranberry-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
+    ]
+  },
+
+  {
+    "id" : "rumand",
+    "name": "Rumand",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Dark Rum", "id": "dark-rum"},
+      {"name": "Orange Juice", "id": "orange-juice"},
+      {"name": "Peach Juice", "id": "peach-juice"},
+      {"name": "Mango Juice", "id": "mango-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
+    ]
+  },
+
+
+  {
+    "id" : "salty-dog",
+    "name": "Salty Dog",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Grapefruit Juice", "id": "grapefruit-juice"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
+    ]
+  },
+
+  {
+    "id" : "seabreeze",
+    "name": "Seabreeze",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Grapefruit Juice", "id": "grapefruit-juice"},
+      {"name": "Cranberry Juice", "id": "cranberry-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
+    ]
+  },
+
+  {
+    "id" : "sex-on-beach",
+    "name": "Sex on the Beach",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Peach Schnapps", "id": "peach-schnapps"},
+      {"name": "Pineapple Juice", "id": "pineapple-juice"},
+      {"name": "Cranberry Juice", "id": "cranberry-juice"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
+    ]
+  },
+
+  {
+    "id" : "sidecar",
+    "name": "Sidercar",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Lemon Juice", "id": "lemon-juice"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
+    ]
+  },
+
+  {
+    "id" : "silk-stockings",
+    "name": "Silk Stockings",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Tequila", "id": "tequila"},
+      {"name": "Creme de Cacao", "id": "creme-de-cacao"},
+      {"name": "Cream", "id": "cream"},
+      {"name": "Grenadine", "id": "grenadine"}
+    ],
+    "flavors": [
+      {"flavor": "creamy"},
+      {"flavor": "chocolatey"}
+    ]
+  },
+
+  {
+    "id" : "sundress",
+    "name": "Sundress",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Brandy", "id": "brandy"},
+      {"name": "Peach Schnapps", "id": "peach-schnapps"},
+      {"name": "Orange Juice", "id": "orange-juice"},
+      {"name": "Grenadine", "id": "grenadine"}
+    ],
+    "flavors": [
+      {"flavor": "fruity"}
     ]
   },
 
@@ -874,30 +831,17 @@
   },
 
   {
-    "id" : "blue-lady",
-    "name": "Blue Lady",
+    "id" : "three-miller",
+    "name": "Three Miller",
     "cost": "X",
     "ingredients": [
-      {"name": "Vodka", "id": "vodka"},
-      {"name": "Dry Vermouth", "id": "dry-vermouth"},
-      {"name": "Peach Schnapps", "id": "peach-schnapps"}
+      {"name": "Brandy", "id": "brandy"},
+      {"name": "Light Rum", "id": "light-rum"},
+      {"name": "Lemon Juice", "id": "lemon-juice"},
+      {"name": "Grenadine", "id": "grenadine"}
     ],
     "flavors": [
-      {"flavor": "stiff"}
-    ]
-  },
-
-  {
-    "id" : "blue-bird",
-    "name": "Bluebird",
-    "cost": "/",
-    "ingredients": [
-      {"name": "Gin", "id": "gin"},
-      {"name": "Triple Sec", "id": "triple-sec"},
-      {"name": "Bitters", "id": "bitters"}
-    ],
-    "flavors": [
-      {"flavor": "stiff"}
+      {"flavor": "citrusy"}
     ]
   },
 
@@ -908,11 +852,67 @@
     "ingredients": [
       {"name": "Light Rum", "id": "light-rum"},
       {"name": "Lime Juice", "id": "lime-juice"},
-      {"name": "Grenadine", "id": "grenadine"},
-      {"name": "Maraschino Cherry", "id": "cherry"}
+      {"name": "Grenadine", "id": "grenadine"}
     ],
     "flavors": [
       {"flavor": "citrusy"}
+    ]
+  },
+
+  {
+    "id" : "tom-collins",
+    "name": "Tom Collins",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Lemon Juice", "id": "lemon-juice"},
+      {"name": "Simple Syrup", "id": "simple-syrup"},
+      {"name": "Club Soda", "id": "club-soda"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
+    ]
+  },
+
+  {
+    "id" : "whiskey-sour",
+    "name": "Whiskey Sour",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Whiskey", "id": "whiskey"},
+      {"name": "Sweet & Sour Mix", "id": "sweet-sour-mix"}
+    ],
+    "flavors": [
+      {"flavor": "stiff"}
+    ]
+  },
+
+  {
+    "id" : "white-lady",
+    "name": "White Lady",
+    "cost": "/",
+    "ingredients": [
+      {"name": "Gin", "id": "gin"},
+      {"name": "Triple Sec", "id": "triple-sec"},
+      {"name": "Lemon Juice", "id": "lemon-juice"}
+    ],
+    "flavors": [
+      {"flavor": "citrusy"}
+    ]
+  },
+
+  {
+    "id" : "white-russian",
+    "name": "White Russian",
+    "cost": "X",
+    "ingredients": [
+      {"name": "Vodka", "id": "vodka"},
+      {"name": "Kahlua", "id": "kahlua"},
+      {"name": "Cream", "id": "cream"}
+    ],
+    "flavors": [
+      {"flavor": "creamy"},
+      {"flavor": "coffee"}
     ]
   }
 
